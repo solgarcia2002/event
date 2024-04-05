@@ -4,9 +4,13 @@
 
 :root {
   color: rgb(52, 52, 52);
+  --foreground-rgb: 0, 0, 0;
 }
 
-
+html {
+  margin: 0 !important;
+  max-width: 100%;
+}
 
 body {
   margin: 0;

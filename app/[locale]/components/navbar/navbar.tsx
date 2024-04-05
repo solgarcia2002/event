@@ -1,49 +1,78 @@
-"use client"
+"use client";
 
+import React from "react";
 import {
-  Navbar as NavbarTop,
+  Navbar,
   NavbarBrand,
   NavbarContent,
-  NavbarItem
+  NavbarItem,
+  NavbarMenuToggle,
+  NavbarMenu,
+  NavbarMenuItem,
 } from "@nextui-org/navbar";
 import Link from "next/link";
 import './navbar.css';
 
+export default function App() {
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-const Navbar: React.FC = () => {
+  const menuItems = [
+    {link:"Agenda", url:"/schedule"},
+    {link:"Galeria", url:"/gallery"},
+    {link:"Speakers", url:"/speakers"},
+    {link:"Comprar Tickets", url:"/tickets"},
+    {link:"Travel & Info", url:"/travel&info"},
+
+  ];
+
   return (
-    <NavbarTop>
-      <NavbarBrand>
-        <p className="font-bold text-inherit">ACME</p>
-      </NavbarBrand>
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>
-          <Link href="#" className="link">
-            Features
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive>
-          <Link href="#">
-            Customers
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link  href="#">
-            Integrations
-          </Link>
-        </NavbarItem>
+    <Navbar
+      onMenuOpenChange={setIsMenuOpen}
+      className={`h-[120px] navbar`}
+      isMenuOpen={isMenuOpen}
+    >
+      <NavbarContent >
+        <NavbarMenuToggle
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          className="toggle"
+        />
+        <NavbarBrand>
+          <p className="font-bold text-inherit">Logo</p>
+        </NavbarBrand>
+      </NavbarContent>
+
+      <NavbarContent className="navbar-links" justify="center">
+        {menuItems.map((item, index) => (
+          <NavbarMenuItem key={`${item}-${index}`}>
+            <Link
+              className="w-full"
+              href={item.url}
+            >
+              {item.link}
+            </Link>
+          </NavbarMenuItem>
+        ))}
       </NavbarContent>
       <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
-          <Link href="#">Login</Link>
+        <NavbarItem >
+          <button color="primary">Registrate hoy!</button>
         </NavbarItem>
         <NavbarItem>
-          <button color="primary">Sign Up</button>
+          <button color="primary">Sé un sponsor!</button>
         </NavbarItem>
       </NavbarContent>
-    </NavbarTop>
+      <NavbarMenu>
+        {menuItems.map((item, index) => (
+          <NavbarMenuItem key={`${item}-${index}`}>
+            <Link
+              className="w-full"
+              href={item.url}
+            >
+              {item.link}
+            </Link>
+          </NavbarMenuItem>
+        ))}
+      </NavbarMenu>
+    </Navbar>
   );
-};
-
-
-export default Navbar;
+}
