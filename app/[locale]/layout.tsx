@@ -22,7 +22,6 @@ export default function RootLayout({
   return (
     <html lang={locale}>
       <head>
-        <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
       </head>
       <body className={inter.className}>
         <UIProviders>
