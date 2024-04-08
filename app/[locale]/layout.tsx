@@ -7,6 +7,7 @@ import { notFound } from 'next/navigation';
 import { Inter } from "next/font/google";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import "../globals.css";
+import Footer from "./components/footer/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -43,6 +44,7 @@ export default async  function RootLayout({ children, params }: LocaleLayoutProp
         <UIProviders>
           <Navbar />
           {children}
+          <Footer/>
         </UIProviders>
         </NextIntlClientProvider>
       </body>

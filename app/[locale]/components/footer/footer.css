@@ -1,0 +1,12 @@
+footer{
+  padding: 7rem 20%;
+  display: flex;
+  justify-content: space-between;
+  position: static;
+  bottom: 0;
+}
+
+.links-list {
+  display: flex;
+  flex-direction: column;
+}
