@@ -1,5 +1,22 @@
 {
   "home":{
     "test":"hola"
+  },
+  "form": {
+    "name": "Nombre",
+    "mail": "Mail",
+    "phone": "Telefono",
+    "message": "Mensaje",
+    "button": "enviar",
+    "errorString": "Caracter inválido",
+    "errorNumber": "Debe ingresar números",
+    "min4": "El nombre debe contener al menos 4 caracteres",
+    "required": "Requerido",
+    "min8": "El teléfono debe contener al menos 8 caracteres",
+    "errorEmail": "Ingresa un email correcto",
+    "min20": "El mensaje debe contener al menos 20 caracteres",
+    "formOK": "Gracias por tu mensaje!",
+    "formError": "No se pudo enviar tu mensaje, intenta nuevamente mas tarde"
   }
+
 }

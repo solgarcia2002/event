@@ -1,5 +1,21 @@
 {
   "home":{
     "test":"hello"
+  },
+  "form": {
+    "name": "Name",
+    "mail": "Mail",
+    "phone": "Telephone",
+    "message": "Message",
+    "button": "send",
+    "errorString": "Invalid character",
+    "errorNumber": "Must be a number",
+    "min4": "Name should be of minimum 4 characters length",
+    "required": "Required",
+    "min8": "Phone should be of minimum 8 characters length",
+    "errorEmail": "Enter a valid email",
+    "min20": "Message should be of minimum 20 characters length",
+    "formOK": "Thank You for your message!",
+    "formError": "Your message could not be sent, please try again later."
   }
 }

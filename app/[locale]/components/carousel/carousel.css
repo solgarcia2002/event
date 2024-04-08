@@ -1,0 +1,90 @@
+.carousel {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.arrow-carousel {
+  font-size: 2rem;
+  position: absolute;
+  color: white;
+  display: flex;
+  z-index: 10;
+}
+
+.left {
+  left:1rem
+}
+.right {
+  right: 1rem;
+}
+
+.event-text-carousel {
+  margin-left: 5rem;
+}
+
+.carousel-item {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.slide1 {
+  transform: translateX(0%);
+}
+
+.slide2 {
+  transform: translate(-100%);
+}
+
+.slide3 {
+  transform: translate(-200%);
+}
+
+.slide4 {
+  transform: translate(-300%);
+}
+
+.slide5 {
+  transform: translate(-400%);
+}
+
+.slide6 {
+  transform: translate(-500%);
+}
+
+.map-buttons {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.control-carousel {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 1rem;
+}
+
+
+@media screen and (max-width:800px) {
+  .event-text-carousel {
+    position: absolute;
+    color: white;
+    
+  }
+}
