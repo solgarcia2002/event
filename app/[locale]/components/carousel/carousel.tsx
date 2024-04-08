@@ -38,10 +38,14 @@ const Carousel:React.FC =()=>{
     } else {
       setCounter(videos.length);
       setDirection(`slide${videos.length}`)
-
     }
-
   }
+
+  const handleControl = (index:number) => {
+    setDirection(`slide${index}`);
+    setCounter(index)
+  }
+
   return(
     <div className="carousel" >
       <button className="left arrow-carousel" onClick={handlePrev}>
@@ -60,6 +64,11 @@ const Carousel:React.FC =()=>{
       <button className="arrow-carousel right" onClick={handleNext}>
         <FontAwesomeIcon icon={faArrowRight}/>
       </button>
+      <div className="map-buttons">
+        {videos.map((item, i)=>(
+          <button key={item.title} className="control-carousel" onClick={()=>handleControl(i+1)}></button>
+        ))}
+      </div>
     </div>
   )
 }

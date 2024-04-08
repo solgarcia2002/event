@@ -1,0 +1,38 @@
+.cont-sponsors-list {
+  padding: 5rem 0;
+}
+
+.carousel-logos {
+  display: flex;
+  
+  align-items: center;
+  justify-content: flex-start;
+  
+  overflow: hidden;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(5%);
+  }
+  50% {
+    transform: translateX(-90%);
+  }
+  100% {
+    transform: translateX(5%);
+  }
+}
+
+.ticker-track {
+  max-width: unset;
+  display: flex;
+  flex-direction: row;
+  animation: ticker 40s linear infinite;
+}
+
+.ticker-track > img {
+  margin: 0 5rem;
+  width: 10rem;
+  height: auto;
+  filter: grayscale(0.9);
+}
