@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import UIProviders from "./UIProviders";
 import Navbar from "./components/navbar/navbar";
 import "../globals.css";
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
