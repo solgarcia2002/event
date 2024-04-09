@@ -1,0 +1,14 @@
+.cont-speakers-page {
+  padding: 5rem 0;
+}
+.cont-img-speakers{
+  display: flex;
+  padding: 2rem 15%;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.card-speakers-page > img{
+  width: 12rem;
+  height: auto;
+}

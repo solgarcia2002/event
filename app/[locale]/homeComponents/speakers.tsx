@@ -1,17 +1,9 @@
 import Image from "next/image";
 import "./speakers.css";
+import { speakers } from "../data/speakers";
 
 const Speakers: React.FC = () => {
-  const speakers = [
-    {
-      name: "Angeles Lucero Bringas",
-      img: "/speaker-angeles-lucero-bringas.png",
-      bio: "bio",
-    },
-    { name: "Claudia Lalloz", img: "/speaker-claudia-lalloz.png", bio: "bio" },
-    { name: "Mirian Torrado", img: "/speaker-mirian-torrado.png", bio: "bio" },
-    { name: "Tere Zazueta", img: "/speaker-tere-zazueta.png", bio: "bio" },
-  ];
+  
 
   return (
     <div className="cont-speakers">

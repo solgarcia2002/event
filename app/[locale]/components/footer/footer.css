@@ -2,7 +2,7 @@ footer{
   padding: 7rem 20%;
   display: flex;
   justify-content: space-between;
-  position: static;
+  position: relative;
   bottom: 0;
 }
 
