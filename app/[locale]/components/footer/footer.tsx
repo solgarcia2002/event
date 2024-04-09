@@ -12,7 +12,7 @@ const Footer:React.FC = () => {
   return(
     <footer>
       <div>
-        <p>Copyright © 2024</p>
+        <p >Copyright © 2024</p>
         
       </div>
       <div className="links-list">

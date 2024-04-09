@@ -5,9 +5,9 @@ import { NextIntlClientProvider } from "next-intl";
 import { useLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { Inter } from "next/font/google";
+import Footer from "./components/footer/footer";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import "../globals.css";
-import Footer from "./components/footer/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
