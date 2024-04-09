@@ -12,6 +12,7 @@ import {
 } from "@nextui-org/navbar";
 import Link from "next/link";
 import './navbar.css';
+import ChangeLanguageButton from "../translationMenu/translationMenu";
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -40,6 +41,7 @@ export default function App() {
           <p className="font-bold text-inherit">Logo</p>
         </NavbarBrand>
       </NavbarContent>
+      <ChangeLanguageButton />
 
       <NavbarContent className="navbar-links" justify="center">
         {menuItems.map((item, index) => (

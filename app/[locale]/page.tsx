@@ -9,7 +9,6 @@ import SponsorsList from "./homeComponents/sponsorsList";
 export default function Home() {
   return (
     <main >
-      <h1>Home</h1>
       <Carousel/>
       <Speakers />
       <SponsorContact />

@@ -4,12 +4,15 @@ import Navbar from "./components/navbar/navbar";
 import { NextIntlClientProvider } from "next-intl";
 import { useLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
-import { Inter } from "next/font/google";
+import { Inter, Mukta } from "next/font/google";
 import Footer from "./components/footer/footer";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import "../globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const mukta = Mukta({ 
+  subsets:["latin"],
+  weight:["400", "700"], 
+});
 
 interface LocaleLayoutProps {
   children: React.ReactNode;
@@ -39,7 +42,7 @@ export default async  function RootLayout({ children, params }: LocaleLayoutProp
     <html lang={locale}>
       <head>
       </head>
-      <body className={inter.className}>
+      <body className={mukta.className}>
       <NextIntlClientProvider locale={locale} messages={messages}>
         <UIProviders>
           <Navbar />
