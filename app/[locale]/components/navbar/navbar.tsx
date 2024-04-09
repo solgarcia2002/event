@@ -36,7 +36,7 @@ export default function App() {
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="toggle"
         />
-        <NavbarBrand>
+        <NavbarBrand className="emp_logo">
           <p className="font-bold text-inherit">Logo</p>
         </NavbarBrand>
       </NavbarContent>

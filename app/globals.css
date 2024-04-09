@@ -10,6 +10,8 @@
 html {
   margin: 0 !important;
   max-width: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 body {
@@ -21,4 +23,57 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.full-fill {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.emp_logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  color: deeppink;
+  box-shadow: inset 0 0 0 1px deeppink;
+}
+
+.emp_logo::before, .emp_logo::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  z-index: -1;
+  margin: -5%;
+  box-shadow: inset 0 0 0 2px; 
+  animation: clipMe 8s linear infinite;
+}
+
+.emp_logo::before {
+  animation-delay: -4s;
+}
+
+/* for debug */
+.emp_logo:hover::after, .emp_logo:hover::before {
+  background-color: rgba(255, 0, 0, .3);
+}
+
+
+.emp_callToActionButton{
+  background: deeppink;
+  padding: 2rem;
+  margin: 2rem;
 }
