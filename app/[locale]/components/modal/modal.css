@@ -1,0 +1,15 @@
+.modal-content {
+  display: flex;
+  align-items: center;
+}
+
+.modal-img {
+  width: 40rem;
+  height: auto;
+  margin: 2rem;
+}
+
+.modal-text {
+  display: flex;
+  flex-direction: column;
+}
