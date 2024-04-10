@@ -1,6 +1,8 @@
 {
   "home":{
-    "test":"hola"
+    "bannerDate":"24 de mayo",
+    "banner":"Innova, transforma, conecta"
+
   },
   "navbar": {
     "translationEs":"Español",

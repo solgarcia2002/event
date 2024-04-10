@@ -7,6 +7,8 @@
   --foreground-rgb: 0, 0, 0;
   --deeppink:#ff1493;
   --background-dark: #1b0033;
+  --dark-grey:#333333;
+  --white:#F4F4F4
 }
 
 html {
@@ -20,6 +22,11 @@ body {
   margin: 0;
   min-height: 100vh;
   background-color: #1b0033;
+}
+
+h1, h2, h3 {
+  font-size: 5rem;
+  font-weight: 700;
 }
 
 @layer utilities {

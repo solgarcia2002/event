@@ -8,6 +8,7 @@ import {
   DropdownMenu,
   DropdownItem
 } from "@nextui-org/dropdown";
+import { Button } from "@nextui-org/button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons/faGlobe";
 import "./translationMenu.css";
@@ -36,9 +37,9 @@ function ChangeLanguageButton() {
   return (
     <Dropdown>
       <DropdownTrigger>
-        <button aria-label="menu-translations" className="world-icon text-pink p-0 rounded-full min-w-[3.2rem] h-[3rem] bg-white">
+        <Button aria-label="menu-translations" className="world-icon text-pink p-0 rounded-full min-w-[3.2rem] h-[3rem] bg-white">
           <FontAwesomeIcon icon={faGlobe} size="xl" />
-        </button>
+        </Button>
       </DropdownTrigger>
 
       <DropdownMenu aria-label="Translation menu" className="dropdown-menu">
