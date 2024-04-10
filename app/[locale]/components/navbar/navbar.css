@@ -1,15 +1,31 @@
-.link {
-  color:black
-}
 
+
+.link-navbar:hover {
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px var(--deeppink),
+    0 0 82px var(--deeppink),
+    0 0 92px var(--deeppink),
+    0 0 102px var(--deeppink),
+    0 0 151px var(--deeppink);
+  transition: text-shadow 0.5s ease-in;
+}
 .toggle {
   display: none !important;
+
+}
+
+.navbar-mobile {
+  margin-top: 3rem;
 }
 
 
 @media screen and (max-width:800px) {
   .toggle {
     display: flex !important;
+    z-index: 5;
   }
 
   .navbar-links {

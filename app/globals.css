@@ -5,6 +5,8 @@
 :root {
   color: #F4F4F4;
   --foreground-rgb: 0, 0, 0;
+  --deeppink:#ff1493;
+  --background-dark: #1b0033;
 }
 
 html {

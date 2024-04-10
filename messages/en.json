@@ -4,7 +4,12 @@
   },
   "navbar": {
     "translationEs":"Spanish",
-    "translationEn":"English"
+    "translationEn":"English",
+    "schedule":"Schedule",
+    "gallery":"Gallery",
+    "speakers":"Speakers",
+    "tickets":"Buy tickets",
+    "travel":"Travel & Info"
   },
   "form": {
     "name": "Name",
