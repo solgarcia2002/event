@@ -1,4 +1,5 @@
 
+import Background from "./components/background/background";
 import BannerHome from "./components/banner-home/banner-home";
 import Faqs from "./homeComponents/faqs";
 import Speakers from "./homeComponents/speakers";
@@ -13,6 +14,7 @@ export default function Home() {
       <Speakers />
       <SponsorContact />
       <Faqs />
+      <Background/>
     </main>
   );
 }

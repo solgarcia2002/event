@@ -52,8 +52,8 @@ const Form: React.FC = () => {
     onSubmit: (values) => {
       emailjs
         .send(
-          "service_pkbhc9v",
-          "template_yz8otzj",
+          "service_2dyecpd",
+          "template_6adm0ax",
           values,
           process.env.NEXT_PUBLIC_EMAILJS
         )

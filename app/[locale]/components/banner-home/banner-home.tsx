@@ -2,7 +2,7 @@ import Image from "next/image";
 import './banner-home.css';
 import { useTranslations } from "next-intl";
 import { lora } from "../../fonts/lora";
-import Button from "../button/button";
+import Eventbrite from "../eventBrite/eventBrite";
 
 const BannerHome:React.FC = () => {
   const t = useTranslations("home")
@@ -18,7 +18,7 @@ const BannerHome:React.FC = () => {
         <p>{t("banner")} </p>
         <p className={lora.className}>{t("bannerDate")}</p>
         <br/>
-        <Button title="Save the date" bigger/>
+        <Eventbrite/>
         <Image src='/logo-blanco.png'  alt="wellbiz-bridge" width={200} height={200}/>
       </div>
       

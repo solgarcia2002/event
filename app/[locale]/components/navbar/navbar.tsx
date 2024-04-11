@@ -40,12 +40,15 @@ export default function App() {
     >
       <NavbarContent >
         <NavbarMenuToggle
-        icon={<FontAwesomeIcon icon={faBars} />}
+          icon={<FontAwesomeIcon icon={faBars} />}
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="toggle link-navbar"
+          
         />
         <NavbarBrand >
-          <Image src='/logo-wb-border.png' alt="wellbiz-bridge" width={100} height={100} />
+          <Link href={'/'}>
+            <Image src='/logo-wb-border.png' alt="wellbiz-bridge" width={100} height={100} />
+          </Link>
         </NavbarBrand>
       </NavbarContent>
       <ChangeLanguageButton />
@@ -64,7 +67,7 @@ export default function App() {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem >
-          <button color="primary" className="link-navbar">Registrate hoy!</button>
+          <Link href={'#contact'} className="link-navbar">Registrate hoy!</Link>
         </NavbarItem>
         <NavbarItem>
           <Button title="Sé un sponsor!"  />

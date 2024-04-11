@@ -48,7 +48,9 @@
     "gallery": "Galeria",
     "speakers": "Speakers",
     "tickets": "Comprar tickets",
-    "travel": "Travel & Info"
+    "travel": "Travel & Info",
+    "register":"Registrate hoy!",
+    "button":"Save the date"
   },
   "form": {
     "name": "Nombre",

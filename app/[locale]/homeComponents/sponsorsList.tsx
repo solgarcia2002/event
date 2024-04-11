@@ -9,6 +9,7 @@ const SponsorsList:React.FC = () => {
     {logo:'/logo-empowerit.png', width:300, height:300},
     {logo:'/logo-tere.jpg', width:710, height:708},
     {logo:'/logo-lalloz.png', width:708, height:147},
+    {logo:'/logo-mirian.png', width:971, height:971}
   ]
 
   return(
