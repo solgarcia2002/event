@@ -1,29 +1,62 @@
 {
-  "home":{
-    "bannerDate":"24 de mayo",
-    "banner":"Innova, transforma, conecta",
-    "speakersBio":{
-      "angelesBio":"Biografia Angeles",
-      "tereBio":"Biografia Tere",
-      "mirianBio":"Biografia Mirian",
-      "claudiaBio":"Biografia Claudia"
+  "home": {
+    "bannerDate": "24 de mayo",
+    "banner": "Innova, transforma, conecta",
+    "speakersBio": {
+      "angelesBio": "Aborda la innovación del modelo de negocios como clave en tiempos inciertos, destacando la importancia de superar las expectativas de los clientes con propuestas vanguardistas para mantener una ventaja competitiva.",
+      "tereBio": "Domina la comunicación no verbal, enseñando a proyectar confianza y liderazgo, esenciales para el éxito empresarial. La sesión eleva las habilidades comunicativas, marcando la diferencia en la carrera de los participantes.",
+      "mirianBio": "Ofrece un taller dedicado a enseñar herramientas y estrategias para promover una cultura de integración en los equipos de trabajo, destacando la definición e importancia de la integración organizacional.",
+      "claudiaBio": "El encuentro aborda la mejora de la productividad mediante el bienestar laboral, explorando estrategias para un equilibrio vida-trabajo y gestionando el impacto del liderazgo en el equipo."
+    },
+    "faqs": {
+      "question": {
+        "public": "¿Quién debería asistir a WellBiz Bridge?",
+        "topics": "¿Qué temas se abordarán en el evento?",
+        "register": "¿Cómo puedo registrarme para el evento?",
+        "ticket": "¿Qué incluye la entrada al evento?",
+        "discount": "¿Hay descuentos para grupos o empresas?",
+        "accreditation": "¿Cómo puedo obtener mi acreditación el día del evento?",
+        "networking": "¿Qué oportunidades de networking habrá disponibles?",
+        "sponsor": "¿Cómo puede mi empresa convertirse en patrocinador de WellBiz Bridge?",
+        "benefits": "¿Qué beneficios obtengo como patrocinador?",
+        "levels": "¿Existen diferentes niveles de patrocinio?",
+        "exhibition": "¿Podemos exhibir nuestros productos o servicios durante el evento?",
+        "event": "¿Cómo se promoverá nuestro patrocinio antes y durante el evento?",
+        "exclusiveness": "¿Hay oportunidades de patrocinio exclusivo para alguna de las actividades o sesiones?"
+      },
+      "answer": {
+        "public": "Ideal para dueños y miembros de empresas, emprendedores, consultores y coaches interesados en el bienestar y crecimiento empresarial.",
+        "topics": "Cubriremos el impacto del lenguaje corporal en los negocios, bienestar emocional empresarial, estrategias de integración organizacional y cómo innovar en el modelo de negocio.",
+        "register": "Puedes registrarte a través de nuestra página web, donde encontrarás una sección de inscripción. Solo necesitas completar el formulario y realizar el pago.",
+        "ticket": "La entrada incluye acceso a todas las ponencias, material de las sesiones, oportunidades de networking, y coffee breaks.",
+        "discount": "Sí, ofrecemos tarifas especiales para grupos y empresas. Contacta a nuestro equipo para más detalles.",
+        "accreditation": "Tu acreditación estará disponible en el registro el día del evento. Presenta tu confirmación de inscripción y una identificación válida.",
+        "networking": "Habrá mesas temáticas durante los breaks y un espacio dedicado para networking, facilitando la búsqueda de partners, proveedores o clientes.",
+        "sponsor": "Para oportunidades de patrocinio, por favor contacta a nuestro equipo de patrocinios a través de nuestro correo electrónico o número de teléfono proporcionados en la sección de contacto.",
+        "benefits": "Los beneficios incluyen visibilidad de marca ante una audiencia objetivo, oportunidades de networking, participación en paneles de discusión, y mucho más. Los detalles específicos dependen del nivel de patrocinio.",
+        "levels": "Sí, ofrecemos varios niveles de patrocinio, cada uno con sus propios beneficios y oportunidades de exposición. Los detalles están disponibles en nuestro paquete de patrocinio.",
+        "exhibition": "Sí, dependiendo del nivel de patrocinio, puedes tener la oportunidad de exhibir tus productos o servicios.",
+        "event": "Promoveremos a nuestros patrocinadores a través de nuestros canales de comunicación, incluyendo redes sociales, correo electrónico y en la página web del evento.",
+        "exclusiveness": "Sí, ofrecemos opciones de patrocinio exclusivo para ciertas sesiones y actividades. Contacta a nuestro equipo para más detalles."
+      }
     }
   },
   "navbar": {
-    "translationEs":"Español",
-    "translationEn":"Inglés",
-    "schedule":"Agenda",
-    "gallery":"Galeria",
-    "speakers":"Speakers",
-    "tickets":"Comprar tickets",
-    "travel":"Travel & Info"
+    "translationEs": "Español",
+    "translationEn": "Inglés",
+    "schedule": "Agenda",
+    "gallery": "Galeria",
+    "speakers": "Speakers",
+    "tickets": "Comprar tickets",
+    "travel": "Travel & Info"
   },
   "form": {
     "name": "Nombre",
     "mail": "Mail",
     "phone": "Telefono",
     "message": "Mensaje",
-    "button": "enviar",
+    "company": "Nombre de la empresa",
+    "button": "Enviar",
     "errorString": "Caracter inválido",
     "errorNumber": "Debe ingresar números",
     "min4": "El nombre debe contener al menos 4 caracteres",
@@ -32,7 +65,8 @@
     "errorEmail": "Ingresa un email correcto",
     "min20": "El mensaje debe contener al menos 20 caracteres",
     "formOK": "Gracias por tu mensaje!",
-    "formError": "No se pudo enviar tu mensaje, intenta nuevamente mas tarde"
+    "formError": "No se pudo enviar tu mensaje, intenta nuevamente mas tarde",
+    "callToAction1": "Sé un sponsor!",
+    "callToAction2": "¡Regístrate ahora para recibir nuestro newsletter y mantente informado sobre este emocionante evento!"
   }
-
 }

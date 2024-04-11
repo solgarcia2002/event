@@ -23,7 +23,9 @@
   border-radius: calc(2 * var(--borderWidth));
   padding: 0 1rem;
 }
-
+.bigger {
+  font-size: 2rem;
+}
 .span-button:hover{
   transform: scale(0.95);
 }

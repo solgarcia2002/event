@@ -17,3 +17,29 @@
 .banner-text >p {
   font-size: 3rem;
 }
+
+@media screen and (max-width:800px) {
+  .banner-text > h1 {
+    font-size: 2rem;
+  }
+
+  .banner-text >p {
+    font-size: 1.5rem;
+  }
+
+  .banner-text > img {
+    width: 5rem;
+    height: auto;
+  }
+
+  .cont-video-home {
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+  }
+
+  .cont-video-home > video {
+    width: 180%;
+    max-width: 180%;
+  }
+}

@@ -11,13 +11,13 @@ import {
   NavbarMenuItem,
 } from "@nextui-org/navbar";
 import Link from "next/link";
-import './navbar.css';
 import ChangeLanguageButton from "../translationMenu/translationMenu";
 import Image from "next/image";
 import Button from "../button/button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useTranslations } from "next-intl";
+import './navbar.css';
 
 export default function App() {
   const t = useTranslations("navbar");
@@ -35,7 +35,7 @@ export default function App() {
   return (
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
-      className={`h-[120px] navbar`}
+      className={`h-[120px] navbar bg-black-transparent`}
       isMenuOpen={isMenuOpen}
     >
       <NavbarContent >
@@ -45,7 +45,7 @@ export default function App() {
           className="toggle link-navbar"
         />
         <NavbarBrand >
-          <Image src='/logo.png' alt="wellbiz-bridge" width={100} height={100} />
+          <Image src='/logo-wb-border.png' alt="wellbiz-bridge" width={100} height={100} />
         </NavbarBrand>
       </NavbarContent>
       <ChangeLanguageButton />

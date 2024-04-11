@@ -1,3 +1,13 @@
 .cont-accordion {
-  padding: 0 10%;
+  padding: 7rem 10%;
+}
+
+.accordion-item > h2{
+  font-size: 2rem;
+}
+
+@media screen and (max-width:800px) {
+  .accordion-item > h2 {
+    font-size: 1rem;
+  }
 }

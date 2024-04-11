@@ -21,6 +21,10 @@
   margin-top: 3rem;
 }
 
+.bg-black-transparent {
+  --tw-bg-opacity: 0.5 ; /* Ajusta esto para cambiar la opacidad */
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+}
 
 @media screen and (max-width:800px) {
   .toggle {
