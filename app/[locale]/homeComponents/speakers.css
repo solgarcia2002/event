@@ -33,33 +33,15 @@
   width: 20rem;
 }
 
-
-
-.card:hover > img {
-  display: none;
-}
-
 .cont-text-card {
   min-width: 5rem;
   background-color: var(--deeppink);
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
-.card:hover > .cont-text-card {
-  padding: 2rem;
-  justify-content: flex-start;
-  text-align: start;
-}
-.card:hover > .cont-text-card > p {
-  font-weight: 700;
-  rotate: 0deg;
+  
 }
 
-.card:hover > .cont-text-card > .card-bio {
-  display: block;
-  font-weight: 200;
-}
 
 .cont-text-card> p{
   rotate: -90deg;
@@ -76,6 +58,7 @@
 
 .card-bio {
   display: none;
+  min-width: 14rem;
 }
 
 
@@ -83,9 +66,6 @@
   display: none;
 }
 
-.card:hover > .video-speaker {
-  display: block;
-}
 
 .claudiaBio {
   background-color: var(--blue);
@@ -97,4 +77,77 @@
 
 .tereBio {
   background-color: var(--dark-violet);
+}
+
+@media screen and (min-width:800px) {
+  .card:hover > .video-speaker {
+    display: block;
+  }
+
+  .card:hover > img {
+    display: none;
+  }
+  .card:hover > .cont-text-card {
+    padding: 2rem;
+    justify-content: flex-start;
+    text-align: start;
+  }
+  .card:hover > .cont-text-card > p {
+    font-weight: 700;
+    rotate: 0deg;
+  }
+  
+  .card:hover > .cont-text-card > .card-bio {
+    font-weight: 200;
+    display: block;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .speakers-cont-cards {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .card {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  .card > img {
+    
+    display: none;
+  }
+  .cont-text-card> .card-bio {
+    display: block;
+    font-size: 0.7rem;
+  }
+  .cont-text-card {
+    justify-content: start;
+    padding-top: 0.5rem;
+    min-width: 11rem;
+    align-items: center;
+  }
+
+  .cont-text-card > p {
+    width: 8rem;
+    min-width: 3rem
+  }
+
+  .card-name {
+    white-space: wrap;
+  }
+
+  .cont-speakers {
+    height: 200vh;
+  }
+  .video-speaker {
+    display: block;
+    width: 13rem;
+    height: auto;
+  }
+
+  .cont-text-card> p{
+    rotate: 0deg;
+  }
 }

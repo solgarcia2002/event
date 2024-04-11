@@ -2,6 +2,7 @@ import { speakers } from "../data/speakers";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import "./speakers.css";
+import { lora } from "../fonts/lora";
 
 const Speakers: React.FC = () => {
   const t = useTranslations("home.speakersBio")
@@ -15,7 +16,7 @@ const Speakers: React.FC = () => {
             <div className={`cont-text-card ${item.bio}`}>
               <p className="card-name">{item.name}</p>
               <br />
-              <p className="card-bio">{t(item.bio)}</p>
+              <p className={`card-bio ${lora.className}`}>{t(item.bio)}</p>
             </div>
             <Image src={item.img} alt={item.name} width={800} height={1182} />
             <video autoPlay loop muted playsInline className="video-speaker">

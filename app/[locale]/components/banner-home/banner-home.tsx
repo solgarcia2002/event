@@ -18,7 +18,7 @@ const BannerHome:React.FC = () => {
         <p>{t("banner")} </p>
         <p className={lora.className}>{t("bannerDate")}</p>
         <br/>
-        <Button title="Save the date"/>
+        <Button title="Save the date" bigger/>
         <Image src='/logo-blanco.png'  alt="wellbiz-bridge" width={200} height={200}/>
       </div>
       

@@ -1,29 +1,62 @@
 {
-  "home":{
-    "bannerDate":"May 24",
-    "banner":"Innovate, transform, connect",
-    "speakersBio":{
-      "angelesBio":"Biografia Angeles",
-      "tereBio":"Biografia Tere",
-      "mirianBio":"Biografia Mirian",
-      "claudiaBio":"Biografia Claudia"
-    }
+  "home": {
+    "bannerDate": "May 24",
+    "banner": "Innovate, transform, connect",
+    "speakersBio": {
+      "angelesBio": "Addresses business model innovation as key in uncertain times, emphasizing the importance of exceeding customer expectations with cutting-edge proposals to maintain a competitive advantage.",
+      "tereBio": "Masters nonverbal communication, teaching how to project confidence and leadership, essential for business success. The session enhances communication skills, making a difference in participants' careers.",
+      "mirianBio": "Offers a workshop dedicated to teaching tools and strategies to promote a culture of integration in work teams, highlighting the definition and importance of organizational integration.",
+      "claudiaBio": "The meeting addresses improving productivity through workplace well-being, exploring strategies for work-life balance and managing the impact of leadership on the team."
+    },
 
+    "faqs": {
+      "question": {
+        "public": "Who should attend WellBiz Bridge?",
+        "topics": "What topics will be covered at the event?",
+        "register": "How can I register for the event?",
+        "ticket": "What does the event ticket include?",
+        "discount": "Are there discounts for groups or companies?",
+        "accreditation": "How can I obtain my accreditation on the day of the event?",
+        "networking": "What networking opportunities will be available?",
+        "sponsor": "How can my company become a sponsor of WellBiz Bridge?",
+        "benefits": "What benefits do I get as a sponsor?",
+        "levels": "Are there different sponsorship levels?",
+        "exhibition": "Can we exhibit our products or services during the event?",
+        "event": "How will our sponsorship be promoted before and during the event?",
+        "exclusiveness": "Are there exclusive sponsorship opportunities for any of the activities or sessions?"
+      },
+      "answer": {
+        "public": "Ideal for business owners, company members, entrepreneurs, consultants, and coaches interested in business well-being and growth.",
+        "topics": "We will cover the impact of body language in business, business emotional well-being, organizational integration strategies, and how to innovate in the business model.",
+        "register": "You can register through our website, where you will find a registration section. Just complete the form and make the payment.",
+        "ticket": "The ticket includes access to all presentations, session materials, networking opportunities, and coffee breaks.",
+        "discount": "Yes, we offer special rates for groups and companies. Contact our team for more details.",
+        "accreditation": "Your accreditation will be available at registration on the day of the event. Present your registration confirmation and a valid ID.",
+        "networking": "There will be thematic tables during breaks and a dedicated networking space, facilitating the search for partners, suppliers, or clients.",
+        "sponsor": "For sponsorship opportunities, please contact our sponsorship team via email or phone number provided in the contact section.",
+        "benefits": "Benefits include brand visibility to a target audience, networking opportunities, participation in panel discussions, and much more. Specific details depend on the sponsorship level.",
+        "levels": "Yes, we offer various sponsorship levels, each with its own benefits and exposure opportunities. Details are available in our sponsorship package.",
+        "exhibition": "Yes, depending on the sponsorship level, you may have the opportunity to exhibit your products or services.",
+        "event": "We will promote our sponsors through our communication channels, including social media, email, and the event website.",
+        "exclusiveness": "Yes, we offer exclusive sponsorship options for certain sessions and activities. Contact our team for more details."
+      }
+    }
   },
   "navbar": {
-    "translationEs":"Spanish",
-    "translationEn":"English",
-    "schedule":"Schedule",
-    "gallery":"Gallery",
-    "speakers":"Speakers",
-    "tickets":"Buy tickets",
-    "travel":"Travel & Info"
+    "translationEs": "Spanish",
+    "translationEn": "English",
+    "schedule": "Schedule",
+    "gallery": "Gallery",
+    "speakers": "Speakers",
+    "tickets": "Buy tickets",
+    "travel": "Travel & Info"
   },
   "form": {
     "name": "Name",
     "mail": "Mail",
     "phone": "Telephone",
     "message": "Message",
+    "company": "Company name",
     "button": "send",
     "errorString": "Invalid character",
     "errorNumber": "Must be a number",
@@ -33,6 +66,8 @@
     "errorEmail": "Enter a valid email",
     "min20": "Message should be of minimum 20 characters length",
     "formOK": "Thank You for your message!",
-    "formError": "Your message could not be sent, please try again later."
+    "formError": "Your message could not be sent, please try again later.",
+    "callToAction1": "Be a sponsor!",
+    "callToAction2": "Register now to receive our newsletter and stay informed about this exciting event!"
   }
 }

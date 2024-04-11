@@ -7,10 +7,10 @@
   --foreground-rgb: 0, 0, 0;
   --deeppink:#ff1493;
   --background-dark: #1b0033;
-  --blue:#004AAD;
+  --blue:#00237C;
   --violet: #8C52FF;
   --dark-grey:#333333;
-  --dark-violet:#241F3D;
+  --dark-violet:#403672;
   --white:#F4F4F4
 }
 
@@ -89,4 +89,10 @@ h1, h2, h3 {
   background: deeppink;
   padding: 2rem;
   margin: 2rem;
+}
+
+@media screen and (max-width:800px) {
+  h1, h2, h3 {
+    font-size: 2rem;
+  }
 }
