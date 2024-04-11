@@ -1,7 +1,13 @@
 .cont-sponsors-list {
   padding: 5rem 0;
+  background-color: var(--white);
+  color: var(--dark-grey);
 }
 
+.cont-sponsors-list > h2 {
+  margin-left: 10%;
+  margin-bottom: 2rem;
+}
 .carousel-logos {
   display: flex;
   
@@ -16,7 +22,7 @@
     transform: translateX(5%);
   }
   50% {
-    transform: translateX(-90%);
+    transform: translateX(-10%);
   }
   100% {
     transform: translateX(5%);
@@ -27,12 +33,13 @@
   max-width: unset;
   display: flex;
   flex-direction: row;
-  animation: ticker 40s linear infinite;
+  animation: ticker 10s linear infinite;
 }
 
 .ticker-track > img {
   margin: 0 5rem;
-  width: 10rem;
-  height: auto;
-  filter: grayscale(0.9);
+  padding: 1rem;
+  background-color: white;
+  height: 5rem;
+  width: auto;
 }

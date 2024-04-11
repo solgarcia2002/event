@@ -12,16 +12,23 @@ import {
 } from "@nextui-org/navbar";
 import Link from "next/link";
 import './navbar.css';
+import ChangeLanguageButton from "../translationMenu/translationMenu";
+import Image from "next/image";
+import Button from "../button/button";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { useTranslations } from "next-intl";
 
 export default function App() {
+  const t = useTranslations("navbar");
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    {link:"Agenda", url:"/schedule"},
-    {link:"Galeria", url:"/gallery"},
-    {link:"Speakers", url:"/speakers"},
-    {link:"Comprar Tickets", url:"/tickets"},
-    {link:"Travel & Info", url:"/travel&info"},
+    {link:t("schedule"), url:"/schedule"},
+    {link:t("gallery"), url:"/gallery"},
+    {link:t("speakers"), url:"/speakers"},
+    {link:t("tickets"), url:"/tickets"},
+    {link:t("travel"), url:"/travel&info"},
 
   ];
 
@@ -33,19 +40,21 @@ export default function App() {
     >
       <NavbarContent >
         <NavbarMenuToggle
+        icon={<FontAwesomeIcon icon={faBars} />}
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="toggle"
+          className="toggle link-navbar"
         />
-        <NavbarBrand>
-          <p className="font-bold text-inherit">Logo</p>
+        <NavbarBrand >
+          <Image src='/logo.png' alt="wellbiz-bridge" width={100} height={100} />
         </NavbarBrand>
       </NavbarContent>
+      <ChangeLanguageButton />
 
       <NavbarContent className="navbar-links" justify="center">
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
-              className="w-full"
+              className="w-full link-navbar"
               href={item.url}
             >
               {item.link}
@@ -55,15 +64,15 @@ export default function App() {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem >
-          <button color="primary">Registrate hoy!</button>
+          <button color="primary" className="link-navbar">Registrate hoy!</button>
         </NavbarItem>
         <NavbarItem>
-          <button color="primary">Sé un sponsor!</button>
+          <Button title="Sé un sponsor!"  />
         </NavbarItem>
       </NavbarContent>
-      <NavbarMenu>
+      <NavbarMenu className="navbar-mobile">
         {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
+          <NavbarMenuItem key={`${item}-${index}`} >
             <Link
               className="w-full"
               href={item.url}

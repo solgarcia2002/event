@@ -4,17 +4,16 @@ import './sponsorsList.css';
 
 const SponsorsList:React.FC = () => {
   const logos = [
-    {logo:'/logo-santala.jpg', url:'#'},
-    {logo:'/logo-santala.jpg', url:'#'},
-    {logo:'/logo-santala.jpg', url:'#'},
-    {logo:'/logo-santala.jpg', url:'#'},
-    {logo:'/logo-santala.jpg', url:'#'},
-    {logo:'/logo-santala.jpg', url:'#'},
+    {logo:'/logo-santala.jpg', width:325, height:159},
+    {logo:'/logo-angeles.png', width:300, height:300},
+    {logo:'/logo-empowerit.png', width:300, height:300},
+    {logo:'/logo-tere.jpg', width:710, height:708},
+    {logo:'/logo-lalloz.png', width:708, height:147},
   ]
 
   return(
     <div className='cont-sponsors-list'>
-      <h4>Sponsors</h4>
+      <h2>Sponsors</h2>
       <div className='carousel-logos'>
         <div className='ticker-track'>
           {

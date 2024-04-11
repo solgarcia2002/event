@@ -1,6 +1,23 @@
 {
   "home":{
-    "test":"hello"
+    "bannerDate":"May 24",
+    "banner":"Innovate, transform, connect",
+    "speakersBio":{
+      "angelesBio":"Biografia Angeles",
+      "tereBio":"Biografia Tere",
+      "mirianBio":"Biografia Mirian",
+      "claudiaBio":"Biografia Claudia"
+    }
+
+  },
+  "navbar": {
+    "translationEs":"Spanish",
+    "translationEn":"English",
+    "schedule":"Schedule",
+    "gallery":"Gallery",
+    "speakers":"Speakers",
+    "tickets":"Buy tickets",
+    "travel":"Travel & Info"
   },
   "form": {
     "name": "Name",

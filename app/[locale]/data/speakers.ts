@@ -2,21 +2,25 @@ export const speakers = [
   {
     name: "Angeles Lucero Bringas",
     img: "/speaker-angeles-lucero-bringas.png",
-    bio: "bio",
+    bio: "angelesBio",
+    video:'/video-angeles.mp4'
   },
   { 
     name: "Claudia Lalloz", 
     img: "/speaker-claudia-lalloz.png", 
-    bio: "bio" 
+    bio: "claudiaBio" ,
+    video:'/video-claudia.mp4'
   },
   { 
     name: "Mirian Torrado", 
     img: "/speaker-mirian-torrado.png", 
-    bio: "bio" 
+    bio: "mirianBio" ,
+    video:'/video-mirian.mp4'
   },
   { 
     name: "Tere Zazueta", 
     img: "/speaker-tere-zazueta.png", 
-    bio: "bio" 
+    bio: "tereBio",
+    video: '/video-tere-zazueta.mp4'
   },
 ];
