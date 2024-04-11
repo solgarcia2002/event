@@ -12,7 +12,7 @@ type VideoCarouselType ={
 const Carousel:React.FC =()=>{
 
   const videos:VideoCarouselType[] = [
-    {title:"Titulo1", video:"/video-home1.mp4"},
+    {title:"WellBiz Bridge", video:"/video-home1.mp4"},
     {title:"Titulo2", video: "/video-home2.mp4"},
     {title:"Titulo3", video: "/video-home1.mp4"},
     {title:"Titulo4", video: "/video-home2.mp4"},
@@ -49,7 +49,7 @@ const Carousel:React.FC =()=>{
   return(
     <div className="carousel" >
       <button className="left arrow-carousel" onClick={handlePrev}>
-        <FontAwesomeIcon icon={faArrowLeft} color="black" />
+        <FontAwesomeIcon icon={faArrowLeft} />
       </button>
       <div className={`carousel-container ${direction}`}>
         {videos.map((video, index) => (

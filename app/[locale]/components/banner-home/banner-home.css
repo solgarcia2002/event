@@ -1,0 +1,19 @@
+.cont-video-home{
+  width: 100%;
+  position: relative;
+}
+
+.banner-text {
+  position: absolute;
+  top: 3rem;
+  left: 10%;
+}
+
+.banner-text > h1 {
+  text-transform: uppercase;
+}
+
+
+.banner-text >p {
+  font-size: 3rem;
+}

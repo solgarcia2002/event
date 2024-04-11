@@ -1,0 +1,29 @@
+.world-icon{
+  
+  box-shadow: 0px 4px 4px rgb(20, 23, 56, 0.25), 10px 13px 7px rgba(20, 23, 56, 0.01), 6px 8px 6px rgba(20, 23, 56, 0.05);
+  
+  border: none;
+}
+
+.dropdown-menu{
+  background-color: rgb(255, 255, 255, 0.2);
+}
+
+.world-icon:hover{
+  box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px var(--deeppink),
+    0 0 82px var(--deeppink),
+    0 0 92px var(--deeppink),
+    0 0 102px var(--deeppink),
+    0 0 151px var(--deeppink);
+  transition: box-shadow 0.5s ease-in;
+}
+
+
+
+.button-dropd {
+  width: 100%;
+}
