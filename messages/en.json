@@ -1,7 +1,13 @@
 {
   "home":{
     "bannerDate":"May 24",
-    "banner":"Innovate, transform, connect"
+    "banner":"Innovate, transform, connect",
+    "speakersBio":{
+      "angelesBio":"Biografia Angeles",
+      "tereBio":"Biografia Tere",
+      "mirianBio":"Biografia Mirian",
+      "claudiaBio":"Biografia Claudia"
+    }
 
   },
   "navbar": {
