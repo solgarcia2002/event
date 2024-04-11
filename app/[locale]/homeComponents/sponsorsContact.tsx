@@ -8,7 +8,7 @@ const SponsorContact: React.FC = () => {
 
 
   return (
-    <div className="cont-form">
+    <div className="cont-form" id="contact">
       <Form />
       <div className="contact-text">
         <h4>{t("callToAction1")}</h4>

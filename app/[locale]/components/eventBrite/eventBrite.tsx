@@ -1,24 +1,24 @@
 'use client'
 import React from 'react';
 import useEventbrite from 'react-eventbrite-popup-checkout';
+import Button from '../button/button';
+import { useTranslations } from 'next-intl';
 
 const Eventbrite = () => {
+  const t = useTranslations("navbar")
   const handleOrderCompleted = React.useCallback(() => {
     console.log('Order was completed successfully');
   }, []);
   const modalButtonCheckout = useEventbrite({
-    eventId: '877510937837',
+    eventId: '881387522807',
     modal: true,
     onOrderComplete: handleOrderCompleted,
   });
   
   return (
     <div id="my-app">
-      {/* guard for null - resolves when Eventbrite loads */}
       {modalButtonCheckout && (
-        <button type="button" id={modalButtonCheckout.id}>
-          Register now
-        </button>
+        <Button id={modalButtonCheckout.id} title={t("button")} bigger/>
       )}
     </div>
   )
