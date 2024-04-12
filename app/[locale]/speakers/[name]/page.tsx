@@ -1,11 +1,15 @@
 import { useTranslations } from "next-intl";
 import BannerVideo from "../../components/banner-home/banner-home";
 import Eventbrite from "../../components/eventBrite/eventBrite";
-import "./speakers.css";
 import { lora } from "../../fonts/lora";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import "./speakers.css";
 
 export default function SpeakersPage({ params }: { params: { name: string } }) {
   const t = useTranslations(`speakers.${params.name}`);
@@ -26,16 +30,18 @@ export default function SpeakersPage({ params }: { params: { name: string } }) {
       <div className="themes">
         <h2>{t("themeTitle")}</h2>
         <div>
-          <h3>{t("theme")}</h3>
-          <p>{t("p1")}</p>
-        </div>
+
+        <h3>{t("theme")}</h3>
+        <p>{t("p1")}</p>
         <p className={lora.className}>{t("p2")}</p>
+        </div>
       </div>
-      
+
       <div className="bio">
         <div className="cont-icons">
           <FontAwesomeIcon icon={faFacebook} />
           <FontAwesomeIcon icon={faInstagram} />
+          <FontAwesomeIcon icon={faLinkedin} />
           <FontAwesomeIcon icon={faGlobe} />
         </div>
         <div className="cont-text-bio">
