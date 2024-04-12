@@ -1,0 +1,58 @@
+
+.time-event {
+  background-color: var(--white);
+  padding: 4rem 15%;
+}
+
+.time-event >h2, .time-event >p {
+  color: var(--dark-grey);
+}
+
+.time-event >p  {
+  font-size: 2rem;
+}
+
+.themes {
+  display: flex;
+  padding: 8rem 10% ;
+  width: 100%;
+  justify-content: space-between;
+  gap: 5rem;
+}
+.themes>h2 {
+  line-height: 0;
+}
+.themes > div >h3 {
+  font-size: 2rem;
+}
+
+.themes > p {
+  width: 30%;
+}
+
+
+.bio {
+  display: flex;
+  padding: 4rem 15%;
+  justify-content: space-between;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+.cont-icons {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  gap: 2rem;
+}
+.cont-text-bio {
+  width: 50%;
+}
+
+.cont-text-bio > h4 {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 0;
+  margin-bottom: 5rem;
+}

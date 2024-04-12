@@ -4,21 +4,31 @@ import { useTranslations } from "next-intl";
 import { lora } from "../../fonts/lora";
 import Eventbrite from "../eventBrite/eventBrite";
 
-const BannerHome:React.FC = () => {
-  const t = useTranslations("home")
+type BannerVideoTypes = {
+  translationTitle:string,
+  video:string,
+  title:string,
+  subtitle:string,
+  paragraph?:string
+  children:React.JSX.Element
+}
+
+const BannerVideo = ({translationTitle, video, title, subtitle, children, paragraph}:BannerVideoTypes) => {
+  const t = useTranslations(translationTitle)
+  
   return(
     <div className="cont-video-home">
       <video autoPlay loop muted playsInline >
-        <source src='/home.mp4' type="video/mp4" />
+        <source src={video} type="video/mp4" />
       </video>
       <div className="banner-text">
         <h1>
-          WellBiz Bridge
+          {t(title)}
         </h1>
-        <p>{t("banner")} </p>
-        <p className={lora.className}>{t("bannerDate")}</p>
+        <p>{t(subtitle)} </p>
+        {paragraph && <p className={lora.className}>{t(paragraph)}</p>}
         <br/>
-        <Eventbrite/>
+        {children}
         <Image src='/logo-blanco.png'  alt="wellbiz-bridge" width={200} height={200}/>
       </div>
       
@@ -26,4 +36,4 @@ const BannerHome:React.FC = () => {
   )
 }
 
-export default BannerHome;
+export default BannerVideo;

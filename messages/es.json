@@ -2,6 +2,7 @@
   "home": {
     "bannerDate": "24 de mayo",
     "banner": "Innova, transforma, conecta",
+    "wellbiz":"WellBiz Bridge",
     "speakersBio": {
       "angelesBio": "Aborda la innovación del modelo de negocios como clave en tiempos inciertos, destacando la importancia de superar las expectativas de los clientes con propuestas vanguardistas para mantener una ventaja competitiva.",
       "tereBio": "Domina la comunicación no verbal, enseñando a proyectar confianza y liderazgo, esenciales para el éxito empresarial. La sesión eleva las habilidades comunicativas, marcando la diferencia en la carrera de los participantes.",
@@ -70,5 +71,22 @@
     "formError": "No se pudo enviar tu mensaje, intenta nuevamente mas tarde",
     "callToAction1": "Sé un sponsor!",
     "callToAction2": "¡Regístrate ahora para recibir nuestro newsletter y mantente informado sobre este emocionante evento!"
+  },
+  "notFound":{
+    "message":"Página no encontrada",
+    "button":"Inicio"
+  },
+  "speakers":{
+    "angeles":{
+      "name":"Angeles Lucero Bringas",
+      "title":"Especialista en transformación y sostenibilidad de empresas familiares.",
+      "themeTitle":"Temas",
+      "theme":"Cómo innovar tu modelo de negocio",
+      "p1":"En épocas cambiantes, respuestas disruptivas.",
+      "p2":"En un entorno incierto, volátil y vertiginoso es imperioso, pararse en la innovación como principal ventaja competitiva. Ir más allá de las necesidades de nuestros clientes, situándonos en una propuesta innovadora a la vanguardia de los tiempos que corren.",
+      "bioTitle":"Biografia",
+      "bio":"Soy María de los Ángeles Lucero Bringas, especialista en la transformación y sostenibilidad de empresas familiares. Nacida en Córdoba, mi herencia me enseñó el valor del trabajo, estudio y superación desde temprana edad. Con una carrera que abarca desde la contaduría hasta la consultoría de gestión, mi pasión por innovar y fortalecer las empresas familiares me llevó a estudiar en Barcelona y, finalmente, a establecerme en Miami. Inspirada por mi familia y mis raíces, mi misión es empoderar a las empresas familiares para que prosperen a través de la sostenibilidad, la innovación, y un liderazgo consciente, transformando no solo negocios sino también contribuyendo positivamente a nuestra sociedad y medio ambiente."
+    }
   }
+  
 }
