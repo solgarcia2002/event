@@ -8,7 +8,7 @@ const Speakers: React.FC = () => {
   const t = useTranslations("home.speakersBio")
 
   return (
-    <div className="cont-speakers">
+    <div className="cont-speakers" id="speakers">
       <h3>Speakers</h3>
       <div className="speakers-cont-cards">
         {speakers.map((item, i) => (

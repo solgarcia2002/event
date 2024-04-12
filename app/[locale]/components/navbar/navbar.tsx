@@ -17,18 +17,20 @@ import Button from "../button/button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useTranslations } from "next-intl";
+import { useRouter } from "next/navigation";
 import './navbar.css';
 
 export default function App() {
   const t = useTranslations("navbar");
+  const router = useRouter();
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    {link:t("schedule"), url:"/schedule"},
-    {link:t("gallery"), url:"/gallery"},
-    {link:t("speakers"), url:"/speakers"},
-    {link:t("tickets"), url:"/tickets"},
-    {link:t("travel"), url:"/travel&info"},
+    {link:t("schedule"), url:"/#"},
+    {link:t("gallery"), url:"/#"},
+    {link:t("speakers"), url:"/#speakers"},
+    {link:t("tickets"), url:"/#"},
+    {link:t("travel"), url:"/#"},
 
   ];
 
@@ -64,13 +66,13 @@ export default function App() {
             </Link>
           </NavbarMenuItem>
         ))}
+        <NavbarItem >
+          <Link href={'#contact'} className="link-navbar">{t("register")}</Link>
+        </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
-        <NavbarItem >
-          <Link href={'#contact'} className="link-navbar">Registrate hoy!</Link>
-        </NavbarItem>
         <NavbarItem>
-          <Button title="Sé un sponsor!"  />
+          <Button title="Sé un sponsor!" onClick={()=>router.push('/#contact')} />
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu className="navbar-mobile">
@@ -84,6 +86,9 @@ export default function App() {
             </Link>
           </NavbarMenuItem>
         ))}
+        <NavbarItem >
+          <Link href={'#contact'} className="link-navbar">{t("register")}</Link>
+        </NavbarItem>
       </NavbarMenu>
     </Navbar>
   );

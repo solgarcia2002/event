@@ -4,11 +4,10 @@ import Navbar from "./components/navbar/navbar";
 import { NextIntlClientProvider } from "next-intl";
 import { useLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
-import { Inter, Mukta } from "next/font/google";
+import { Mukta } from "next/font/google";
 import Footer from "./components/footer/footer";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import "../globals.css";
-import Background from "./components/background/background";
 
 const mukta = Mukta({ 
   subsets:["latin"],

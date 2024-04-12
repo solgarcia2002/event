@@ -2,6 +2,7 @@
   "home": {
     "bannerDate": "May 24",
     "banner": "Innovate, transform, connect",
+    "wellbiz":"WellBiz Bridge",
     "speakersBio": {
       "angelesBio": "Addresses business model innovation as key in uncertain times, emphasizing the importance of exceeding customer expectations with cutting-edge proposals to maintain a competitive advantage.",
       "tereBio": "Masters nonverbal communication, teaching how to project confidence and leadership, essential for business success. The session enhances communication skills, making a difference in participants' careers.",
@@ -71,5 +72,9 @@
     "formError": "Your message could not be sent, please try again later.",
     "callToAction1": "Be a sponsor!",
     "callToAction2": "Register now to receive our newsletter and stay informed about this exciting event!"
+  },
+  "angeles":{
+    "name":"Angeles Lucero Bringas",
+    "title":"Specialist in transformation and sustainability of family businesses."
   }
 }
