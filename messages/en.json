@@ -73,8 +73,34 @@
     "callToAction1": "Be a sponsor!",
     "callToAction2": "Register now to receive our newsletter and stay informed about this exciting event!"
   },
-  "angeles":{
-    "name":"Angeles Lucero Bringas",
-    "title":"Specialist in transformation and sustainability of family businesses."
+  "angeles": {
+    "name": "Angeles Lucero Bringas",
+    "title": "Specialist in transformation and sustainability of family businesses.",
+    "themeTitle": "Themes",
+    "theme": "How to innovate your business model",
+    "p1": "In changing times, disruptive responses.",
+    "p2": "In an uncertain, volatile, and fast-paced environment, it is imperative to focus on innovation as the main competitive advantage. Going beyond the needs of our clients, positioning ourselves with an innovative proposal at the forefront of the times.",
+    "bioTitle": "Biography",
+    "bio": "I am María de los Ángeles Lucero Bringas, a specialist in the transformation and sustainability of family businesses. Born in Córdoba, my heritage taught me the value of work, study, and self-improvement from an early age. With a career ranging from accounting to management consulting, my passion for innovating and strengthening family businesses led me to study in Barcelona and finally establish myself in Miami. Inspired by my family and roots, my mission is to empower family businesses to thrive through sustainability, innovation, and conscious leadership, transforming not only businesses but also positively contributing to our society and environment."
+  },
+  "mirian": {
+    "name": "Mirian Torrado",
+    "title": "Public relations reporter.",
+    "themeTitle": "Themes",
+    "theme": "Organizational integration strategies.",
+    "p1": "An Approach to Collaboration and Business Success.",
+    "p2": "This workshop focuses on training participants on using tools and strategies to promote an integrating culture in work teams. Topics such as the definition and importance of organizational integration strategies are addressed, concrete examples are presented, and programs are developed to boost collaboration, communication, and teamwork within the company. Potential barriers to integration are explored and solutions are offered through tools that strengthen organizational culture and align departmental goals with the organization's overall objectives. Additionally, work is done on developing leadership skills and change management for leaders and managers. In summary, this workshop aims to improve efficiency, productivity, and a sense of belonging among team members, aligning them with the company's goals and culture.",
+    "bioTitle": "Biography",
+    "bio": "Mirian Maribel Torrado is a distinguished professional in Public Relations and an international conference speaker, with a solid academic background including a Master's in Business Administration focused on International Trade, a Postgraduate degree in Senior Management, and a Bachelor's in Public Relations. With over two decades of experience and participation in international events, she directs her own Public Relations firm and works as a reporter for various organizations and media outlets. She has been involved in political campaigns in Panama and the United States, and holds leadership roles in professional networks such as REDIRP and ILCE. Her career includes experience in academic, governmental, and business fields, establishing herself as an integral figure in strategic communications and international trade."
+  },
+  "claudia": {
+    "name": "Claudia Lalloz",
+    "title": "Coach specialized in Emotional Intelligence in Organizations.",
+    "themeTitle": "Themes",
+    "theme": "Emotional Skills and Corporate Emotional Well-being",
+    "p1": "Balancing Productivity and Well-being at Work: Strategies for Conscious Leadership.",
+    "p2": "This talk will address the close relationship between productivity and well-being in the workplace, highlighting how leadership style can influence team stress and demotivation. The objective is to identify and address work situations that cause discomfort, impacting the business, and develop strategies to achieve an effective balance between personal and work life. Topics such as developing the leader's personal power, identifying stress triggers, and developing emotional skills for effective and conscious leadership will be explored.",
+    "bioTitle": "Biography",
+    "bio": "Claudia Lalloz is an executive, entrepreneur, and Organizational Master Coach with a prominent career in communication processes during business crises. With a double Master's in MCC from ICF and Master Practitioner from EMCC, she is recognized as the fifth Master Coach of EMCC in Spain and has been an international conference speaker in Latin America and Europe. Her training in Pragmatic Linguistics and over 20,000 hours of Coaching support her ability to enhance team communication skills with precision. Claudia is a leader in Coach Training internationally with branches in Buenos Aires, Miami, and Madrid, and has served as president of the International Coaching Federation in Argentina. She is also the author of books such as 'The Being and Doing of the Coach' and 'The Alchemy of Questions', and hosts a radio program in Spain, Radio Global Coaching and NLP."
   }
 }
