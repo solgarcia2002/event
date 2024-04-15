@@ -1,8 +1,7 @@
 import Image from "next/image";
-import './banner-home.css';
 import { useTranslations } from "next-intl";
 import { lora } from "../../fonts/lora";
-import Eventbrite from "../eventBrite/eventBrite";
+import './banner-home.css';
 
 type BannerVideoTypes = {
   translationTitle:string,

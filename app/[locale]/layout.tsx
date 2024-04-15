@@ -29,6 +29,7 @@ export default async  function RootLayout({ children, params }: LocaleLayoutProp
   const locale = useLocale();
   if (params.locale !== locale) {
     notFound();
+    return null
   }
 
   let messages;
@@ -36,6 +37,7 @@ export default async  function RootLayout({ children, params }: LocaleLayoutProp
     messages = (await import(`../../messages/${locale}.json`)).default;
   } catch (error) {
     notFound();
+    return null
   }
   
   return (

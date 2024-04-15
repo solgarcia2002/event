@@ -10,9 +10,22 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import "./speakers.css";
+import { notFound } from "next/navigation";
+
+type SpeakersType = {
+  name: "angeles" | "claudia";
+};
+
+const validNames: SpeakersType["name"][] = ["angeles", "claudia"];
 
 export default function SpeakersPage({ params }: { params: { name: string } }) {
+  if (!validNames.includes(params.name as SpeakersType["name"])) {
+    notFound();
+    return null;
+  }
+
   const t = useTranslations(`speakers.${params.name}`);
+
   return (
     <div className="cont-speakers-page">
       <BannerVideo
@@ -30,13 +43,15 @@ export default function SpeakersPage({ params }: { params: { name: string } }) {
       <div className="themes">
         <h2>{t("themeTitle")}</h2>
         <div>
-
-        <h3>{t("theme")}</h3>
-        <p>{t("p1")}</p>
-        <p className={lora.className}>{t("p2")}</p>
+          <h3>{t("theme")}</h3>
+          <p className="themes-subtitle">{t("p1")}</p>
+          <p className={lora.className}>{t("p2")}</p>
         </div>
+        <video autoPlay loop muted playsInline className="bio-video">
+          <source src={`/video-${params.name}.mp4`} type="video/mp4" />
+        </video>
       </div>
-
+      
       <div className="bio">
         <div className="cont-icons">
           <FontAwesomeIcon icon={faFacebook} />

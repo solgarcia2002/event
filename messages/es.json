@@ -5,9 +5,10 @@
     "wellbiz":"WellBiz Bridge",
     "speakersBio": {
       "angelesBio": "Aborda la innovación del modelo de negocios como clave en tiempos inciertos, destacando la importancia de superar las expectativas de los clientes con propuestas vanguardistas para mantener una ventaja competitiva.",
-      "tereBio": "Domina la comunicación no verbal, enseñando a proyectar confianza y liderazgo, esenciales para el éxito empresarial. La sesión eleva las habilidades comunicativas, marcando la diferencia en la carrera de los participantes.",
-      "mirianBio": "Ofrece un taller dedicado a enseñar herramientas y estrategias para promover una cultura de integración en los equipos de trabajo, destacando la definición e importancia de la integración organizacional.",
-      "claudiaBio": "El encuentro aborda la mejora de la productividad mediante el bienestar laboral, explorando estrategias para un equilibrio vida-trabajo y gestionando el impacto del liderazgo en el equipo."
+      "susanaBio": "Bio Susana",
+      "cesarBio": "Biografia Cesar",
+      "claudiaBio": "El encuentro aborda la mejora de la productividad mediante el bienestar laboral, explorando estrategias para un equilibrio vida-trabajo y gestionando el impacto del liderazgo en el equipo.",
+      "noeliaBio":"Biografia Noelia"
     },
     "faqs": {
       "question": {
@@ -87,7 +88,7 @@
       "bioTitle":"Biografia",
       "bio":"Soy María de los Ángeles Lucero Bringas, especialista en la transformación y sostenibilidad de empresas familiares. Nacida en Córdoba, mi herencia me enseñó el valor del trabajo, estudio y superación desde temprana edad. Con una carrera que abarca desde la contaduría hasta la consultoría de gestión, mi pasión por innovar y fortalecer las empresas familiares me llevó a estudiar en Barcelona y, finalmente, a establecerme en Miami. Inspirada por mi familia y mis raíces, mi misión es empoderar a las empresas familiares para que prosperen a través de la sostenibilidad, la innovación, y un liderazgo consciente, transformando no solo negocios sino también contribuyendo positivamente a nuestra sociedad y medio ambiente."
     },
-    "mirian":{
+    "cesar":{
       "name":"Mirian Torrado",
       "title":"Reportera de relaciones publicas.",
       "themeTitle":"Temas",
