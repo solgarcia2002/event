@@ -1,14 +1,14 @@
 {
   "home": {
     "bannerDate": "24 de mayo",
-    "banner": "Innova, transforma, conecta",
+    "banner": "Transforma proyectos en realidades",
     "wellbiz":"WellBiz Bridge",
     "speakersBio": {
       "angelesBio": "Aborda la innovación del modelo de negocios como clave en tiempos inciertos, destacando la importancia de superar las expectativas de los clientes con propuestas vanguardistas para mantener una ventaja competitiva.",
-      "susanaBio": "Bio Susana",
-      "cesarBio": "Biografia Cesar",
+      "susanaBio": "Su lema encapsula una visión esencial: priorizar el bienestar de los empleados en el entorno laboral no solo beneficia a las personas, sino que también impulsa la productividad y rentabilidad de la empresa. ",
+      "cesarBio": "César Shlaim, un experto en negocios, nos guiará a través de su charla sobre cómo estructurar un negocio de manera efectiva. Descubre estrategias clave, consejos prácticos y la importancia de una sólida base organizativa para alcanzar el éxito empresarial.",
       "claudiaBio": "El encuentro aborda la mejora de la productividad mediante el bienestar laboral, explorando estrategias para un equilibrio vida-trabajo y gestionando el impacto del liderazgo en el equipo.",
-      "noeliaBio":"Biografia Noelia"
+      "noeliaBio":"Noelia presenta una visión fascinante sobre cómo la inteligencia artificial impulsa los negocios. Su charla destaca cómo esta tecnología transforma los procesos empresariales, desde la automatización hasta la toma de decisiones estratégicas. "
     },
     "faqs": {
       "question": {
@@ -28,7 +28,7 @@
       },
       "answer": {
         "public": "Ideal para dueños y miembros de empresas, emprendedores, consultores y coaches interesados en el bienestar y crecimiento empresarial.",
-        "topics": "Cubriremos el impacto del lenguaje corporal en los negocios, bienestar emocional empresarial, estrategias de integración organizacional y cómo innovar en el modelo de negocio.",
+        "topics": "Abordaremos la importancia de la visión empresarial, cómo convertirla en un plan de negocio, su estructuración efectiva y las estrategias de financiación. Además, exploraremos el uso de la inteligencia artificial en los negocios.",
         "register": "Puedes registrarte a través de nuestra página web, donde encontrarás una sección de inscripción. Solo necesitas completar el formulario y realizar el pago.",
         "ticket": "La entrada incluye acceso a todas las ponencias, material de las sesiones, oportunidades de networking, y coffee breaks.",
         "discount": "Sí, ofrecemos tarifas especiales para grupos y empresas. Contacta a nuestro equipo para más detalles.",
@@ -70,8 +70,10 @@
     "min20": "El mensaje debe contener al menos 20 caracteres",
     "formOK": "Gracias por tu mensaje!",
     "formError": "No se pudo enviar tu mensaje, intenta nuevamente mas tarde",
-    "callToAction1": "Sé un sponsor!",
-    "callToAction2": "¡Regístrate ahora para recibir nuestro newsletter y mantente informado sobre este emocionante evento!"
+    "callToAction1": "¿Quieres estar ahi?",
+    "callToAction2": "¡Regístrate ahora para recibir nuestro newsletter y mantente informado sobre este emocionante evento!",
+    "sponsorTitle":"¡Gracias por tu interés en patrocinar nuestro evento en Miami!",
+    "sponsorBody":"Por favor, completa el siguiente formulario para que podamos conocerte mejor y explorar oportunidades de colaboración. Estamos emocionados de trabajar juntos para hacer de este evento un éxito memorable."
   },
   "notFound":{
     "message":"Página no encontrada",

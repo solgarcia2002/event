@@ -1,13 +1,14 @@
 {
   "home": {
     "bannerDate": "May 24",
-    "banner": "Innovate, transform, connect",
-    "wellbiz":"WellBiz Bridge",
+    "banner": "Transform projects into realities",
+    "wellbiz": "WellBiz Bridge",
     "speakersBio": {
       "angelesBio": "Addresses business model innovation as key in uncertain times, emphasizing the importance of exceeding customer expectations with cutting-edge proposals to maintain a competitive advantage.",
-      "susanaBio": "Masters nonverbal communication, teaching how to project confidence and leadership, essential for business success. The session enhances communication skills, making a difference in participants' careers.",
-      "cesarBio": "Offers a workshop dedicated to teaching tools and strategies to promote a culture of integration in work teams, highlighting the definition and importance of organizational integration.",
-      "claudiaBio": "The meeting addresses improving productivity through workplace well-being, exploring strategies for work-life balance and managing the impact of leadership on the team."
+      "susanaBio": "Susana's motto encapsulates an essential vision: prioritizing employee well-being in the workplace not only benefits individuals but also drives productivity and profitability for the company.",
+      "cesarBio": "César Shlaim, a business expert, will guide us through his talk on how to effectively structure a business. Discover key strategies, practical tips, and the importance of a solid organizational foundation for achieving business success.",
+      "claudiaBio": "The event focuses on improving productivity through workplace well-being, exploring strategies for a work-life balance and managing the impact of leadership on the team.",
+      "noeliaBio": "Noelia presents a fascinating insight into how artificial intelligence drives businesses. Her talk highlights how this technology transforms business processes, from automation to strategic decision-making."
     },
 
     "faqs": {
@@ -28,7 +29,7 @@
       },
       "answer": {
         "public": "Ideal for business owners, company members, entrepreneurs, consultants, and coaches interested in business well-being and growth.",
-        "topics": "We will cover the impact of body language in business, business emotional well-being, organizational integration strategies, and how to innovate in the business model.",
+        "topics": "We will cover the importance of business vision, translating vision into a business plan, structuring it effectively, and strategies for financing. Additionally, we'll explore the practical applications of artificial intelligence in business operations.",
         "register": "You can register through our website, where you will find a registration section. Just complete the form and make the payment.",
         "ticket": "The ticket includes access to all presentations, session materials, networking opportunities, and coffee breaks.",
         "discount": "Yes, we offer special rates for groups and companies. Contact our team for more details.",
@@ -51,8 +52,8 @@
     "speakers": "Speakers",
     "tickets": "Buy tickets",
     "travel": "Travel & Info",
-    "register":"Register now!",
-    "button":"Save the date"
+    "register": "Register now!",
+    "button": "Save the date"
   },
   "form": {
     "name": "Name",
@@ -71,36 +72,40 @@
     "formOK": "Thank You for your message!",
     "formError": "Your message could not be sent, please try again later.",
     "callToAction1": "Be a sponsor!",
-    "callToAction2": "Register now to receive our newsletter and stay informed about this exciting event!"
+    "callToAction2": "Register now to receive our newsletter and stay informed about this exciting event!",
+    "sponsorTitle": "Thank you for your interest in sponsoring our event in Miami!",
+    "sponsorBody": "Please complete the following form so we can get to know you better and explore collaboration opportunities. We are excited to work together to make this event a memorable success."
   },
-  "angeles": {
-    "name": "Angeles Lucero Bringas",
-    "title": "Specialist in transformation and sustainability of family businesses.",
-    "themeTitle": "Themes",
-    "theme": "How to innovate your business model",
-    "p1": "In changing times, disruptive responses.",
-    "p2": "In an uncertain, volatile, and fast-paced environment, it is imperative to focus on innovation as the main competitive advantage. Going beyond the needs of our clients, positioning ourselves with an innovative proposal at the forefront of the times.",
-    "bioTitle": "Biography",
-    "bio": "I am María de los Ángeles Lucero Bringas, a specialist in the transformation and sustainability of family businesses. Born in Córdoba, my heritage taught me the value of work, study, and self-improvement from an early age. With a career ranging from accounting to management consulting, my passion for innovating and strengthening family businesses led me to study in Barcelona and finally establish myself in Miami. Inspired by my family and roots, my mission is to empower family businesses to thrive through sustainability, innovation, and conscious leadership, transforming not only businesses but also positively contributing to our society and environment."
-  },
-  "mirian": {
-    "name": "Mirian Torrado",
-    "title": "Public relations reporter.",
-    "themeTitle": "Themes",
-    "theme": "Organizational integration strategies.",
-    "p1": "An Approach to Collaboration and Business Success.",
-    "p2": "This workshop focuses on training participants on using tools and strategies to promote an integrating culture in work teams. Topics such as the definition and importance of organizational integration strategies are addressed, concrete examples are presented, and programs are developed to boost collaboration, communication, and teamwork within the company. Potential barriers to integration are explored and solutions are offered through tools that strengthen organizational culture and align departmental goals with the organization's overall objectives. Additionally, work is done on developing leadership skills and change management for leaders and managers. In summary, this workshop aims to improve efficiency, productivity, and a sense of belonging among team members, aligning them with the company's goals and culture.",
-    "bioTitle": "Biography",
-    "bio": "Mirian Maribel Torrado is a distinguished professional in Public Relations and an international conference speaker, with a solid academic background including a Master's in Business Administration focused on International Trade, a Postgraduate degree in Senior Management, and a Bachelor's in Public Relations. With over two decades of experience and participation in international events, she directs her own Public Relations firm and works as a reporter for various organizations and media outlets. She has been involved in political campaigns in Panama and the United States, and holds leadership roles in professional networks such as REDIRP and ILCE. Her career includes experience in academic, governmental, and business fields, establishing herself as an integral figure in strategic communications and international trade."
-  },
-  "claudia": {
-    "name": "Claudia Lalloz",
-    "title": "Coach specialized in Emotional Intelligence in Organizations.",
-    "themeTitle": "Themes",
-    "theme": "Emotional Skills and Corporate Emotional Well-being",
-    "p1": "Balancing Productivity and Well-being at Work: Strategies for Conscious Leadership.",
-    "p2": "This talk will address the close relationship between productivity and well-being in the workplace, highlighting how leadership style can influence team stress and demotivation. The objective is to identify and address work situations that cause discomfort, impacting the business, and develop strategies to achieve an effective balance between personal and work life. Topics such as developing the leader's personal power, identifying stress triggers, and developing emotional skills for effective and conscious leadership will be explored.",
-    "bioTitle": "Biography",
-    "bio": "Claudia Lalloz is an executive, entrepreneur, and Organizational Master Coach with a prominent career in communication processes during business crises. With a double Master's in MCC from ICF and Master Practitioner from EMCC, she is recognized as the fifth Master Coach of EMCC in Spain and has been an international conference speaker in Latin America and Europe. Her training in Pragmatic Linguistics and over 20,000 hours of Coaching support her ability to enhance team communication skills with precision. Claudia is a leader in Coach Training internationally with branches in Buenos Aires, Miami, and Madrid, and has served as president of the International Coaching Federation in Argentina. She is also the author of books such as 'The Being and Doing of the Coach' and 'The Alchemy of Questions', and hosts a radio program in Spain, Radio Global Coaching and NLP."
+  "speakers": {
+    "angeles": {
+      "name": "Angeles Lucero Bringas",
+      "title": "Specialist in transformation and sustainability of family businesses.",
+      "themeTitle": "Themes",
+      "theme": "How to innovate your business model",
+      "p1": "In changing times, disruptive responses.",
+      "p2": "In an uncertain, volatile, and fast-paced environment, it is imperative to focus on innovation as the main competitive advantage. Going beyond the needs of our clients, positioning ourselves with an innovative proposal at the forefront of the times.",
+      "bioTitle": "Biography",
+      "bio": "I am María de los Ángeles Lucero Bringas, a specialist in the transformation and sustainability of family businesses. Born in Córdoba, my heritage taught me the value of work, study, and self-improvement from an early age. With a career ranging from accounting to management consulting, my passion for innovating and strengthening family businesses led me to study in Barcelona and finally establish myself in Miami. Inspired by my family and roots, my mission is to empower family businesses to thrive through sustainability, innovation, and conscious leadership, transforming not only businesses but also positively contributing to our society and environment."
+    },
+    "mirian": {
+      "name": "Mirian Torrado",
+      "title": "Public relations reporter.",
+      "themeTitle": "Themes",
+      "theme": "Organizational integration strategies.",
+      "p1": "An Approach to Collaboration and Business Success.",
+      "p2": "This workshop focuses on training participants on using tools and strategies to promote an integrating culture in work teams. Topics such as the definition and importance of organizational integration strategies are addressed, concrete examples are presented, and programs are developed to boost collaboration, communication, and teamwork within the company. Potential barriers to integration are explored and solutions are offered through tools that strengthen organizational culture and align departmental goals with the organization's overall objectives. Additionally, work is done on developing leadership skills and change management for leaders and managers. In summary, this workshop aims to improve efficiency, productivity, and a sense of belonging among team members, aligning them with the company's goals and culture.",
+      "bioTitle": "Biography",
+      "bio": "Mirian Maribel Torrado is a distinguished professional in Public Relations and an international conference speaker, with a solid academic background including a Master's in Business Administration focused on International Trade, a Postgraduate degree in Senior Management, and a Bachelor's in Public Relations. With over two decades of experience and participation in international events, she directs her own Public Relations firm and works as a reporter for various organizations and media outlets. She has been involved in political campaigns in Panama and the United States, and holds leadership roles in professional networks such as REDIRP and ILCE. Her career includes experience in academic, governmental, and business fields, establishing herself as an integral figure in strategic communications and international trade."
+    },
+    "claudia": {
+      "name": "Claudia Lalloz",
+      "title": "Coach specialized in Emotional Intelligence in Organizations.",
+      "themeTitle": "Themes",
+      "theme": "Emotional Skills and Corporate Emotional Well-being",
+      "p1": "Balancing Productivity and Well-being at Work: Strategies for Conscious Leadership.",
+      "p2": "This talk will address the close relationship between productivity and well-being in the workplace, highlighting how leadership style can influence team stress and demotivation. The objective is to identify and address work situations that cause discomfort, impacting the business, and develop strategies to achieve an effective balance between personal and work life. Topics such as developing the leader's personal power, identifying stress triggers, and developing emotional skills for effective and conscious leadership will be explored.",
+      "bioTitle": "Biography",
+      "bio": "Claudia Lalloz is an executive, entrepreneur, and Organizational Master Coach with a prominent career in communication processes during business crises. With a double Master's in MCC from ICF and Master Practitioner from EMCC, she is recognized as the fifth Master Coach of EMCC in Spain and has been an international conference speaker in Latin America and Europe. Her training in Pragmatic Linguistics and over 20,000 hours of Coaching support her ability to enhance team communication skills with precision. Claudia is a leader in Coach Training internationally with branches in Buenos Aires, Miami, and Madrid, and has served as president of the International Coaching Federation in Argentina. She is also the author of books such as 'The Being and Doing of the Coach' and 'The Alchemy of Questions', and hosts a radio program in Spain, Radio Global Coaching and NLP."
+    }
   }
 }
