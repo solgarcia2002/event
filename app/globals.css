@@ -8,10 +8,12 @@
   --deeppink:#ff1493;
   --background-dark: #1b0033;
   --blue:#00237C;
-  --violet: #8C52FF;
+  --gold: #D1AD6A;
   --dark-grey:#333333;
   --dark-violet:#403672;
-  --white:#F4F4F4
+  --white:#F4F4F4;
+  --light-violet: #CE64A6;
+  --empowerit: #4ACBCC
 }
 
 html {

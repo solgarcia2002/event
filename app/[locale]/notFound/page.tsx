@@ -1,8 +1,9 @@
+"use client"
 import { useTranslations } from "next-intl";
 import Button from "../components/button/button";
 import Image from "next/image";
-import './notFound.css';
 import { useRouter } from "next/navigation";
+import './notFound.css';
  
 export default function NotFound() {
   const t = useTranslations("notFound");

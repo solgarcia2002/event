@@ -71,12 +71,16 @@
   background-color: var(--blue);
 }
 
-.mirianBio{
-  background-color: var(--violet);
+.cesarBio {
+  background-color: var(--gold);
 }
 
-.tereBio {
-  background-color: var(--dark-violet);
+.susanaBio {
+  background-color: var(--light-violet);
+}
+
+.noeliaBio {
+  background-color: var(--empowerit);
 }
 
 @media screen and (min-width:800px) {

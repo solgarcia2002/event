@@ -14,17 +14,23 @@ export const speakers = [
     url:'/speakers/claudia'
   },
   { 
-    name: "Mirian Torrado", 
-    img: "/speaker-mirian-torrado.png", 
-    bio: "mirianBio" ,
-    video:'/video-mirian.mp4',
+    name: "Cesar Shlaim", 
+    img: "/speaker-cesar-shlaim.png", 
+    bio: "cesarBio" ,
+    video:'/video-cesar.mp4',
     url:'#'
   },
   { 
-    name: "Tere Zazueta", 
-    img: "/speaker-tere-zazueta.png", 
-    bio: "tereBio",
-    video: '/video-tere-zazueta.mp4',
+    name: "Susana Benavente", 
+    img: "/speaker-susana-benavente.png", 
+    bio: "susanaBio",
+    video: '/video-susana.mp4',
+    url:'#'
+  },{ 
+    name: "Noelia Sánchez", 
+    img: "/speaker-noelia-sanchez.png", 
+    bio: "noeliaBio",
+    video: '/video-noelia.mp4',
     url:'#'
   },
 ];

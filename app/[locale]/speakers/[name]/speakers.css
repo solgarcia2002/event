@@ -18,9 +18,11 @@
   width: 100%;
   justify-content: space-between;
   gap: 5rem;
+  flex-direction: row;
 }
 .themes>h2 {
   line-height: 0;
+  margin-top: 2rem;
 }
 .themes > div >h3 {
   font-size: 2rem;
@@ -28,6 +30,12 @@
 
 .themes > p {
   width: 30%;
+}
+
+.themes-subtitle {
+  font-size: 1.5rem;
+  letter-spacing: 1.2px;
+  margin: 1rem 0;
 }
 
 
@@ -55,4 +63,25 @@
   font-weight: 700;
   line-height: 0;
   margin-bottom: 5rem;
+}
+
+.bio-video {
+  width: 30%;
+}
+
+@media screen and (max-width:800px) {
+  .themes {
+    flex-direction: column;
+  }
+  .bio {
+    flex-direction: column-reverse;
+  }
+
+  .cont-text-bio{
+    width: 100%;
+  }
+
+  .cont-text-bio > h4 {
+    font-size: 2rem;
+  }
 }
