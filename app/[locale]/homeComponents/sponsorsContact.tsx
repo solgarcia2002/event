@@ -9,7 +9,7 @@ const SponsorContact: React.FC = () => {
 
   return (
     <div className="cont-form" id="contact">
-      <Form />
+      <Form to="newsletter"/>
       <div className="contact-text">
         <h4>{t("callToAction1")}</h4>
         <p>{t("callToAction2")}</p>

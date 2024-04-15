@@ -9,9 +9,13 @@ import { useFormik } from "formik";
 import { useTranslations } from "next-intl";
 import "./form.css";
 
-const Form: React.FC = () => {
-  const t = useTranslations("form");
+type FormTypes = {
+  to: 'sponsor' | 'newsletter'
+}
 
+const Form = ({to}:FormTypes) => {
+  const t = useTranslations("form");
+  const template = to === 'sponsor' ? 'template_6adm0ax' : 'template_1lzj76j';
   const configCaptcha: string = process.env.NEXT_PUBLIC_CAPTCHA_KEY as string;
   const [captchaTrue, setCaptcha] = useState(false);
   const [openPopOver, setOpenPopOver] = useState(false);
@@ -33,11 +37,6 @@ const Form: React.FC = () => {
       .typeError(t("errorString"))
       .email(t("errorEmail"))
       .required(t("required")),
-    message: yup
-      .string()
-      .typeError(t("errorString"))
-      .min(20, t("min20"))
-      .required(t("required")),
   });
 
   const formik = useFormik({
@@ -45,15 +44,14 @@ const Form: React.FC = () => {
       name: "",
       email: "",
       company: "",
-      number: "",
-      message: "",
+      number: ""
     },
     validationSchema: validationSchema,
     onSubmit: (values) => {
       emailjs
         .send(
           "service_2dyecpd",
-          "template_6adm0ax",
+          template,
           values,
           process.env.NEXT_PUBLIC_EMAILJS
         )
@@ -125,16 +123,6 @@ const Form: React.FC = () => {
         <div className="error-message">{formik.errors.number}</div>
       )}
 
-      <textarea
-        className="input-form textarea"
-        placeholder={t("message")}
-        onChange={formik.handleChange}
-        value={formik.values.message}
-        id="message"
-      />
-      {formik.errors.message && formik.touched.message && (
-        <div className="error-message">{formik.errors.message}</div>
-      )}
       <ReCAPTCHA
         sitekey={configCaptcha}
         onChange={(value) => onChange(value)}

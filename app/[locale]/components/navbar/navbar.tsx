@@ -18,12 +18,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
+import ModalSponsor from "../modal/modal";
+import { useDisclosure } from "@nextui-org/modal";
 import './navbar.css';
 
 export default function App() {
   const t = useTranslations("navbar");
   const router = useRouter();
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const {isOpen, onOpen, onClose} = useDisclosure();
 
   const menuItems = [
     {link:t("schedule"), url:"/#"},
@@ -72,7 +75,7 @@ export default function App() {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button title="Sé un sponsor!" onClick={()=>router.push('/#contact')} />
+          <Button title="Sé un sponsor!" onClick={onOpen} />
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu className="navbar-mobile">
@@ -90,6 +93,7 @@ export default function App() {
           <Link href={'#contact'} className="link-navbar">{t("register")}</Link>
         </NavbarItem>
       </NavbarMenu>
+      <ModalSponsor isOpen={isOpen} onClose={onClose} />
     </Navbar>
   );
 }
