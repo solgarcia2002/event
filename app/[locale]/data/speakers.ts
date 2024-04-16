@@ -4,14 +4,14 @@ export const speakers = [
     img: "/speaker-angeles-lucero-bringas.png",
     bio: "angelesBio",
     video:'/video-angeles.mp4',
-    url:'/speakers/angeles'
+    url:'#'
   },
   { 
     name: "Claudia Lalloz", 
     img: "/speaker-claudia-lalloz.png", 
     bio: "claudiaBio" ,
     video:'/video-claudia.mp4',
-    url:'/speakers/claudia'
+    url:'#'
   },
   { 
     name: "Cesar Shlaim", 

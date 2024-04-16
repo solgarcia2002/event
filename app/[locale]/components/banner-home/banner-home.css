@@ -83,4 +83,9 @@
     width: 180%;
     max-width: 180%;
   }
+
+  .logos-home {
+    width: 20%;
+    height: auto;
+  }
 }

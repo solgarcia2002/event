@@ -30,8 +30,8 @@ const BannerVideo = ({translationTitle, video, title, subtitle, children, paragr
         <br/>
         {children}
         <div className="cont-logos-video">
-          <Image src='/logo-blanco.png'  alt="wellbiz-bridge" width={200} height={200}/>
-          <Image src='/logo-aacc.png' alt="argentine american chamber of commerce of florida" width={266} height={105} className="logo-video"/>
+          <Image src='/logo-blanco.png'  alt="wellbiz-bridge" width={200} height={200} className="logos-home"/>
+          <Image src='/logo-aacc.png' alt="argentine american chamber of commerce of florida" width={266} height={105} className="logo-video logos-home"/>
         </div>
       </div>
       

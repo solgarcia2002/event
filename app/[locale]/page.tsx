@@ -1,4 +1,3 @@
-import Background from "./components/background/background";
 import BannerVideo from "./components/banner-home/banner-home";
 import Button from "./components/button/button";
 import Faqs from "./homeComponents/faqs";
@@ -27,7 +26,6 @@ export default function Home() {
       <Speakers />
       <SponsorContact />
       <Faqs />
-      <Background />
     </main>
   );
 }
