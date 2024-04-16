@@ -33,7 +33,7 @@ export const speakers = [
     video: '/video-noelia.mp4',
     url:'#'
   },
-  { 
+  /* { 
     name: "Sylvia Cignoni", 
     img: "/speaker-sylvia-cignoni.png", 
     bio: "sylviaBio",
@@ -46,5 +46,5 @@ export const speakers = [
     bio: "stellaBio",
     video: '/video-stella.mp4',
     url:'#'
-  },
+  }, */
 ];

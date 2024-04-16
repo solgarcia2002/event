@@ -101,7 +101,7 @@
     display: none;
   }
   .card:hover {
-    flex:6;
+    flex:2;
   }
   .card:hover > .cont-text-card {
     padding: 2rem;
