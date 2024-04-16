@@ -1,10 +1,12 @@
 import Background from "./components/background/background";
 import BannerVideo from "./components/banner-home/banner-home";
-import Eventbrite from "./components/eventBrite/eventBrite";
+import Button from "./components/button/button";
 import Faqs from "./homeComponents/faqs";
 import Speakers from "./homeComponents/speakers";
 import SponsorContact from "./homeComponents/sponsorsContact";
 import SponsorsList from "./homeComponents/sponsorsList";
+import Link from "next/link";
+import Themes from "./homeComponents/themes";
 
 export default function Home() {
   return (
@@ -16,8 +18,11 @@ export default function Home() {
         subtitle="banner"
         paragraph="bannerDate"
       >
-        <Eventbrite />
+        <Link href={'/#contact'}>
+        <Button title="Save the date" />
+        </Link>
       </BannerVideo>
+      <Themes />
       <SponsorsList />
       <Speakers />
       <SponsorContact />

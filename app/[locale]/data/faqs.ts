@@ -1,9 +1,9 @@
 export const faqs = [
+  {question:'wbb', answer:'wbb', li:['item1, item2, item3']},
   {question:'public', answer:"public"},
   {question:'topics', answer:"topics"},
   {question:'register', answer:"register"},
   {question:'ticket', answer:"ticket"},
-  {question:'discount', answer:"discount"},
   {question:'accreditation', answer:"accreditation"},
   {question:'networking', answer:"networking"},
   {question:'sponsor', answer:"sponsor"},
