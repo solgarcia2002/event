@@ -17,14 +17,14 @@ type SpeakersType = {
 };
 
 const validNames: SpeakersType["name"][] = ["angeles", "claudia"];
-
 export default function SpeakersPage({ params }: { params: { name: string } }) {
+  
+  const t = useTranslations(`speakers.${params.name}`);
   if (!validNames.includes(params.name as SpeakersType["name"])) {
     notFound();
     return null;
   }
-
-  const t = useTranslations(`speakers.${params.name}`);
+ 
 
   return (
     <div className="cont-speakers-page">
