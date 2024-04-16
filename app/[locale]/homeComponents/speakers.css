@@ -1,5 +1,5 @@
 .cont-speakers {
-  padding: 8rem 0;
+  padding: 8rem 5%;
 }
 
 .cont-speakers > h3 {
@@ -8,11 +8,12 @@
 
 .speakers-cont-cards {
   display: flex;
-  width: 100%;
-  justify-content: space-between;
-  padding: 0 10% ;
+  max-width: 100%;
+  padding: 0 ;
+  overflow: hidden;
   margin-top: 4rem;
   height: 25rem;
+  gap:0
 }
 
 .card {
@@ -26,7 +27,7 @@
 }
 
 .card:hover {
-  flex:3
+  flex:6;
 }
 
 .card:hover > .cont-text-card {
@@ -82,6 +83,14 @@
 
 .noeliaBio {
   background-color: var(--empowerit);
+}
+
+.sylviaBio {
+  background-color: #8B53FF;
+}
+
+.stellaBio {
+  background-color: var(--dark-grey);
 }
 
 @media screen and (min-width:800px) {

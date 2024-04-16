@@ -33,4 +33,18 @@ export const speakers = [
     video: '/video-noelia.mp4',
     url:'#'
   },
+  { 
+    name: "Sylvia Cignoni", 
+    img: "/speaker-sylvia-cignoni.png", 
+    bio: "sylviaBio",
+    video: '/video-sylvia.mp4',
+    url:'#'
+  },
+  { 
+    name: "Stella Álvarez Agudo", 
+    img: "/speaker-stella-alvarez.png", 
+    bio: "stellaBio",
+    video: '/video-stella.mp4',
+    url:'#'
+  },
 ];
