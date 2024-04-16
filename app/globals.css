@@ -27,7 +27,7 @@ body {
   margin: 0;
   min-height: 100vh;
   background-color: #1b0033;
-  
+  max-width: 100%;
 }
 
 h1, h2, h3 {
