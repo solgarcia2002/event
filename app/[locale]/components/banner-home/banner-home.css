@@ -19,6 +19,46 @@
   font-size: 2.5rem;
 }
 
+.cont-logos-video {
+  display: flex;
+  align-items: center;
+}
+
+.logo-video {
+  height: 5rem;
+  width: auto;
+}
+
+@media screen and (max-width:1200px) {
+  .cont-video-home {
+    overflow: hidden;
+  }
+  .cont-video-home > video {
+    width: 120%;
+    max-width: 120%;
+  }
+
+  .banner-text {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .cont-video-home > video {
+    width: 150%;
+    max-width: 150%;
+  }
+
+  .cont-video-home {
+    display: flex;
+    justify-content: right;
+  }
+
+  .banner-text {
+    width: 70%;
+  }
+}
+
 @media screen and (max-width:800px) {
   .banner-text {
     width: 90%;
@@ -37,11 +77,7 @@
     height: auto;
   }
 
-  .cont-video-home {
-    overflow: hidden;
-    display: flex;
-    justify-content: right;
-  }
+  
 
   .cont-video-home > video {
     width: 180%;

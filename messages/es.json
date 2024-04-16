@@ -10,28 +10,38 @@
       "claudiaBio": "El encuentro aborda la mejora de la productividad mediante el bienestar laboral, explorando estrategias para un equilibrio vida-trabajo y gestionando el impacto del liderazgo en el equipo.",
       "noeliaBio":"Noelia presenta una visión fascinante sobre cómo la inteligencia artificial impulsa los negocios. Su charla destaca cómo esta tecnología transforma los procesos empresariales, desde la automatización hasta la toma de decisiones estratégicas. "
     },
+    "themes":{
+      "li1":"La importancia de la visión empresarial",
+      "li2":"Transformando la visión en un plan de negocios",
+      "li3":"Desarrollando la estructura empresarial",
+      "li4":"Optimizando el uso de la Inteligencia Artificial",
+      "li5":"Estrategias de financiamiento para el negocio"
+    },
     "faqs": {
       "question": {
+        "wbb":"¿Qué es el WellBiz Bridge?",
         "public": "¿Quién debería asistir a WellBiz Bridge?",
         "topics": "¿Qué temas se abordarán en el evento?",
         "register": "¿Cómo puedo registrarme para el evento?",
         "ticket": "¿Qué incluye la entrada al evento?",
-        "discount": "¿Hay descuentos para grupos o empresas?",
         "accreditation": "¿Cómo puedo obtener mi acreditación el día del evento?",
         "networking": "¿Qué oportunidades de networking habrá disponibles?",
         "sponsor": "¿Cómo puede mi empresa convertirse en patrocinador de WellBiz Bridge?",
         "benefits": "¿Qué beneficios obtengo como patrocinador?",
         "levels": "¿Existen diferentes niveles de patrocinio?",
         "exhibition": "¿Podemos exhibir nuestros productos o servicios durante el evento?",
-        "event": "¿Cómo se promoverá nuestro patrocinio antes y durante el evento?",
+        "event": "¿Cómo se promoverá nuestro patrocinio antes, durante y después del evento?",
         "exclusiveness": "¿Hay oportunidades de patrocinio exclusivo para alguna de las actividades o sesiones?"
       },
       "answer": {
+        "wbb":"Es un encuentro  para empresarios y profesionales visionarios que buscan  que sus negocios sean sólidos y prósperos en Miami. El Well biz Bridge tiene tres ejes fundamentales:",
+        "item1":"WELL- El Bienestar: todos los empresarios y emprendedores debemos ser cada día más conscientes que es imprescindible que nuestros negocios impacten en nuestra calidad de vida.  Toda la información que estará disponible en este evento, no sólo facilitará los negocios, sino que hará más sencillo el desafío de crecer.",
+        "item2":"BIZ - El negocio:  tener claridad en lo que necesitamos saber y hacer para que nuestro negocio sea exitoso, es clave a la hora de desembarcar en Miami. No saberlo nos lleva a perder dinero, tiempo y a desilusionarnos. Los profesionales que nos acompañarán en en wellbiz brige son expertos en materia legal, financiera y en las habilidades blandas que se requiere para crear y dirigir equipos. ",
+        "item3":"BRIDGE - El networking: cada vez más necesitamos de alianzas estratégicas entre empresarios. No sólo hacernos conocer sino ver qué de lo que se ofrece puede potenciar mi negocio. La clave está en la calidad de las relaciones que generamos.",
         "public": "Ideal para dueños y miembros de empresas, emprendedores, consultores y coaches interesados en el bienestar y crecimiento empresarial.",
         "topics": "Abordaremos la importancia de la visión empresarial, cómo convertirla en un plan de negocio, su estructuración efectiva y las estrategias de financiación. Además, exploraremos el uso de la inteligencia artificial en los negocios.",
         "register": "Puedes registrarte a través de nuestra página web, donde encontrarás una sección de inscripción. Solo necesitas completar el formulario y realizar el pago.",
-        "ticket": "La entrada incluye acceso a todas las ponencias, material de las sesiones, oportunidades de networking, y coffee breaks.",
-        "discount": "Sí, ofrecemos tarifas especiales para grupos y empresas. Contacta a nuestro equipo para más detalles.",
+        "ticket": "La entrada incluye acceso a todas las ponencias, material de las sesiones, oportunidades de networking, finger food & drinks.",
         "accreditation": "Tu acreditación estará disponible en el registro el día del evento. Presenta tu confirmación de inscripción y una identificación válida.",
         "networking": "Habrá mesas temáticas durante los breaks y un espacio dedicado para networking, facilitando la búsqueda de partners, proveedores o clientes.",
         "sponsor": "Para oportunidades de patrocinio, por favor contacta a nuestro equipo de patrocinios a través de nuestro correo electrónico o número de teléfono proporcionados en la sección de contacto.",
@@ -46,10 +56,10 @@
   "navbar": {
     "translationEs": "Español",
     "translationEn": "Inglés",
-    "schedule": "Agenda",
+    "schedule": "Programa",
     "gallery": "Galeria",
     "speakers": "Speakers",
-    "tickets": "Comprar tickets",
+    "tickets": "Obtené tu ticket",
     "travel": "Travel & Info",
     "register":"Registrate hoy!",
     "button":"Save the date"

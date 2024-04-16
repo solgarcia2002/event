@@ -64,6 +64,7 @@
 
 .video-speaker {
   display: none;
+  object-fit: cover;
 }
 
 

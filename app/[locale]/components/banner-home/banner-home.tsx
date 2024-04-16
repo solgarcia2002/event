@@ -12,6 +12,7 @@ type BannerVideoTypes = {
   children:React.JSX.Element
 }
 
+
 const BannerVideo = ({translationTitle, video, title, subtitle, children, paragraph}:BannerVideoTypes) => {
   const t = useTranslations(translationTitle)
   
@@ -28,7 +29,10 @@ const BannerVideo = ({translationTitle, video, title, subtitle, children, paragr
         {paragraph && <p className={lora.className}>{t(paragraph)}</p>}
         <br/>
         {children}
-        <Image src='/logo-blanco.png'  alt="wellbiz-bridge" width={200} height={200}/>
+        <div className="cont-logos-video">
+          <Image src='/logo-blanco.png'  alt="wellbiz-bridge" width={200} height={200}/>
+          <Image src='/logo-aacc.png' alt="argentine american chamber of commerce of florida" width={266} height={105} className="logo-video"/>
+        </div>
       </div>
       
     </div>
