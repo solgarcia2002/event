@@ -43,6 +43,14 @@ export default async  function RootLayout({ children, params }: LocaleLayoutProp
   return (
     <html lang={locale}>
       <head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=GTM-PGBP25SH"
+        ></script>
+        <meta
+          name="google-site-verification"
+          content="LvEZ6FBvIfX6e1HjkgKD91Rgun2dA5rwCoGwBvbyf3"
+        />
       </head>
       <body className={mukta.className}>
       <NextIntlClientProvider locale={locale} messages={messages}>
