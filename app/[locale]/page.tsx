@@ -6,6 +6,16 @@ import SponsorContact from "./homeComponents/sponsorsContact";
 import SponsorsList from "./homeComponents/sponsorsList";
 import Link from "next/link";
 import Themes from "./homeComponents/themes";
+import { getTranslations } from "next-intl/server";
+
+export async function generateMetadata() {
+  const t = await getTranslations("metadata.home");
+  return {
+    title: t("title"),
+    description: t("description"),
+    keywords: t("keywords").split(",")
+  };
+}
 
 export default function Home() {
   return (
