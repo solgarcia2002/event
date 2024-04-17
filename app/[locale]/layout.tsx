@@ -21,7 +21,7 @@ interface LocaleLayoutProps {
 
 export const metadata: Metadata = {
   title: "WellBiz Bridge",
-  description: "JORNADA DE BUSINESS COACHING & BINENESTAR ORGANIZACIONAL",
+  description: "TRANSFORMA PROYECTOS EN REALIDADES - MIAMI 2024",
 };
 
 export default async  function RootLayout({ children, params }: LocaleLayoutProps) {
