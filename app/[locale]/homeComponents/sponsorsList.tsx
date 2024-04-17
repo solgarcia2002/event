@@ -1,4 +1,3 @@
-"use client"
 import Image from 'next/image';
 import './sponsorsList.css';
 
@@ -8,7 +7,9 @@ const SponsorsList:React.FC = () => {
     {logo:'/logo-angeles.png', width:300, height:300},
     {logo:'/logo-empowerit.png', width:300, height:300},
     {logo:'/logo-lalloz.png', width:708, height:147},
-    {logo:'/logo-cesar.png', width:248, height:203}
+    {logo:'/logo-cesar.png', width:248, height:203},
+    {logo:'/logo-susana.png', width:110, height:110},
+    {logo:'/logo-latam.png', width:110, height:110},
   ]
 
   return(
