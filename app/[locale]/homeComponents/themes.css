@@ -2,13 +2,15 @@
   position: relative;
   height: 15rem;
   padding: 1% 15%;
+  height: fit-content;
 }
 
 .themes-list {
 	height: 55px;
 	color: #fff;
-	font-size: 2rem;
+	font-size: 20px;
 	margin: auto;
+  height: fit-content;
 }
 
 .themes-list  > ul {
@@ -21,6 +23,7 @@
   gap:2%;
   text-shadow:
     0 0 10px var(--deeppink);
+  height: fit-content;
 }
 
 .themes-list  > ul > li{

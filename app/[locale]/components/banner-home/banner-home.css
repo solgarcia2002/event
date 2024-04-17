@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  min-height: 867px;
+  min-height: 700px;
 }
 
 .banner-text {
