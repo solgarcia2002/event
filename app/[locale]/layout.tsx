@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import UIProviders from "./UIProviders";
 import Navbar from "./components/navbar/navbar";
 import { NextIntlClientProvider } from "next-intl";
@@ -19,10 +18,6 @@ interface LocaleLayoutProps {
   params: any;
 }
 
-export const metadata: Metadata = {
-  title: "WellBiz Bridge",
-  description: "TRANSFORMA PROYECTOS EN REALIDADES - MIAMI 2024",
-};
 
 export default async  function RootLayout({ children, params }: LocaleLayoutProps) {
 
@@ -51,6 +46,7 @@ export default async  function RootLayout({ children, params }: LocaleLayoutProp
           name="google-site-verification"
           content="LvEZ6FBvIfX6e1HjkgKD91Rgun2dA5rwCoGwBvbyf3"
         />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={mukta.className}>
       <NextIntlClientProvider locale={locale} messages={messages}>
