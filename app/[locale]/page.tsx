@@ -28,7 +28,7 @@ export default function Home() {
         paragraph="bannerDate"
       >
         <Link href={'/#contact'}>
-        <Button title="Save the date" />
+        <Button title="Free Registration!" />
         </Link>
       </BannerVideo>
       <Themes />

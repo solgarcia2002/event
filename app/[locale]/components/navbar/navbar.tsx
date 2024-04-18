@@ -30,7 +30,6 @@ export default function App() {
     {link:t("schedule"), url:"/#"},
     {link:t("gallery"), url:"/#"},
     {link:t("speakers"), url:"/#speakers"},
-    {link:t("tickets"), url:"/#"},
     {link:t("travel"), url:"/#"},
 
   ];

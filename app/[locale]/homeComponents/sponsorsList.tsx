@@ -10,6 +10,7 @@ const SponsorsList:React.FC = () => {
     {logo:'/logo-cesar.png', width:248, height:203},
     {logo:'/logo-susana.png', width:110, height:110},
     {logo:'/logo-latam.png', width:110, height:110},
+    {logo:'/logo-camara.png', width:110, height:110},
   ]
 
   return(

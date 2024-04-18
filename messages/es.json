@@ -1,8 +1,8 @@
 {
   "home": {
-    "bannerDate": "24 de mayo",
-    "banner": "Transforma proyectos en realidades",
-    "wellbiz":"WellBiz Bridge",
+    "bannerDate": "24 de mayo - 3PM a 7PM",
+    "banner": "landing businesses",
+    "wellbiz":"WellBiz Bridge #Miami",
     "speakersBio": {
       "angelesBio": "Aborda la innovación del modelo de negocios como clave en tiempos inciertos, destacando la importancia de superar las expectativas de los clientes con propuestas vanguardistas para mantener una ventaja competitiva.",
       "susanaBio": "Su lema encapsula una visión esencial: priorizar el bienestar de los empleados en el entorno laboral no solo beneficia a las personas, sino que también impulsa la productividad y rentabilidad de la empresa. ",
@@ -17,7 +17,7 @@
       "li2":"Transformando la visión en un plan de negocios",
       "li3":"Desarrollando la estructura empresarial",
       "li4":"Optimizando el uso de la Inteligencia Artificial",
-      "li5":"Estrategias de financiamiento para el negocio"
+      "li5":"Invertir en Bienestar para Impulsar la Productividad y Rentabilidad de tu Empresa"
     },
     "faqs": {
       "question": {
@@ -63,8 +63,8 @@
     "speakers": "Speakers",
     "tickets": "Obtené tu ticket",
     "travel": "Travel & Info",
-    "register":"Registrate hoy!",
-    "button":"Save the date"
+    "register":"Regístrate Gratis!",
+    "button":"Regístrate Gratis!"
   },
   "form": {
     "name": "Nombre",

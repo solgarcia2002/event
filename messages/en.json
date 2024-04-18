@@ -1,8 +1,8 @@
 {
   "home": {
-    "bannerDate": "May 24",
-    "banner": "Transform projects into realities",
-    "wellbiz": "WellBiz Bridge",
+    "bannerDate": "May 24th - 3PM to 7PM",
+    "banner": "landing businesses",
+    "wellbiz": "WellBiz Bridge #Miami",
     "speakersBio": {
       "angelesBio": "Addresses business model innovation as key in uncertain times, emphasizing the importance of exceeding customer expectations with cutting-edge proposals to maintain a competitive advantage.",
       "susanaBio": "Susana's motto encapsulates an essential vision: prioritizing employee well-being in the workplace not only benefits individuals but also drives productivity and profitability for the company.",
@@ -17,7 +17,7 @@
       "li2": "Transforming vision into a business plan",
       "li3": "Developing the business structure",
       "li4": "Optimizing the use of Artificial Intelligence",
-      "li5": "Business financing strategies"
+      "li5": "Investing in Well-being to Boost Your Company's Productivity and Profitability"
     },
 
     "faqs": {
@@ -59,13 +59,13 @@
   "navbar": {
     "translationEs": "Spanish",
     "translationEn": "English",
-    "schedule": "Schedule",
+    "schedule": "Program",
     "gallery": "Gallery",
     "speakers": "Speakers",
     "tickets": "Get your ticket",
     "travel": "Travel & Info",
-    "register": "Register now!",
-    "button": "Save the date"
+    "register": "Free registration!",
+    "button": "Free registration!"
   },
   "form": {
     "name": "Name",
