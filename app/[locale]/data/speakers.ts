@@ -14,7 +14,7 @@ export const speakers = [
     url:'#'
   },
   { 
-    name: "Cesar Shlaim", 
+    name: "Cesar Shlain", 
     img: "/speaker-cesar-shlaim.png", 
     bio: "cesarBio" ,
     video:'/video-cesar.mp4',
