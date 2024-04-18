@@ -1,8 +1,8 @@
 {
   "home": {
-    "bannerDate": "24 de mayo",
-    "banner": "Transforma proyectos en realidades",
-    "wellbiz":"WellBiz Bridge",
+    "bannerDate": "24 de mayo - 3PM a 7PM",
+    "banner": "landing businesses",
+    "wellbiz":"WellBiz Bridge #Miami",
     "speakersBio": {
       "angelesBio": "Aborda la innovación del modelo de negocios como clave en tiempos inciertos, destacando la importancia de superar las expectativas de los clientes con propuestas vanguardistas para mantener una ventaja competitiva.",
       "susanaBio": "Su lema encapsula una visión esencial: priorizar el bienestar de los empleados en el entorno laboral no solo beneficia a las personas, sino que también impulsa la productividad y rentabilidad de la empresa. ",
@@ -17,7 +17,7 @@
       "li2":"Transformando la visión en un plan de negocios",
       "li3":"Desarrollando la estructura empresarial",
       "li4":"Optimizando el uso de la Inteligencia Artificial",
-      "li5":"Estrategias de financiamiento para el negocio"
+      "li5":"Invertir en Bienestar para Impulsar la Productividad y Rentabilidad de tu Empresa"
     },
     "faqs": {
       "question": {
@@ -42,16 +42,16 @@
         "item3":"BRIDGE - El networking: cada vez más necesitamos de alianzas estratégicas entre empresarios. No sólo hacernos conocer sino ver qué de lo que se ofrece puede potenciar mi negocio. La clave está en la calidad de las relaciones que generamos.",
         "public": "Ideal para dueños y miembros de empresas, emprendedores, consultores y coaches interesados en el bienestar y crecimiento empresarial.",
         "topics": "Abordaremos la importancia de la visión empresarial, cómo convertirla en un plan de negocio, su estructuración efectiva y las estrategias de financiación. Además, exploraremos el uso de la inteligencia artificial en los negocios.",
-        "register": "Puedes registrarte a través de nuestra página web, donde encontrarás una sección de inscripción. Solo necesitas completar el formulario y realizar el pago.",
-        "ticket": "La entrada incluye acceso a todas las ponencias, material de las sesiones, oportunidades de networking, finger food & drinks.",
+        "register": "Puedes registrarte a través de nuestra página web, donde encontrarás una sección de inscripción. Solo necesitas completar el formulario.",
+        "ticket": "La entrada es gratuita e incluye acceso a todas las ponencias, material de las sesiones, oportunidades de networking, finger food & drinks.",
         "accreditation": "Tu acreditación estará disponible en el registro el día del evento. Presenta tu confirmación de inscripción y una identificación válida.",
-        "networking": "Habrá mesas temáticas durante los breaks y un espacio dedicado para networking, facilitando la búsqueda de partners, proveedores o clientes.",
-        "sponsor": "Para oportunidades de patrocinio, por favor contacta a nuestro equipo de patrocinios a través de nuestro correo electrónico o número de teléfono proporcionados en la sección de contacto.",
-        "benefits": "Los beneficios incluyen visibilidad de marca ante una audiencia objetivo, oportunidades de networking, participación en paneles de discusión, y mucho más. Los detalles específicos dependen del nivel de patrocinio.",
+        "networking": "Habrá mesas temáticas durante el cocktail y un espacio dedicado para networking, facilitando la búsqueda de partners, proveedores o clientes.",
+        "sponsor": "Para oportunidades de patrocinio, por favor completa el formulario para que te contactemos.",
+        "benefits": "Los beneficios incluyen visibilidad de marca ante empresarios de elite de Miami, oportunidades de networking, participación en paneles de discusión, y mucho más. Los detalles específicos dependen del nivel de patrocinio.",
         "levels": "Sí, ofrecemos varios niveles de patrocinio, cada uno con sus propios beneficios y oportunidades de exposición. Los detalles están disponibles en nuestro paquete de patrocinio.",
         "exhibition": "Sí, dependiendo del nivel de patrocinio, puedes tener la oportunidad de exhibir tus productos o servicios.",
         "event": "Promoveremos a nuestros patrocinadores a través de nuestros canales de comunicación, incluyendo redes sociales, correo electrónico y en la página web del evento.",
-        "exclusiveness": "Sí, ofrecemos opciones de patrocinio exclusivo para ciertas sesiones y actividades. Contacta a nuestro equipo para más detalles."
+        "exclusiveness": "Sí, ofrecemos opciones de patrocinio exclusivo para ciertas sesiones y actividades. Completa el formulario y te contactaremos."
       }
     }
   },
@@ -63,8 +63,8 @@
     "speakers": "Speakers",
     "tickets": "Obtené tu ticket",
     "travel": "Travel & Info",
-    "register":"Registrate hoy!",
-    "button":"Save the date"
+    "register":"Regístrate Gratis!",
+    "button":"Regístrate Gratis!"
   },
   "form": {
     "name": "Nombre",

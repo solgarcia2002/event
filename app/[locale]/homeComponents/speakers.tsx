@@ -6,18 +6,19 @@ import Link from "next/link";
 import "./speakers.css";
 
 const Speakers: React.FC = () => {
-  const t = useTranslations("home.speakersBio")
+  const t = useTranslations("home")
 
   return (
     <div className="cont-speakers" id="speakers">
       <h3>Speakers</h3>
       <div className="speakers-cont-cards">
         {speakers.map((item, i) => (
-          <Link href={item.url}key={i} className="card" >
+          <Link href={item.url} key={i} className="card" >
               <div className={`cont-text-card ${item.bio}`}>
                 <p className="card-name">{item.name}</p>
                 <br />
-                <p className={`card-bio ${lora.className}`}>{t(item.bio)}</p>
+                
+                <p className={`card-bio ${lora.className}`}><strong>{t(`themes.${item.theme}`)} <br /></strong>{t(`speakersBio.${item.bio}`)}</p>
               </div>
               <Image src={item.img} alt={item.name} width={800} height={1182} />
               <video autoPlay loop muted playsInline className="video-speaker">
