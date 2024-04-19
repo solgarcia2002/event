@@ -15,6 +15,10 @@
   overflow: hidden;
 }
 
+.emp-light-grey{
+  margin-top: 1rem;
+}
+
 @keyframes ticker {
   0% {
     transform: translateX(50%);
