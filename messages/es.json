@@ -2,26 +2,41 @@
   "home": {
     "bannerDate": "24 de mayo - 3PM a 7PM",
     "banner": "landing businesses",
-    "wellbiz":"WellBiz Bridge #Miami",
+    "wellbiz": "WellBiz Bridge #Miami",
+    "sponsorship": {
+      "beneficios": {
+        "b1": "Stand en el evento",
+        "b2": "Entrevista y publicación de la misma al CEO o Directivos de la empresa",
+        "b3": "Entrega de material institucional /promocional en el evento",
+        "b4": "Posibilidad de proyectar un video institucional antes y después del evento (5 min máximo) relacionado con la temática trabajada",
+        "b5": "Presencia en nuestra Landing Page",
+        "b6": "Generación de Código QR con sus servicios",
+        "b7": "Presencia del logo institucional en toda la documentación presentada ante el auditorio",
+        "b8": "Roll up en el auditorio",
+        "b9": "Entrega de material institucional /promocional en el evento",
+        "b10": "Posibilidad de Sorteos Institucionales"
+      }
+      
+    },
     "speakersBio": {
       "angelesBio": "Aborda la innovación del modelo de negocios como clave en tiempos inciertos, destacando la importancia de superar las expectativas de los clientes con propuestas vanguardistas para mantener una ventaja competitiva.",
       "susanaBio": "Su lema encapsula una visión esencial: priorizar el bienestar de los empleados en el entorno laboral no solo beneficia a las personas, sino que también impulsa la productividad y rentabilidad de la empresa. ",
       "cesarBio": "César Shlain, un experto en negocios, nos guiará a través de su charla sobre cómo estructurar un negocio de manera efectiva. Descubre estrategias clave, consejos prácticos y la importancia de una sólida base organizativa para alcanzar el éxito empresarial.",
       "claudiaBio": "El encuentro aborda la mejora de la productividad mediante el bienestar laboral, explorando estrategias para un equilibrio vida-trabajo y gestionando el impacto del liderazgo en el equipo.",
-      "noeliaBio":"Noelia presenta una visión fascinante sobre cómo la inteligencia artificial impulsa los negocios. Su charla destaca cómo esta tecnología transforma los procesos empresariales, desde la automatización hasta la toma de decisiones estratégicas. ",
-      "sylviaBio":"",
-      "stellaBio":""
+      "noeliaBio": "Noelia presenta una visión fascinante sobre cómo la inteligencia artificial impulsa los negocios. Su charla destaca cómo esta tecnología transforma los procesos empresariales, desde la automatización hasta la toma de decisiones estratégicas. ",
+      "sylviaBio": "",
+      "stellaBio": ""
     },
-    "themes":{
-      "li1":"La importancia de la visión empresarial",
-      "li2":"Transformando la visión en un plan de negocios",
-      "li3":"Desarrollando la estructura empresarial",
-      "li4":"Optimizando el uso de la Inteligencia Artificial",
-      "li5":"Invertir en Bienestar para Impulsar la Productividad y Rentabilidad de tu Empresa"
+    "themes": {
+      "li1": "La importancia de la visión empresarial",
+      "li2": "Transformando la visión en un plan de negocios",
+      "li3": "Desarrollando la estructura empresarial",
+      "li4": "Optimizando el uso de la Inteligencia Artificial",
+      "li5": "Invertir en Bienestar para Impulsar la Productividad y Rentabilidad de tu Empresa"
     },
     "faqs": {
       "question": {
-        "wbb":"¿Qué es el WellBiz Bridge?",
+        "wbb": "¿Qué es el WellBiz Bridge?",
         "public": "¿Quién debería asistir a WellBiz Bridge?",
         "topics": "¿Qué temas se abordarán en el evento?",
         "register": "¿Cómo puedo registrarme para el evento?",
@@ -36,10 +51,10 @@
         "exclusiveness": "¿Hay oportunidades de patrocinio exclusivo para alguna de las actividades o sesiones?"
       },
       "answer": {
-        "wbb":"Es un encuentro  para empresarios y profesionales visionarios que buscan  que sus negocios sean sólidos y prósperos en Miami. El Well biz Bridge tiene tres ejes fundamentales:",
-        "item1":"WELL- El Bienestar: todos los empresarios y emprendedores debemos ser cada día más conscientes que es imprescindible que nuestros negocios impacten en nuestra calidad de vida.  Toda la información que estará disponible en este evento, no sólo facilitará los negocios, sino que hará más sencillo el desafío de crecer.",
-        "item2":"BIZ - El negocio:  tener claridad en lo que necesitamos saber y hacer para que nuestro negocio sea exitoso, es clave a la hora de desembarcar en Miami. No saberlo nos lleva a perder dinero, tiempo y a desilusionarnos. Los profesionales que nos acompañarán en en wellbiz brige son expertos en materia legal, financiera y en las habilidades blandas que se requiere para crear y dirigir equipos. ",
-        "item3":"BRIDGE - El networking: cada vez más necesitamos de alianzas estratégicas entre empresarios. No sólo hacernos conocer sino ver qué de lo que se ofrece puede potenciar mi negocio. La clave está en la calidad de las relaciones que generamos.",
+        "wbb": "Es un encuentro  para empresarios y profesionales visionarios que buscan  que sus negocios sean sólidos y prósperos en Miami. El Well biz Bridge tiene tres ejes fundamentales:",
+        "item1": "WELL- El Bienestar: todos los empresarios y emprendedores debemos ser cada día más conscientes que es imprescindible que nuestros negocios impacten en nuestra calidad de vida.  Toda la información que estará disponible en este evento, no sólo facilitará los negocios, sino que hará más sencillo el desafío de crecer.",
+        "item2": "BIZ - El negocio:  tener claridad en lo que necesitamos saber y hacer para que nuestro negocio sea exitoso, es clave a la hora de desembarcar en Miami. No saberlo nos lleva a perder dinero, tiempo y a desilusionarnos. Los profesionales que nos acompañarán en en wellbiz brige son expertos en materia legal, financiera y en las habilidades blandas que se requiere para crear y dirigir equipos. ",
+        "item3": "BRIDGE - El networking: cada vez más necesitamos de alianzas estratégicas entre empresarios. No sólo hacernos conocer sino ver qué de lo que se ofrece puede potenciar mi negocio. La clave está en la calidad de las relaciones que generamos.",
         "public": "Ideal para dueños y miembros de empresas, emprendedores, consultores y coaches interesados en el bienestar y crecimiento empresarial.",
         "topics": "Abordaremos la importancia de la visión empresarial, cómo convertirla en un plan de negocio, su estructuración efectiva y las estrategias de financiación. Además, exploraremos el uso de la inteligencia artificial en los negocios.",
         "register": "Puedes registrarte a través de nuestra página web, donde encontrarás una sección de inscripción. Solo necesitas completar el formulario.",
@@ -63,8 +78,8 @@
     "speakers": "Speakers",
     "tickets": "Obtené tu ticket",
     "travel": "Travel & Info",
-    "register":"Regístrate Gratis!",
-    "button":"Regístrate Gratis!"
+    "register": "Regístrate Gratis!",
+    "button": "Regístrate Gratis!"
   },
   "form": {
     "name": "Nombre",
@@ -84,63 +99,60 @@
     "formError": "No se pudo enviar tu mensaje, intenta nuevamente mas tarde",
     "callToAction1": "¿Quieres estar ahi?",
     "callToAction2": "¡Regístrate ahora para recibir nuestro newsletter y mantente informado sobre este emocionante evento!",
-    "sponsorTitle":"¡Gracias por tu interés en patrocinar nuestro evento en Miami!",
-    "sponsorBody":"Por favor, completa el siguiente formulario para que podamos conocerte mejor y explorar oportunidades de colaboración. Estamos emocionados de trabajar juntos para hacer de este evento un éxito memorable."
+    "sponsorTitle": "¡Gracias por tu interés en patrocinar nuestro evento en Miami!",
+    "sponsorBody": "Por favor, completa el siguiente formulario para que podamos conocerte mejor y explorar oportunidades de colaboración. Estamos emocionados de trabajar juntos para hacer de este evento un éxito memorable."
   },
-  "notFound":{
-    "message":"Página no encontrada",
-    "button":"Inicio"
+  "notFound": {
+    "message": "Página no encontrada",
+    "button": "Inicio"
   },
-  "speakers":{
-    "angeles":{
-      "name":"Angeles Lucero Bringas",
-      "title":"Especialista en transformación y sostenibilidad de empresas familiares.",
-      "themeTitle":"Temas",
-      "theme":"Cómo innovar tu modelo de negocio",
-      "p1":"En épocas cambiantes, respuestas disruptivas.",
-      "p2":"En un entorno incierto, volátil y vertiginoso es imperioso, pararse en la innovación como principal ventaja competitiva. Ir más allá de las necesidades de nuestros clientes, situándonos en una propuesta innovadora a la vanguardia de los tiempos que corren.",
-      "bioTitle":"Biografia",
-      "bio":"Soy María de los Ángeles Lucero Bringas, especialista en la transformación y sostenibilidad de empresas familiares. Nacida en Córdoba, mi herencia me enseñó el valor del trabajo, estudio y superación desde temprana edad. Con una carrera que abarca desde la contaduría hasta la consultoría de gestión, mi pasión por innovar y fortalecer las empresas familiares me llevó a estudiar en Barcelona y, finalmente, a establecerme en Miami. Inspirada por mi familia y mis raíces, mi misión es empoderar a las empresas familiares para que prosperen a través de la sostenibilidad, la innovación, y un liderazgo consciente, transformando no solo negocios sino también contribuyendo positivamente a nuestra sociedad y medio ambiente."
+  "speakers": {
+    "angeles": {
+      "name": "Angeles Lucero Bringas",
+      "title": "Especialista en transformación y sostenibilidad de empresas familiares.",
+      "themeTitle": "Temas",
+      "theme": "Cómo innovar tu modelo de negocio",
+      "p1": "En épocas cambiantes, respuestas disruptivas.",
+      "p2": "En un entorno incierto, volátil y vertiginoso es imperioso, pararse en la innovación como principal ventaja competitiva. Ir más allá de las necesidades de nuestros clientes, situándonos en una propuesta innovadora a la vanguardia de los tiempos que corren.",
+      "bioTitle": "Biografia",
+      "bio": "Soy María de los Ángeles Lucero Bringas, especialista en la transformación y sostenibilidad de empresas familiares. Nacida en Córdoba, mi herencia me enseñó el valor del trabajo, estudio y superación desde temprana edad. Con una carrera que abarca desde la contaduría hasta la consultoría de gestión, mi pasión por innovar y fortalecer las empresas familiares me llevó a estudiar en Barcelona y, finalmente, a establecerme en Miami. Inspirada por mi familia y mis raíces, mi misión es empoderar a las empresas familiares para que prosperen a través de la sostenibilidad, la innovación, y un liderazgo consciente, transformando no solo negocios sino también contribuyendo positivamente a nuestra sociedad y medio ambiente."
     },
-    "cesar":{
-      "name":"Mirian Torrado",
-      "title":"Reportera de relaciones publicas.",
-      "themeTitle":"Temas",
-      "theme":"Estrategias de integración organizacional.",
-      "p1":"Un Enfoque para la Colaboración y el Éxito Empresarial.",
-      "p2":"Este taller se enfoca en capacitar a los participantes sobre el uso de herramientas y estrategias para fomentar una cultura integradora en los equipos de trabajo. Se abordan temas como la definición y la importancia de las estrategias de integración organizacional, se presentan ejemplos concretos y se desarrollan programas para impulsar la colaboración, la comunicación y el trabajo en equipo dentro de la empresa. Se exploran barreras potenciales a la integración y se ofrecen soluciones mediante herramientas que fortalecen la cultura organizacional y alinean metas departamentales con los objetivos generales de la organización. Además, se trabaja en el desarrollo de habilidades de liderazgo y gestión del cambio para los líderes y gerentes. En resumen, este taller busca mejorar la eficiencia, la productividad y el sentido de pertenencia entre los miembros del equipo, alineándolos con los objetivos y la cultura de la empresa.",
-      "bioTitle":"Biografia",
-      "bio":"Mirian Maribel Torrado es una profesional destacada en Relaciones Públicas y conferencista internacional, con una sólida formación académica que incluye una Maestría en Administración de Empresas enfocada en Comercio Internacional, un Posgrado en Alta Gerencia, y una Licenciatura en Relaciones Públicas. Con más de dos décadas de experiencia y participación en eventos internacionales, dirige su propia firma de Relaciones Públicas y trabaja como reportera para diversas organizaciones y medios. Ha participado en campañas políticas en Panamá y Estados Unidos, y desempeña roles directivos en redes profesionales como REDIRP e ILCE. Su trayectoria incluye experiencia en el ámbito académico, gubernamental y empresarial, consolidándose como una figura integral en comunicaciones estratégicas y comercio internacional."
+    "cesar": {
+      "name": "Mirian Torrado",
+      "title": "Reportera de relaciones publicas.",
+      "themeTitle": "Temas",
+      "theme": "Estrategias de integración organizacional.",
+      "p1": "Un Enfoque para la Colaboración y el Éxito Empresarial.",
+      "p2": "Este taller se enfoca en capacitar a los participantes sobre el uso de herramientas y estrategias para fomentar una cultura integradora en los equipos de trabajo. Se abordan temas como la definición y la importancia de las estrategias de integración organizacional, se presentan ejemplos concretos y se desarrollan programas para impulsar la colaboración, la comunicación y el trabajo en equipo dentro de la empresa. Se exploran barreras potenciales a la integración y se ofrecen soluciones mediante herramientas que fortalecen la cultura organizacional y alinean metas departamentales con los objetivos generales de la organización. Además, se trabaja en el desarrollo de habilidades de liderazgo y gestión del cambio para los líderes y gerentes. En resumen, este taller busca mejorar la eficiencia, la productividad y el sentido de pertenencia entre los miembros del equipo, alineándolos con los objetivos y la cultura de la empresa.",
+      "bioTitle": "Biografia",
+      "bio": "Mirian Maribel Torrado es una profesional destacada en Relaciones Públicas y conferencista internacional, con una sólida formación académica que incluye una Maestría en Administración de Empresas enfocada en Comercio Internacional, un Posgrado en Alta Gerencia, y una Licenciatura en Relaciones Públicas. Con más de dos décadas de experiencia y participación en eventos internacionales, dirige su propia firma de Relaciones Públicas y trabaja como reportera para diversas organizaciones y medios. Ha participado en campañas políticas en Panamá y Estados Unidos, y desempeña roles directivos en redes profesionales como REDIRP e ILCE. Su trayectoria incluye experiencia en el ámbito académico, gubernamental y empresarial, consolidándose como una figura integral en comunicaciones estratégicas y comercio internacional."
     },
-    "claudia":{
-      "name":"Claudia Lalloz",
-      "title":"Coach especializada en Inteligencia Emocional en las Organizaciones.",
-      "themeTitle":"Temas",
-      "theme":"Habilidades Emocionales y Bienestar Emocional Empresarial",
-      "p1":"Equilibrando la Productividad y el Bienestar Laboral: Estrategias para un Liderazgo Consciente.",
-      "p2":"Esta charla abordará la estrecha relación entre la productividad y el bienestar en el entorno laboral, destacando cómo el estilo de liderazgo puede influir en el estrés y la desmotivación de los equipos. El objetivo es identificar y abordar situaciones laborales que generan malestar, impactando en el negocio, y desarrollar estrategias para lograr un equilibrio efectivo entre la vida personal y laboral. Se explorarán temas como el desarrollo del poder personal del líder, la identificación de desencadenantes de estrés, y el desarrollo de habilidades emocionales para un liderazgo efectivo y consciente.",
-      "bioTitle":"Biografia",
-      "bio":"Claudia Lalloz es una ejecutiva, empresaria y Máster Coach Organizacional con una destacada trayectoria en procesos de comunicación durante crisis empresariales. Con una doble Maestría en MCC de ICF y Máster Practitioner de la EMCC, es reconocida como la quinta Máster Coach de la EMCC en España y ha sido conferencista internacional en Latinoamérica y Europa. Su formación en Lingüística Pragmática y más de 20,000 horas de Coaching respaldan su habilidad para potenciar las habilidades comunicacionales de los equipos con precisión. Claudia es líder en Formación de Coaches a nivel internacional con sedes en Buenos Aires, Miami y Madrid, y ha sido presidenta de la International Coaching Federation en Argentina. También es autora de libros como 'El Ser y el Hacer del Coach' y 'La alquimia de las Preguntas', además de conducir un programa de radio en España, Radio Global Coaching y PNL."
+    "claudia": {
+      "name": "Claudia Lalloz",
+      "title": "Coach especializada en Inteligencia Emocional en las Organizaciones.",
+      "themeTitle": "Temas",
+      "theme": "Habilidades Emocionales y Bienestar Emocional Empresarial",
+      "p1": "Equilibrando la Productividad y el Bienestar Laboral: Estrategias para un Liderazgo Consciente.",
+      "p2": "Esta charla abordará la estrecha relación entre la productividad y el bienestar en el entorno laboral, destacando cómo el estilo de liderazgo puede influir en el estrés y la desmotivación de los equipos. El objetivo es identificar y abordar situaciones laborales que generan malestar, impactando en el negocio, y desarrollar estrategias para lograr un equilibrio efectivo entre la vida personal y laboral. Se explorarán temas como el desarrollo del poder personal del líder, la identificación de desencadenantes de estrés, y el desarrollo de habilidades emocionales para un liderazgo efectivo y consciente.",
+      "bioTitle": "Biografia",
+      "bio": "Claudia Lalloz es una ejecutiva, empresaria y Máster Coach Organizacional con una destacada trayectoria en procesos de comunicación durante crisis empresariales. Con una doble Maestría en MCC de ICF y Máster Practitioner de la EMCC, es reconocida como la quinta Máster Coach de la EMCC en España y ha sido conferencista internacional en Latinoamérica y Europa. Su formación en Lingüística Pragmática y más de 20,000 horas de Coaching respaldan su habilidad para potenciar las habilidades comunicacionales de los equipos con precisión. Claudia es líder en Formación de Coaches a nivel internacional con sedes en Buenos Aires, Miami y Madrid, y ha sido presidenta de la International Coaching Federation en Argentina. También es autora de libros como 'El Ser y el Hacer del Coach' y 'La alquimia de las Preguntas', además de conducir un programa de radio en España, Radio Global Coaching y PNL."
     }
   },
-  "metadata":{
-    "home":{
-      "title":"WellBiz Bridge | Home",
-      "description":"Únete a la vanguardia del éxito empresarial en el evento WellBiz Bridge en Miami este 24 de mayo. Descubre cómo fortalecer tu negocio, mejorar tu bienestar y expandir tu red en un solo lugar. Con paneles dedicados a aspectos legales, financieros y de bienestar, WellBiz Bridge es el encuentro definitivo para empresarios y profesionales que buscan prosperar en un mundo en constante cambio. Regístrate ahora para conectar, aprender y crecer en el JW Marriott, Miami.",
-      "keywords":"WellBiz Bridge Miami, Evento empresarial Miami, Networking para empresarios, Bienestar en el trabajo, Innovación empresarial, Crecimiento de negocios, Evento de liderazgo y gestión, Tecnología y negocios, Estrategias de negocio 2024, Salud empresarial y productividad"
+  "metadata": {
+    "home": {
+      "title": "WellBiz Bridge | Home",
+      "description": "Únete a la vanguardia del éxito empresarial en el evento WellBiz Bridge en Miami este 24 de mayo. Descubre cómo fortalecer tu negocio, mejorar tu bienestar y expandir tu red en un solo lugar. Con paneles dedicados a aspectos legales, financieros y de bienestar, WellBiz Bridge es el encuentro definitivo para empresarios y profesionales que buscan prosperar en un mundo en constante cambio. Regístrate ahora para conectar, aprender y crecer en el JW Marriott, Miami.",
+      "keywords": "WellBiz Bridge Miami, Evento empresarial Miami, Networking para empresarios, Bienestar en el trabajo, Innovación empresarial, Crecimiento de negocios, Evento de liderazgo y gestión, Tecnología y negocios, Estrategias de negocio 2024, Salud empresarial y productividad"
     },
-    "speakers":{
-      "title":"",
-      "description":"",
-      "keywords":""
+    "speakers": {
+      "title": "",
+      "description": "",
+      "keywords": ""
     },
-    "schedule":{
-      "title":"",
-      "description":"",
-      "keywords":""
+    "schedule": {
+      "title": "",
+      "description": "",
+      "keywords": ""
     }
   }
-
-  
-  
 }
