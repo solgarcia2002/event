@@ -15,14 +15,12 @@ const SponsorsList: React.FC = () => {
     { logo: "/logo-latam.png", width: 110, height: 110 },
     { logo: "/logo-camara.png", width: 110, height: 110 },
   ];
-  const colors = [
-    "default",
-    "primary",
-    "secondary",
-    "success",
-    "warning",
-    "danger",
-  ];
+  const tabStyle = {
+    tabList: " gap-2 w-full relative p-2 border-b border-divider text-white",
+    cursor: "bg-background-dark p-2",
+    tabContent: "group-data-[selected=true]:text-[#FFF] text-lg ",
+    
+  };
 
   return (
     <div className="cont-sponsors-list">
@@ -40,9 +38,9 @@ const SponsorsList: React.FC = () => {
           ))}
         </div>
       </div>
-      <div className="flex flex-wrap gap-4 emp-light-grey">
-        <Tabs aria-label="Sponsorship options">
-          <Tab key="photos" title="Diamond">
+      <div className="cont-tabs">
+        <Tabs aria-label="Sponsorship options" classNames={tabStyle}>
+          <Tab key="photos" title="Diamond" >
           <SponsorDetail
               sponsorshipName="Diamond Sponsorship"
               beneficios={[
@@ -58,11 +56,12 @@ const SponsorsList: React.FC = () => {
                 "b10",
               ]}
               inversion="6K"
+              image="diamond"
             />
           </Tab>
           <Tab key="platinum" title="Platinum">
           <SponsorDetail
-              sponsorshipName="Platinumn Sponsorship"
+              sponsorshipName="Platinum Sponsorship"
               beneficios={[
                 "b1",
                 "b3",
@@ -75,6 +74,7 @@ const SponsorsList: React.FC = () => {
                 "b10",
               ]}
               inversion="4K"
+              image="platinum"
             />
           </Tab>
           <Tab key="gold" title="Gold">
@@ -89,6 +89,7 @@ const SponsorsList: React.FC = () => {
                 "b10",
               ]}
               inversion="3K"
+              image='gold'
             />
           </Tab>
           <Tab key="plata" title="Silver">
@@ -102,6 +103,7 @@ const SponsorsList: React.FC = () => {
                 "b10",
               ]}
               inversion="2K"
+              image='silver'
             />
           </Tab>
         </Tabs>
