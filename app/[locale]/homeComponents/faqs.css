@@ -2,12 +2,24 @@
   padding: 7rem 10%;
 }
 
-.accordion-item > h2{
+.accordion  {
+  background-color: var(--background-dark);
+  
+}
+
+.group.is-splitted .group-\[\.is-splitted\]\:bg-content1 {
+  background-color: var(--background-dark);
+
+}
+
+button > div >.text-foreground {
+  color: var(--white);
   font-size: 2rem;
+  line-height: 1.4;
 }
 
 @media screen and (max-width:800px) {
-  .accordion-item > h2 {
+  button > div >.text-foreground {
     font-size: 1rem;
   }
 }
