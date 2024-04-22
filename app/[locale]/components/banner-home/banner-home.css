@@ -20,8 +20,12 @@
 
 
 .banner-text >p {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
+}
+
+.slogan {
+  font-size: 1.5rem;
 }
 
 .cont-logos-video {
@@ -52,6 +56,15 @@
   .banner-text {
     width: 70%;
   }
+
+  .banner-text > h1 {
+    font-size: 2rem;
+  }
+
+  .banner-text >p {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
 }
 
 @media screen and (max-width:900px) {
@@ -65,13 +78,14 @@
     align-items: end;
   }
 
+  
+}
+
+@media screen and (max-width:800px) {
   .banner-text {
     width: 70%;
     display: none;
   }
-}
-
-@media screen and (max-width:800px) {
 
   .title-mobile, .slogan-mobile  {
     display: flex;
@@ -79,13 +93,9 @@
   .banner-text {
     width: 90%;
   }
-  .banner-text > h1 {
-    font-size: 2rem;
-  }
-
-  .banner-text >p {
-    font-size: 1.5rem;
-    line-height: 1;
+  
+  .slogan {
+    font-size: 1rem;
   }
 
   .banner-text > img {

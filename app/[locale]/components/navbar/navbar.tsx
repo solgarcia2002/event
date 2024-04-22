@@ -75,12 +75,13 @@ export default function App() {
           <Button title="Sé un sponsor!" onClick={onOpen} />
         </NavbarItem>
       </NavbarContent>
-      <NavbarMenu className="navbar-mobile">
+      <NavbarMenu className="navbar-mobile bg-black-transparent">
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`} >
             <Link
               className="w-full"
               href={item.url}
+              onClick={()=>setIsMenuOpen(false)}
             >
               {item.link}
             </Link>
