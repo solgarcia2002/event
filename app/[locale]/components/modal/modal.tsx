@@ -14,6 +14,7 @@ const ModalSponsor = ({isOpen, onClose}:ModalTypes) => {
   return(
     <>
     <Modal 
+        className="bg-black-transparent"
         backdrop="blur"
         size="4xl" 
         isOpen={isOpen} 

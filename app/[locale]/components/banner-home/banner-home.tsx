@@ -51,6 +51,7 @@ const BannerVideo = ({
             className="logo-video"
           />
         </div>
+        <p className={`slogan ${lora.className}`}>{t("slogan")}</p>
       </div>
       <div className="slogan-mobile">
         <div>
@@ -58,6 +59,8 @@ const BannerVideo = ({
           {paragraph && <p className={lora.className}>{t(paragraph)}</p>}
           <br />
           {children}
+          <p className={`slogan ${lora.className}`}>{t("slogan")}</p>
+
         </div>
 
         <div className="cont-logos-video">
