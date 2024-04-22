@@ -37,21 +37,21 @@ function ChangeLanguageButton() {
   return (
     <Dropdown>
       <DropdownTrigger>
-        <Button aria-label="menu-translations" className="world-icon text-pink p-0 rounded-full min-w-[3.2rem] h-[3rem] bg-white">
+        <Button aria-label="menu-translations" className="world-icon text-white p-0 rounded-full min-w-[3.2rem] h-[3rem] bg-white">
           <FontAwesomeIcon icon={faGlobe} size="xl" />
         </Button>
       </DropdownTrigger>
 
       <DropdownMenu aria-label="Translation menu" className="dropdown-menu">
         <DropdownItem 
-          className="text-pink focus-visible:border-0" 
+          className=" focus-visible:border-0 text-background-dark" 
           textValue="es"
           >
           <button className="button-dropd" onClick={() => handleLanguageChange("es")}>
             {t("translationEs")}
           </button>
         </DropdownItem>
-        <DropdownItem className="text-pink focus-visible:border-0" textValue="en">
+        <DropdownItem className="text-background-dark focus-visible:border-0" textValue="en">
           <button className="button-dropd" onClick={() => handleLanguageChange("en")}>
             {t("translationEn")}
           </button>
