@@ -7,6 +7,7 @@ import { Mukta } from "next/font/google";
 import Footer from "./components/footer/footer";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import "../globals.css";
+import jsonLd from "./components/JsonLd/JsonLd";
 
 const mukta = Mukta({ 
   subsets:["latin"],
@@ -41,6 +42,10 @@ export default async  function RootLayout({ children, params }: LocaleLayoutProp
           async
           src="https://www.googletagmanager.com/gtag/js?id=GTM-PGBP25SH"
         ></script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <meta
           name="google-site-verification"
           content="LvEZ6FBvIfX6e1HjkgKD91Rgun2dA5rwCoGwBvbyf3k"
