@@ -20,6 +20,7 @@ export async function generateMetadata() {
 export default function Home() {
   return (
     <main>
+      
       <BannerVideo
         translationTitle="home"
         video="/home.mp4"
