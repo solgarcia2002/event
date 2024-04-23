@@ -8,7 +8,29 @@ footer{
   background-position: center;
 }
 
+.links-social-media {
+  display: flex;
+  gap: 2rem;
+}
+
+.links-social-media > button {
+  font-size: 1.5rem ;
+  height: fit-content;
+}
+
+.links-social-media > button:hover {
+  color: var(--deeppink);
+  transition: color  0.5s ease-in-out ;
+}
+
 .links-list {
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width:800px) {
+  footer {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
