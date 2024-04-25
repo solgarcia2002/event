@@ -29,9 +29,9 @@ const Footer:React.FC = () => {
       </div>
       <div className="links-social-media">
         {linksSocialMedia.map((item, i) =>(
-          <button aria-label={item.title} onClick={()=>router.push(item.url)} key={i} >
+          <Link className="link-socialM" aria-label={item.title} href={item.url} target="_blank" key={i} >
             {item.icon}
-          </button>
+          </Link>
         ))}
       </div>
       <div className="links-list">

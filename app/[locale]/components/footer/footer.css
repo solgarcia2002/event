@@ -13,12 +13,12 @@ footer{
   gap: 2rem;
 }
 
-.links-social-media > button {
+.link-socialM {
   font-size: 1.5rem ;
   height: fit-content;
 }
 
-.links-social-media > button:hover {
+.link-socialM:hover {
   color: var(--deeppink);
   transition: color  0.5s ease-in-out ;
 }
