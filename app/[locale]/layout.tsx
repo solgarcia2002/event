@@ -50,7 +50,7 @@ export default async  function RootLayout({ children, params }: LocaleLayoutProp
           name="google-site-verification"
           content="LvEZ6FBvIfX6e1HjkgKD91Rgun2dA5rwCoGwBvbyf3k"
         />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </head>
       <body className={mukta.className}>
       <NextIntlClientProvider locale={locale} messages={messages}>
