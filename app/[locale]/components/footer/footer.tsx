@@ -16,8 +16,8 @@ const Footer:React.FC = () => {
   ]
 
   const linksSocialMedia = [
-    {title:'Facebook', url:'https://www.facebook.com/profile.php?id=61558330092580', icon:<FontAwesomeIcon icon={faInstagram} />},
-    {title:'Instagram', url:'https://www.instagram.com/wellbizbridgemiami2024/', icon:<FontAwesomeIcon icon={faFacebook} />},
+    {title:'Facebook', url:'https://www.facebook.com/profile.php?id=61558330092580', icon:<FontAwesomeIcon icon={faFacebook} />},
+    {title:'Instagram', url:'https://www.instagram.com/wellbizbridgemiami2024/', icon:<FontAwesomeIcon icon={faInstagram} />},
     {title:'Linkedin', url:'https://www.linkedin.com/company/102448014/admin/feed/posts/', icon:<FontAwesomeIcon icon={faLinkedin} />},
   ]
 
