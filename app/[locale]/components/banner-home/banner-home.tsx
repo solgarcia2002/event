@@ -9,7 +9,7 @@ type BannerVideoTypes = {
   title: string;
   subtitle: string;
   paragraph?: string;
-  children: React.JSX.Element;
+  children?: React.JSX.Element;
 };
 
 const BannerVideo = ({

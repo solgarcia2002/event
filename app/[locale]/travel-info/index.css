@@ -1,5 +1,5 @@
 .cont-travel-info{
-  padding: 0 15%;
+  padding: 5rem 10%;
 }
 
 .cont-travel-info > p {
@@ -10,23 +10,32 @@
   margin: 4rem 0;
 }
 
+.info-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
 .item-info {
   margin: 3rem 0;
+  width: 45%;
 }
 
 .item-info > h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .body-item {
   display: flex;
-  gap: 4rem;
+  flex-direction: column;
+  gap: 2rem;
   margin: 2rem 0;
   width: 100%;
+  align-items: center;
 }
 
 .image {
-  width: 50%;
+  width: 80%;
   overflow: hidden;
 }
 
@@ -41,14 +50,14 @@
 
 
 .body-item > p {
-  font-size: 1.3rem;
-  width: 50%;
+  font-size: 1rem;
+  width: 100%;
 
 }
 
 @media screen and (max-width:800px) {
-  .body-item {
-    flex-direction: column;
+  .item-info {
+    width: 100%;
   }
 
   .cont-travel-info > p {
@@ -67,5 +76,9 @@
   .image {
     width: 100%;
     overflow: hidden;
+  }
+
+  .info-grid{
+    gap:1rem;
   }
 }
