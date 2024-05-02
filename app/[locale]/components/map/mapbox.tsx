@@ -34,7 +34,10 @@ const Map: React.FC<MapProps> = ({ accessToken }) => {
       .setPopup(
         new mapboxgl.Popup({ offset: 25, className:'popup' }) // add popups
           .setHTML(
-            `<p className='popup'>JW Marriot Hotel</p>`
+            `<div>
+            <img src='/logo-wb-border.png' />
+            <p>JW Marriot Hotel</p>
+          </div>`
           )
       );
       marker1.addTo(map)
@@ -52,6 +55,7 @@ const Map: React.FC<MapProps> = ({ accessToken }) => {
         height: '400px',
       }}
     />
+    
   );
 };
 
