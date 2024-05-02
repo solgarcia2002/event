@@ -14,7 +14,7 @@ const TravelPage: React.FC = () =>{
       loop
       muted
       playsInline
-      className="fixed top-0 left-0 min-w-full min-h-full z-0"
+      className="fixed top-0 left-0 w-full h-screen object-cover z-0"
     >
       <source src="/wellBiz-bridge-travel-and-info.mp4" type="video/mp4" />
     </video>
