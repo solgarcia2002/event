@@ -151,5 +151,63 @@
       "description": "",
       "keywords": ""
     }
+  },
+  "travel": {
+    "title": "Travel & Info",
+    "shortIntro": "Miami is distinguished not only for its weather and beaches but also as a vibrant hub for corporate events, with over 480 hotels and 64,000 rooms. This city offers an ideal space for business and networking, hosting major conventions and trade fairs. The combination of functionality and recreation in Miami creates a perfect environment for professional connections in an exciting setting.",
+    "nature": [
+      {
+        "imagen": "/wellbiz-bridge-biscayne-national-park-institute.png",
+        "name": "Biscayne National Park Institute",
+        "coords": "25.73194345944568, -80.23332337065925",
+        "description": "Explore and learn at Biscayne National Park with adventures that blend fun and education. Sail, paddle, dive, and discover islands with the Biscayne National Park Institute, a collaboration with the Florida National Parks Association. These experiences not only enrich your knowledge about the nature and history of the park but also support its conservation. Participate in our unique activities and contribute to preserving this national treasure for future generations."
+      },
+      {
+        "imagen": "/wellbiz-bridge-larry-penny-thompson-park.png",
+        "name": "Larry & Penny Thompson Park",
+        "coords": "25.60153484567432, -80.39438125397356",
+        "description": "Discover the Larry and Penny Thompson Memorial Park and Campground in Miami-Dade, a 270-acre green space perfect for both business and recreation. With 240 campsites for vehicles and a tent area, the park offers modernities like free WiFi and extensive camping facilities. Explore outdoor activities such as swimming, biking, and picnicking, or delve into the history of its namesakes with exhibitions at the campground office."
+      },
+      {
+        "imagen": "/wellbiz-bridge-everglades-national-park.png",
+        "name": "Everglades National Park",
+        "coords": "25.31464223974211, -80.77509092819268",
+        "description": "Located at the southern tip of Florida, Everglades National Park is a vast subtropical ecosystem and a World Heritage Site. This 1.5 million-acre park is ideal for combining business with adventure. It offers a variety of activities, from kayaking to boat tours, perfect for team building and networking in a natural environment. Participate in guided tours to explore the rich biodiversity and discuss future projects surrounded by stunning nature, making each professional encounter a memorable and sustainable experience."
+      },
+      {
+        "imagen": "/wellbiz-bridge-crandon-park.png",
+        "name": "Crandon Park",
+        "coords": "25.70959383438231, -80.15611035582232",
+        "description": "Crandon Park in Key Biscayne is an ideal getaway from Miami, offering peaceful beaches and outdoor activities. Enjoy natural trails, snorkeling tours, or relax in cabanas after an active day. Athletes can play on the challenging Crandon Golf Course, one of the most beautiful according to Golf Digest, or compete in the 26 tennis courts at the Tennis Center, former home of the PGA Open. Perfect for combining business and recreation in a spectacular natural setting."
+      }
+    ],
+    "shops": [
+      {
+        "imagen": "/wellbiz-bridge-saks-fifth-avenue-brickell.png",
+        "name": "Saks Fifth Avenue-Brickell",
+        "coords": "25.766773524403916, -80.19416115582233",
+        "description": "Saks Fifth Avenue stands out in the world of luxury retail for its impeccable selection of collections from renowned designers, both American and international. More than just a store, it is a fashion destination offering a superior shopping experience each visit, with an exquisite range of handbags, shoes, jewelry, and cosmetics carefully selected. Each customer enjoys exceptional service, courtesy of a team dedicated to providing fashion advice and personalized attention, elevating every purchase to a memorable event."
+      },
+      {
+        "imagen": "/wellbiz-bridge-brickell-city-center.png",
+        "name": "Brickell City Centre",
+        "coords": "25.767270289398002, -80.19285771534213",
+        "description": "Brickell City Centre is an urban luxury sanctuary in Miami, offering three levels of shopping, dining, and entertainment, all anchored by a stunning 107,000 square-foot Saks Fifth Avenue store. This 500,000 square-foot shopping space is distinguished by its vertical design and houses a diversity of luxury brands ranging from premium firms to the latest market newcomers, covering everything from fashion and jewelry to home decor and beauty."
+      },
+      {
+        "imagen": "/wellbiz-bridge-aventura-mall.png",
+        "name": "Aventura Mall",
+        "coords": "25.95702157541032, -80.14221278863114",
+        "description": "Aventura Mall is not just a shopping center, but a vibrant destination for art, fashion, and dining in North Miami. This evolving space offers an impressive selection of over 300 luxury stores, including icons like Hermès, Gucci, and Louis Vuitton, alongside retail giants like Nordstrom and Bloomingdale's. More than shopping, the mall enriches the experience with its art program featuring more than 20 museum-worthy pieces scattered throughout its corridors, including works by Carsten Höller and Robert Indiana."
+      },
+      {
+        "imagen": "/wellbiz-bridge-ocean-drive.png",
+        "name": "Collins Avenue/Ocean Drive Shopping District",
+        "coords": "25.781322633590065, -80.13044006847933",
+        "description": "South Beach, in the heart of Miami Beach, is the epicenter of fashion, art, culture, and entertainment, attracting celebrities and creatives from all walks of life. Ocean Drive, iconic for its vibrant nightlife and art deco architecture, stands out with over 30 designer brands, establishing itself as the forefront of fashion trends in the region. Concurrently, Collins Avenue, known as the 'Cool Capital,' is dotted with boutiques and accessory stores that capture the essence of the latest in fashion. Miami Beach continues to seduce a young and trendy audience with stores like Vans and Free People, while boutique hotels like the renowned Hotel South Beach on Collins Avenue, reinforce its reputation as a key destination for style and sophistication enthusiasts."
+      }
+    ]
   }
+  
+  
 }

@@ -160,45 +160,46 @@
     "title":"Travel & Info", 
     "shortIntro":"Miami se distingue no solo por su clima y playas sino también como un vibrante centro para eventos corporativos, con más de 480 hoteles y 64,000 habitaciones. Esta ciudad ofrece un espacio ideal para negocios y networking, albergando importantes convenciones y ferias comerciales. La combinación de funcionalidad y recreación en Miami crea un ambiente perfecto para conexiones profesionales en un entorno estimulante.",
     "nature":[{
-      "imagen":"",
+      "imagen":"/wellbiz-bridge-biscayne-national-park-institute.png",
       "name":"Instituto Biscayne National Park ",
       "coords":"25.73194345944568, -80.23332337065925", 
       "description": "Explora y aprende en Biscayne National Park con aventuras que combinan diversión y educación. Navega, rema, bucea y descubre islas en compañía del Biscayne National Park Institute, una colaboración con la Asociación de Parques Nacionales de Florida. Estas experiencias no solo enriquecen tu conocimiento sobre la naturaleza y la historia del parque, sino que también apoyan su conservación. Participa en nuestras actividades únicas y contribuye a preservar este tesoro nacional para futuras generaciones."
     }, {
-      "imagen":"",
+      "imagen":"/wellbiz-bridge-larry-penny-thompson-park.png",
       "name":"Larry & Penny Thompson Park",
       "coords":"25.60153484567432, -80.39438125397356", 
       "description": "Descubre el Larry and Penny Thompson Memorial Park and Campground en Miami-Dade, un espacio verde de 270 acres perfecto para negocios y recreación. Con 240 campings para vehículos y un área de tiendas, el parque ofrece modernidades como WiFi gratuito y amplias instalaciones de camping. Explora actividades al aire libre como natación, ciclismo y picnics, o sumérgete en la historia de sus nombresakes con exposiciones en la oficina del campamento. "
     }, {
-      "imagen":"",
+      "imagen":"/wellbiz-bridge-everglades-national-park.png",
       "name":"Everglades National Park",
       "coords":"25.31464223974211, -80.77509092819268", 
       "description": "Ubicado en el extremo sur de Florida, Everglades National Park es un vasto ecosistema subtropical y Patrimonio de la Humanidad. Este parque de 1.5 millones de acres es ideal para combinar negocios con aventura. Ofrece una variedad de actividades, desde kayak hasta tours en bote, perfectas para el team building y networking en un entorno natural. Participa en visitas guiadas para explorar la rica biodiversidad y discute proyectos futuros rodeado de una naturaleza impresionante, haciendo de cada encuentro profesional una experiencia memorable y sostenible."
     }, {
-      "imagen":"",
+      "imagen":"/wellbiz-bridge-crandon-park.png",
       "name":"Crandon Park",
       "coords":"25.70959383438231, -80.15611035582232", 
       "description": "Crandon Park en Key Biscayne es una escapada ideal desde Miami, ofreciendo tranquilas playas y actividades al aire libre. Disfruta de senderos naturales, tours de snorkel, o relájate en cabañas tras un día activo. Los deportistas pueden jugar en el desafiante campo de golf Crandon, uno de los más bellos según Golf Digest, o competir en las 26 canchas de tenis del Tennis Center, anterior sede del PGA Open. Perfecto para combinar negocios y recreación en un entorno natural espectacular."
     }],
     "shops":[{
-      "imagen":"",
+      "imagen":"/wellbiz-bridge-saks-fifth-avenue-brickell.png",
       "name":"Saks Fifth Avenue-Brickell",
       "coords":"25.766773524403916, -80.19416115582233", 
       "description": "Saks Fifth Avenue se destaca en el mundo del retail de lujo por su impecable selección de colecciones de diseñadores de renombre tanto estadounidenses como internacionales. Más que una simple tienda, es un destino de moda que ofrece una experiencia superior en cada visita, con una gama exquisita de bolsos, zapatos, joyas y cosméticos cuidadosamente seleccionados. Cada cliente disfruta de un servicio excepcional, cortesía de un equipo dedicado a brindar asesoramiento de moda y atención personalizada, elevando cada compra a un evento memorable."
     }, {
-      "imagen":"",
+      "imagen":"/wellbiz-bridge-brickell-city-center.png",
       "name":"Brickell City Centre",
       "coords":"25.767270289398002, -80.19285771534213", 
       "description": "Brickell City Centre es un santuario urbano de lujo en Miami, ofreciendo tres niveles de compras, gastronomía y entretenimiento, todo anclado por una imponente tienda Saks Fifth Avenue de 107,000 pies cuadrados. Este espacio de compras de 500,000 pies cuadrados se destaca por su diseño vertical y alberga una diversidad de marcas de lujo que van desde firmas premium hasta las últimas novedades en el mercado, cubriendo todo desde moda y joyería hasta decoración del hogar y belleza."
     }, {
-      "imagen":"",
+      "imagen":"/wellbiz-bridge-aventura-mall.png",
       "name":"Aventura Mall",
       "coords":"25.95702157541032, -80.14221278863114", 
       "description": "Aventura Mall no es solo un centro de compras, sino un vibrante destino de arte, moda y gastronomía en el norte de Miami. Este espacio evolutivo ofrece una impresionante selección de más de 300 tiendas de lujo, incluyendo íconos como Hermès, Gucci y Louis Vuitton, junto a gigantes de retail como Nordstrom y Bloomingdale's. Más que compras, el mall enriquece la experiencia con su programa de arte que cuenta con más de 20 piezas dignas de museo dispersas por sus pasillos, incluyendo obras de Carsten Höller y Robert Indiana."
     }, {
-      "imagen":"",
+      "imagen":"/wellbiz-bridge-ocean-drive.png",
       "name":"Collins Avenue/Ocean Drive Shopping District",
       "coords":"25.781322633590065, -80.13044006847933", 
       "description": "South Beach, en el corazón de Miami Beach, es el epicentro de la moda, el arte, la cultura y el entretenimiento, atrayendo a celebridades y creativos de todos los ámbitos. Ocean Drive, emblemática por su vibrante vida nocturna y arquitectura art deco, se destaca con más de 30 marcas de diseñador, estableciéndose como la vanguardia de las tendencias de moda en la región. Paralelamente, Collins Avenue, conocida como la \"Capital de lo Cool\", está salpicada de boutiques y tiendas de accesorios que capturan la esencia de lo último en moda. Miami Beach continúa seduciendo a una audiencia joven y trendy con tiendas como Vans y Free People, mientras que los hoteles boutique como el renombrado Hotel South Beach en Collins Avenue, refuerzan su reputación como un destino clave para los amantes del estilo y la sofisticación."
     }]
-  }}
+  }
+}
