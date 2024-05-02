@@ -9,7 +9,6 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import { GoogleAnalytics } from '@next/third-parties/google'
 import jsonLd from "./components/JsonLd/JsonLd";
 import "../globals.css";
-import Script from "next/script";
 
 const mukta = Mukta({ 
   subsets:["latin"],
@@ -42,7 +41,8 @@ export default async  function RootLayout({ children, params }: LocaleLayoutProp
       <head>
         <GoogleAnalytics gaId="GTM-PGBP25SH" />
         
-        <Script
+        <script
+          id="application/ld+json"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
@@ -50,7 +50,6 @@ export default async  function RootLayout({ children, params }: LocaleLayoutProp
           href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css"
           rel="stylesheet"
         />
-        <Script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></Script>
         <meta
           name="google-site-verification"
           content="LvEZ6FBvIfX6e1HjkgKD91Rgun2dA5rwCoGwBvbyf3k"
