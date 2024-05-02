@@ -1,0 +1,11 @@
+.popup {
+  color: var(--background-dark)
+}
+
+.mapboxgl-popup-content >div > img {
+  width: 2rem;
+}
+
+body > div > div > div.mapboxgl-map > div.popup.mapboxgl-popup.mapboxgl-popup-anchor-bottom > div.mapboxgl-popup-content > button {
+  border: none;
+}
