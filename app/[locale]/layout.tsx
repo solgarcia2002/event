@@ -46,6 +46,11 @@ export default async  function RootLayout({ children, params }: LocaleLayoutProp
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <link
+          href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css"
+          rel="stylesheet"
+        />
+        <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
         <meta
           name="google-site-verification"
           content="LvEZ6FBvIfX6e1HjkgKD91Rgun2dA5rwCoGwBvbyf3k"
