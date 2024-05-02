@@ -2,27 +2,34 @@ import { useTranslations } from "next-intl";
 import { travelNature, travelShops } from "../data/travel";
 import InfoSection from "./info-section";
 import Map from "../components/map/mapbox";
-import BannerVideo from "../components/banner-home/banner-home";
+
 import './index.css';
 
 const TravelPage: React.FC = () =>{
   const t = useTranslations("travel");
   const mapboxAccessToken = process.env.NEXT_PUBLIC_MAPBOX as string
-  return(
-    <div >
-      <BannerVideo translationTitle="travel" title="title" subtitle="slogan" video="/wellBiz-bridge-travel-and-info.mp4">
-        <>
-          <p>WellBiz Bridge #miami 2024 </p>
-          <p>JW Marriott Miami Hotel</p>
-        </>
-      </BannerVideo>
+  return(<>
+    <video
+      autoPlay
+      loop
+      muted
+      playsInline
+      className="fixed top-0 left-0 min-w-full min-h-full z-0"
+    >
+      <source src="/wellBiz-bridge-travel-and-info.mp4" type="video/mp4" />
+    </video>
+  
+    <div className="relative z-10 w-full h-full">
+      <h1 className="text-white text-6xl font-bold p-8">Travel & Info</h1>
+      <h6 className="text-white text-3xl p-8">{t("shortIntro")}</h6>
       <Map accessToken={mapboxAccessToken} />
       <div className="cont-travel-info">
-        <p>{t("shortIntro")}</p>
         <InfoSection travelInfo={travelNature} langTitle="nature" />
         <InfoSection travelInfo={travelShops} langTitle="shops" />
       </div>
     </div>
+  </>
+  
   )
 }
 export default TravelPage;
