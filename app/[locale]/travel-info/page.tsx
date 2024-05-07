@@ -2,8 +2,18 @@ import { useTranslations } from "next-intl";
 import { travelNature, travelShops } from "../data/travel";
 import InfoSection from "./info-section";
 import Map from "../components/map/mapbox";
+import { getTranslations } from "next-intl/server";
 
 import './index.css';
+
+export async function generateMetadata() {
+  const t = await getTranslations("metadata.travel-info");
+  return {
+    title: t("title"),
+    description: t("description"),
+    keywords: t("keywords").split(",")
+  };
+}
 
 const TravelPage: React.FC = () =>{
   const t = useTranslations("travel");

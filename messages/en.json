@@ -3,7 +3,7 @@
     "bannerDate": "May 24th - 3PM to 7PM - JW Marriott Miami",
     "banner": "landing businesses",
     "wellbiz": "WellBiz Bridge #Miami",
-    "slogan":"Structure your vision, finance your future.",
+    "slogan": "Structure your vision, finance your future.",
     "sponsorship": {
       "beneficios": {
         "b1": "Booth at the event",
@@ -103,9 +103,16 @@
     "sponsorTitle": "Thank you for your interest in sponsoring our event in Miami!",
     "sponsorBody": "Please complete the following form so we can get to know you better and explore collaboration opportunities. We are excited to work together to make this event a memorable success."
   },
+  "notFound": {
+    "message": "Page not found",
+    "button": "Home"
+  },
   "speakers": {
+    "register": "Don't forget to register!",
+    "button": "Register",
     "angeles": {
       "name": "Angeles Lucero Bringas",
+      "slogan": "Will you follow the path set or will you be the architect of your own destiny?",
       "title": "Specialist in transformation and sustainability of family businesses.",
       "themeTitle": "Themes",
       "theme": "How to innovate your business model",
@@ -114,18 +121,20 @@
       "bioTitle": "Biography",
       "bio": "I am María de los Ángeles Lucero Bringas, a specialist in the transformation and sustainability of family businesses. Born in Córdoba, my heritage taught me the value of work, study, and self-improvement from an early age. With a career ranging from accounting to management consulting, my passion for innovating and strengthening family businesses led me to study in Barcelona and finally establish myself in Miami. Inspired by my family and roots, my mission is to empower family businesses to thrive through sustainability, innovation, and conscious leadership, transforming not only businesses but also positively contributing to our society and environment."
     },
-    "mirian": {
-      "name": "Mirian Torrado",
-      "title": "Public relations reporter.",
+    "cesar": {
+      "name": "César Shlain",
+      "slogan": "Imagine it, we make it possible.",
+      "title": "Independent Accounting Professional.",
       "themeTitle": "Themes",
-      "theme": "Organizational integration strategies.",
-      "p1": "An Approach to Collaboration and Business Success.",
-      "p2": "This workshop focuses on training participants on using tools and strategies to promote an integrating culture in work teams. Topics such as the definition and importance of organizational integration strategies are addressed, concrete examples are presented, and programs are developed to boost collaboration, communication, and teamwork within the company. Potential barriers to integration are explored and solutions are offered through tools that strengthen organizational culture and align departmental goals with the organization's overall objectives. Additionally, work is done on developing leadership skills and change management for leaders and managers. In summary, this workshop aims to improve efficiency, productivity, and a sense of belonging among team members, aligning them with the company's goals and culture.",
+      "theme": "Strategies for enhancing development and expansion in new markets.",
+      "p1": "Accompanying our clients throughout the process.",
+      "p2": "Year after year, we work for the development of the private business sector, supporting small to large investors and betting on forming alliances as a key resource to build the world we all desire. Our main goal is to empower our clients in their process of development and expansion into new markets.",
       "bioTitle": "Biography",
-      "bio": "Mirian Maribel Torrado is a distinguished professional in Public Relations and an international conference speaker, with a solid academic background including a Master's in Business Administration focused on International Trade, a Postgraduate degree in Senior Management, and a Bachelor's in Public Relations. With over two decades of experience and participation in international events, she directs her own Public Relations firm and works as a reporter for various organizations and media outlets. She has been involved in political campaigns in Panama and the United States, and holds leadership roles in professional networks such as REDIRP and ILCE. Her career includes experience in academic, governmental, and business fields, establishing herself as an integral figure in strategic communications and international trade."
+      "bio": "Through our interdisciplinary team, we identify cutting-edge growth opportunities according to the current environment's needs. Accompanying our clients throughout the process, from planning and financing to landing, implementation, management, and follow-up. Always supported by our principles of ethics and professionalism."
     },
     "claudia": {
       "name": "Claudia Lalloz",
+      "slogan": "Grow with us",
       "title": "Coach specialized in Emotional Intelligence in Organizations.",
       "themeTitle": "Themes",
       "theme": "Emotional Skills and Corporate Emotional Well-being",
@@ -133,6 +142,28 @@
       "p2": "This talk will address the close relationship between productivity and well-being in the workplace, highlighting how leadership style can influence team stress and demotivation. The objective is to identify and address work situations that cause discomfort, impacting the business, and develop strategies to achieve an effective balance between personal and work life. Topics such as developing the leader's personal power, identifying stress triggers, and developing emotional skills for effective and conscious leadership will be explored.",
       "bioTitle": "Biography",
       "bio": "Claudia Lalloz is an executive, entrepreneur, and Organizational Master Coach with a prominent career in communication processes during business crises. With a double Master's in MCC from ICF and Master Practitioner from EMCC, she is recognized as the fifth Master Coach of EMCC in Spain and has been an international conference speaker in Latin America and Europe. Her training in Pragmatic Linguistics and over 20,000 hours of Coaching support her ability to enhance team communication skills with precision. Claudia is a leader in Coach Training internationally with branches in Buenos Aires, Miami, and Madrid, and has served as president of the International Coaching Federation in Argentina. She is also the author of books such as 'The Being and Doing of the Coach' and 'The Alchemy of Questions', and hosts a radio program in Spain, Radio Global Coaching and NLP."
+    },
+    "noelia": {
+      "name": "Noelia Sánchez",
+      "slogan": "Will You Be a Leader or a Follower?",
+      "title": "Specialist in Artificial Intelligence.",
+      "themeTitle": "Themes",
+      "theme": "Revolutionizing Digital Interaction and Social Engagement",
+      "p1": "Combines Artificial Intelligence, Strategic Branding, and Community Management to Empower Brands and Social Commitments",
+      "p2": "Noelia will discuss integrating artificial intelligence into work to offer solutions that go beyond automation, positively impacting society and the well-being of businesses.",
+      "bioTitle": "Biography",
+      "bio": "Graduate in Social Work and CEO Founder of Empowerit.io, combines artificial intelligence with branding and community management strategies to revolutionize digital interaction and social engagement. With a solid background in social work and a passion for technology, she leads her company to facilitate innovative solutions that improve brand interaction and reach through automation and advanced analysis."
+    },
+    "susana": {
+      "name": "Susana Benavente",
+      "slogan": "Ontological Coaching",
+      "title": "Communicator, Passionate Advocate for Entrepreneurial and Independent Women.",
+      "themeTitle": "Themes",
+      "theme": "Creating Healthy Work Environments",
+      "p1": "Discover the Magic of Connection and Sharing to Improve Organizational Health",
+      "p2": "Join Susana Benavente in a unique experience where we will explore the wonderful connection between individuals and how it can transform workplaces into positive and healthy environments for everyone. During the talk, participants will gain knowledge, tools, and a new perspective on well-being at work. We will address the fundamental axis of individual health and well-being, and how these aspects influence performance and organizational culture. After years of studying this phenomenon of organizational well-being, we are excited to share our research and discoveries with you.",
+      "bioTitle": "Biography",
+      "bio": "I have been working in media for 24 years, specifically focused on women's issues, accompanying processes of personal growth and development from that perspective. I am very curious, an avid reader, and a constant learner. I identify with art, space, creativity, flexibility, and color. I love nature, from which I learn every day. Mother of three princesses, who teach me the art of being a mom every day. In my consultancy, I lead personal and commercial projects both in Argentina and Miami."
     }
   },
   "metadata": {
@@ -142,9 +173,14 @@
       "keywords": "WellBiz Bridge Miami, Miami business event, Networking for entrepreneurs, Workplace wellbeing, Business innovation, Business growth, Leadership and management event, Technology and business, Business strategies 2024, Business health and productivity"
     },
     "speakers": {
-      "title": "",
-      "description": "",
-      "keywords": ""
+      "title": "WellBiz Bridge | Speaker",
+  "description": "Discover the experts and business leaders who will be present at WellBiz Bridge 2024. Meet our speakers who will share their knowledge and experiences in business wellness, business innovation, and effective networking.",
+  "keywords": "WellBiz Bridge 2024, Business Speakers Miami, Leadership and Wellness, Networking in Miami, Angeles Lucero Bringas, Empowerit, santalá, chayim group, lalloz"
+    },
+    "travel-info": {
+      "title": "WellBiz Bridge | Travel & Info",
+      "description": "Explore Miami, a city where natural beauty and shopping opportunities come together to offer a unique experience. Discover the best parks, natural reserves, and shopping centers during your stay.",
+      "keywords": "Miami nature, Miami shopping, Miami parks, Miami shopping centers, shops in Miami, places to visit in Miami, Miami tourism, WellBiz Bridge, networking in Miami, business wellness"
     },
     "schedule": {
       "title": "",
@@ -154,10 +190,10 @@
   },
   "travel": {
     "title": "Travel & Info",
-    "slogan":"",
+    "slogan": "",
     "shortIntro": "Miami is distinguished not only for its weather and beaches but also as a vibrant hub for corporate events, with over 480 hotels and 64,000 rooms. This city offers an ideal space for business and networking, hosting major conventions and trade fairs. The combination of functionality and recreation in Miami creates a perfect environment for professional connections in an exciting setting.",
     "nature": {
-      "title":"Nature",
+      "title": "Nature",
       "biscayne-national-park": {
         "name": "Biscayne National Park Institute",
         "description": "Explore and learn at Biscayne National Park with adventures that blend fun and education. Sail, paddle, dive, and discover islands with the Biscayne National Park Institute, a collaboration with the Florida National Parks Association. These experiences not only enrich your knowledge about the nature and history of the park but also support its conservation. Participate in our unique activities and contribute to preserving this national treasure for future generations."
@@ -176,7 +212,7 @@
       }
     },
     "shops": {
-      "title":"Shops",
+      "title": "Shops",
       "saks-fifth": {
         "name": "Saks Fifth Avenue-Brickell",
         "description": "Saks Fifth Avenue stands out in the world of luxury retail for its impeccable selection of collections from renowned designers, both American and international. More than just a store, it is a fashion destination offering a superior shopping experience each visit, with an exquisite range of handbags, shoes, jewelry, and cosmetics carefully selected. Each customer enjoys exceptional service, courtesy of a team dedicated to providing fashion advice and personalized attention, elevating every purchase to a memorable event."
@@ -195,6 +231,4 @@
       }
     }
   }
-  
-  
 }
