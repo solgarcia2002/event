@@ -107,8 +107,11 @@
     "button": "Inicio"
   },
   "speakers": {
+    "register":"No olvides registrarte!",
+    "button":"Registrate",
     "angeles": {
       "name": "Angeles Lucero Bringas",
+      "slogan":"¿Seguirás el camino trazado o serás artífice de tu propio destino?",
       "title": "Especialista en transformación y sostenibilidad de empresas familiares.",
       "themeTitle": "Temas",
       "theme": "Cómo innovar tu modelo de negocio",
@@ -118,17 +121,19 @@
       "bio": "Soy María de los Ángeles Lucero Bringas, especialista en la transformación y sostenibilidad de empresas familiares. Nacida en Córdoba, mi herencia me enseñó el valor del trabajo, estudio y superación desde temprana edad. Con una carrera que abarca desde la contaduría hasta la consultoría de gestión, mi pasión por innovar y fortalecer las empresas familiares me llevó a estudiar en Barcelona y, finalmente, a establecerme en Miami. Inspirada por mi familia y mis raíces, mi misión es empoderar a las empresas familiares para que prosperen a través de la sostenibilidad, la innovación, y un liderazgo consciente, transformando no solo negocios sino también contribuyendo positivamente a nuestra sociedad y medio ambiente."
     },
     "cesar": {
-      "name": "Mirian Torrado",
-      "title": "Reportera de relaciones publicas.",
+      "name": "César Shlain",
+      "slogan":"Imagínalo, lo hacemos posible.",
+      "title": "Profesional Contable Independiente.",
       "themeTitle": "Temas",
-      "theme": "Estrategias de integración organizacional.",
-      "p1": "Un Enfoque para la Colaboración y el Éxito Empresarial.",
-      "p2": "Este taller se enfoca en capacitar a los participantes sobre el uso de herramientas y estrategias para fomentar una cultura integradora en los equipos de trabajo. Se abordan temas como la definición y la importancia de las estrategias de integración organizacional, se presentan ejemplos concretos y se desarrollan programas para impulsar la colaboración, la comunicación y el trabajo en equipo dentro de la empresa. Se exploran barreras potenciales a la integración y se ofrecen soluciones mediante herramientas que fortalecen la cultura organizacional y alinean metas departamentales con los objetivos generales de la organización. Además, se trabaja en el desarrollo de habilidades de liderazgo y gestión del cambio para los líderes y gerentes. En resumen, este taller busca mejorar la eficiencia, la productividad y el sentido de pertenencia entre los miembros del equipo, alineándolos con los objetivos y la cultura de la empresa.",
+      "theme": "Estrategias de potenciación en el proceso de desarrollo y expansión en nuevos mercados.",
+      "p1": "Acompañando a nuestros clientes en todo el proceso.",
+      "p2": "Año tras año trabajamos por el desarrollo del sector empresarial privado, acompañando desde pequeños a grandes inversores apostando por la formación de alianzas como recurso clave para construir el mundo que todos queremos. Nuestro principal objetivo es potenciar a nuestros clientes en su proceso de desarrollo y expansión en nuevos mercados.",
       "bioTitle": "Biografia",
-      "bio": "Mirian Maribel Torrado es una profesional destacada en Relaciones Públicas y conferencista internacional, con una sólida formación académica que incluye una Maestría en Administración de Empresas enfocada en Comercio Internacional, un Posgrado en Alta Gerencia, y una Licenciatura en Relaciones Públicas. Con más de dos décadas de experiencia y participación en eventos internacionales, dirige su propia firma de Relaciones Públicas y trabaja como reportera para diversas organizaciones y medios. Ha participado en campañas políticas en Panamá y Estados Unidos, y desempeña roles directivos en redes profesionales como REDIRP e ILCE. Su trayectoria incluye experiencia en el ámbito académico, gubernamental y empresarial, consolidándose como una figura integral en comunicaciones estratégicas y comercio internacional."
+      "bio": "A través de nuestro equipo interdisciplinario identificamos oportunidades de crecimiento vanguardistas acorde a las necesidades del entorno actual. Acompañando a nuestros clientes en todo el proceso, desde su planificación y financiamiento, desembarco, implementación, administración y seguimiento. Siempre apoyados en nuestros principios de ética y profesionalidad."
     },
     "claudia": {
       "name": "Claudia Lalloz",
+      "slogan":"Grow with us",
       "title": "Coach especializada en Inteligencia Emocional en las Organizaciones.",
       "themeTitle": "Temas",
       "theme": "Habilidades Emocionales y Bienestar Emocional Empresarial",
@@ -136,7 +141,30 @@
       "p2": "Esta charla abordará la estrecha relación entre la productividad y el bienestar en el entorno laboral, destacando cómo el estilo de liderazgo puede influir en el estrés y la desmotivación de los equipos. El objetivo es identificar y abordar situaciones laborales que generan malestar, impactando en el negocio, y desarrollar estrategias para lograr un equilibrio efectivo entre la vida personal y laboral. Se explorarán temas como el desarrollo del poder personal del líder, la identificación de desencadenantes de estrés, y el desarrollo de habilidades emocionales para un liderazgo efectivo y consciente.",
       "bioTitle": "Biografia",
       "bio": "Claudia Lalloz es una ejecutiva, empresaria y Máster Coach Organizacional con una destacada trayectoria en procesos de comunicación durante crisis empresariales. Con una doble Maestría en MCC de ICF y Máster Practitioner de la EMCC, es reconocida como la quinta Máster Coach de la EMCC en España y ha sido conferencista internacional en Latinoamérica y Europa. Su formación en Lingüística Pragmática y más de 20,000 horas de Coaching respaldan su habilidad para potenciar las habilidades comunicacionales de los equipos con precisión. Claudia es líder en Formación de Coaches a nivel internacional con sedes en Buenos Aires, Miami y Madrid, y ha sido presidenta de la International Coaching Federation en Argentina. También es autora de libros como 'El Ser y el Hacer del Coach' y 'La alquimia de las Preguntas', además de conducir un programa de radio en España, Radio Global Coaching y PNL."
+    },
+    "noelia": {
+      "name": "Noelia Sánchez",
+      "slogan":"¿SERÁS UN LÍDER O UN SEGUIDOR?",
+      "title": "Especialista en Inteligencia Artificial.",
+      "themeTitle": "Temas",
+      "theme": "Revolucionando la Interacción Digital y el Compromiso Social",
+      "p1": "Combina Inteligencia Artificial, Branding Estratégico y Gestión Comunitaria para Potenciar Marcas y Compromisos Sociales",
+      "p2": "Noelia comentará como integrar la inteligencia artificial en el trabajo para ofrecer soluciones que van más allá de la automatización, impactando positivamente la sociedad y el bienestar de las empresas.",
+      "bioTitle": "Biografia",
+      "bio": "Licenciada en Trabajo Social y CEO fundadora de Empowerit.io, combina la inteligencia artificial con estrategias de branding y gestión comunitaria para revolucionar la interacción digital y el compromiso social. Con una sólida trayectoria en trabajo social y una pasión por la tecnología, lidera su empresa para facilitar soluciones innovadoras que mejoran la interacción y el alcance de las marcas a través de la automatización y el análisis avanzado."
+    },
+    "susana": {
+      "name": "Susana Benavente",
+      "slogan":"Coaching Ontológico",
+      "title": "Comunicadora, apasionada de la mujer emprendedora e independiente.",
+      "themeTitle": "Temas",
+      "theme": "Creando Ambientes Laborales Saludables",
+      "p1": "Descubre la Magia de Conectar y Compartir para Mejorar la Salud Organizacional",
+      "p2": "Únete a Susana Benavente en una experiencia única donde exploraremos la maravillosa conexión entre individuos y cómo esta puede transformar los ambientes laborales en lugares positivos y saludables para todos. Durante la charla, los participantes adquirirán conocimientos, herramientas y una nueva perspectiva sobre el bienestar en el trabajo. Abordaremos el eje fundamental de la salud y el bienestar individual, y cómo estos aspectos influyen en el rendimiento y la cultura de las organizaciones. Después de años de estudio en este fenómeno del bienestar organizacional, estamos emocionados de compartir nuestras investigaciones y descubrimientos contigo.",
+      "bioTitle": "Biografia",
+      "bio": "Trabajo en medios de comunicación desde hace 24 años específicamente orientado al género femenino y desde ese lugar acompaño procesos de crecimiento y desarrollo personal. Soy muy curiosa, lectora empedernida y aprendiz constante. Me identifico con el arte, el espacio, la creatividad, la flexibilidad y el color. Amo la naturaleza de la que aprendo cada día. Madre de tres princesas, que me enseñan cada día el arte de ser mamá. En mi Consultora lidero proyectos personales y comerciales tanto en Argentina como en Miami."
     }
+
   },
   "metadata": {
     "home": {
@@ -145,15 +173,21 @@
       "keywords": "WellBiz Bridge Miami, Evento empresarial Miami, Networking para empresarios, Bienestar en el trabajo, Innovación empresarial, Crecimiento de negocios, Evento de liderazgo y gestión, Tecnología y negocios, Estrategias de negocio 2024, Salud empresarial y productividad"
     },
     "speakers": {
-      "title": "",
-      "description": "",
-      "keywords": ""
+      "title": "WellBiz Bridge | Speaker",
+      "description": "Descubre a los expertos y líderes empresariales que estarán presentes en WellBiz Bridge 2024. Conoce a nuestros speakers que compartirán sus conocimientos y experiencias en bienestar empresarial, innovación en negocios y networking efectivo.",
+      "keywords": "WellBiz Bridge 2024, Speakers empresariales Miami, Liderazgo y bienestar, Networking en Miami, Angeles Lucero Bringas, Empowerit, santalá, chayim group, lalloz"
+    },
+    "travel-info": {
+      "title": "WellBiz Bridge | Travel & Info",
+      "description": "Explora Miami, una ciudad donde la belleza natural y las oportunidades de compras se unen para ofrecer una experiencia única. Descubre los mejores parques, reservas naturales y centros comerciales durante tu estancia.",
+      "keywords": "Miami naturaleza, Miami shopping, parques Miami, centros comerciales Miami, tiendas en Miami, lugares para visitar en Miami, turismo Miami, WellBiz Bridge, networking en Miami, bienestar empresarial"
     },
     "schedule": {
       "title": "",
       "description": "",
       "keywords": ""
     }
+
   },
   "travel": {
     "title": "Travel & Info",

@@ -9,23 +9,38 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
-import "./speakers.css";
 import { notFound } from "next/navigation";
+import { socialMediaSpeakers } from "../../data/speakers";
+import Link from "next/link";
+import BannerSection from "../bannerSection";
+import SponsorsList from "../../homeComponents/sponsorsList";
+import { getTranslations } from "next-intl/server";
+import "./speakers.css";
+
+export async function generateMetadata() {
+  const t = await getTranslations("metadata.speakers");
+  return {
+    title: t("title"),
+    description: t("description"),
+    keywords: t("keywords").split(",")
+  };
+}
 
 type SpeakersType = {
-  name: "angeles" | "claudia";
+  name: "angeles" | "claudia" | "cesar" | "susana" | "noelia";
 };
 
-const validNames: SpeakersType["name"][] = ["angeles", "claudia"];
-export default function SpeakersPage({ params }: { params: { name: string } }) {
-  
+const validNames: SpeakersType["name"][] = ["angeles", "claudia", "cesar", "susana", "noelia"];
+export default function SpeakersPage({ params }: { params: { name: SpeakersType["name"] } }) {
+  const b = useTranslations('speakers')
   const t = useTranslations(`speakers.${params.name}`);
   if (!validNames.includes(params.name as SpeakersType["name"])) {
     notFound();
     return null;
-  }
+  } 
+  const socialM = socialMediaSpeakers[params.name]
+  
  
-
   return (
     <div className="cont-speakers-page">
       <BannerVideo
@@ -36,10 +51,7 @@ export default function SpeakersPage({ params }: { params: { name: string } }) {
       >
         <Eventbrite />
       </BannerVideo>
-      <div className="time-event">
-        <h2>Horarios</h2>
-        <p>9 - 12 </p>
-      </div>
+      
       <div className="themes">
         <h2>{t("themeTitle")}</h2>
         <div>
@@ -51,19 +63,23 @@ export default function SpeakersPage({ params }: { params: { name: string } }) {
           <source src={`/video-${params.name}.mp4`} type="video/mp4" />
         </video>
       </div>
+
+      <BannerSection title={b("register")} button={b("button")} />
       
       <div className="bio">
         <div className="cont-icons">
-          <FontAwesomeIcon icon={faFacebook} />
-          <FontAwesomeIcon icon={faInstagram} />
-          <FontAwesomeIcon icon={faLinkedin} />
-          <FontAwesomeIcon icon={faGlobe} />
+          <Link href={socialM.facebook} target="_blank"> <FontAwesomeIcon icon={faFacebook}  /></Link>
+          <Link href={socialM.instagram} target="_blank"><FontAwesomeIcon icon={faInstagram} /></Link>
+          <Link href={socialM.linkedin} target="_blank"><FontAwesomeIcon icon={faLinkedin} /></Link>
+          <Link href={socialM.website} target="_blank"><FontAwesomeIcon icon={faGlobe} /></Link>
+          
         </div>
         <div className="cont-text-bio">
           <h4>{t("bioTitle")}</h4>
           <p className={lora.className}>{t("bio")}</p>
         </div>
       </div>
+      <SponsorsList />
     </div>
   );
 }
