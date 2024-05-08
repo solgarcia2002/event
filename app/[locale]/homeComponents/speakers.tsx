@@ -13,18 +13,19 @@ const Speakers: React.FC = () => {
       <h3>Speakers</h3>
       <div className="speakers-cont-cards">
         {speakers.map((item, i) => (
-          <Link href={item.url} key={i} className="card" >
+          <div key={i} className="card" >
               <div className={`cont-text-card ${item.bio}`}>
                 <p className="card-name">{item.name}</p>
                 <br />
                 
-                <p className={`card-bio ${lora.className}`}><strong>{t(`themes.${item.theme}`)} <br /></strong>{t(`speakersBio.${item.bio}`)}</p>
+                <p className={`card-bio `}><strong>{t(`themes.${item.theme}`)} <br /></strong>{t(`speakersBio.${item.bio}`)}</p>
+                <Link className="link" href={item.url} >Ver mas</Link>
               </div>
               <Image src={item.img} alt={item.name} width={800} height={1182} />
               <video autoPlay loop muted playsInline className="video-speaker">
                 <source src={item.video} type="video/mp4" />
               </video>
-          </Link>
+          </div>
         ))}
       </div>
     </div>

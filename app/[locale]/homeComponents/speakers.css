@@ -36,6 +36,16 @@
   
 }
 
+.link{
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.link:hover{
+  color: var(--background-dark);
+  transition: 1s ease ;
+}
 
 .cont-text-card> p{
   rotate: -90deg;
@@ -44,13 +54,14 @@
   font-size: 1.3rem;
 }
 .card:hover > .cont-text-card > .card-name {
-  white-space: wrap;
+  
+  text-align: start;
 }
 .card-name {
   white-space: nowrap;
 }
 
-.card-bio {
+.card-bio , .link{
   display: none;
   min-width: 14rem;
 }
@@ -91,7 +102,7 @@
 }
 
 @media screen and (min-width:800px) {
-  .card:hover > .video-speaker {
+  .card:hover > .video-speaker, .card:hover > .cont-text-card >.link {
     display: block;
   }
 
