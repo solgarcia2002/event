@@ -232,8 +232,10 @@
     }
   },
   "schema": {
-    "slider1":"Inicio de jornada. Registrate y preparate para un día lleno de aprendizaje y nuevas conexiones.",
-    "slider2":"Conversación con expertos. Estrategias clave para impulsar tu negocio",
-    "slider3":"Cierre del evento con una sesión de networking relajado y cocktail."
+    "register":"Inicio de jornada. Registrate y preparate para un día lleno de aprendizaje y nuevas conexiones.",
+    "sponsor1":"Presentación de sponsors",
+    "speakers":"Conversación con expertos. Estrategias clave para impulsar tu negocio",
+    "sponsor2":"Presentación de sponsors",
+    "cocktail":"Cierre del evento con una sesión de networking relajado y cocktail."
   }
 }

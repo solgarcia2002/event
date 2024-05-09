@@ -1,6 +1,8 @@
 import { getTranslations } from "next-intl/server";
-import Carousel from "../components/carousel/carousel";
 import SponsorsList from "../homeComponents/sponsorsList";
+import { schedule } from "../data/schedule";
+import Card from "../components/card/card";
+import './schedule.css'
 
 export async function generateMetadata() {
   const t = await getTranslations("metadata.speakers");
@@ -14,7 +16,11 @@ export async function generateMetadata() {
 const SchedulePage: React.FC = () =>{
   return(
     <>
-      <Carousel />
+      <div className="cont-cards">
+        {schedule.map((item)=>(
+          <Card card={item.card} id={item.id} image={item.image} time={item.time} key={item.id} speakers={item.speakers} />
+        ))}
+      </div>
       <SponsorsList />
     </>
   )
