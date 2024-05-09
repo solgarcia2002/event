@@ -232,8 +232,10 @@
     }
   },
   "schema": {
-    "slider1": "Start of the day. Register and get ready for a day full of learning and new connections.",
-    "slider2": "Conversation with experts. Key strategies to boost your business",
-    "slider3": "Event closing with a relaxed networking session and cocktail."
-  }
+    "register":"Beginning of the day. Register and get ready for a day full of learning and new connections.",
+    "sponsor1":"Sponsor presentations",
+    "speakers":"Expert conversations. Key strategies to boost your business",
+    "sponsor2":"Sponsor presentations",
+    "cocktail":"Closing the event with a relaxed networking session and cocktail."
+    }
 }
