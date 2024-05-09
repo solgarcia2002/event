@@ -49,7 +49,7 @@ export default function SpeakersPage({ params }: { params: { name: SpeakersType[
         subtitle="title"
         video={`/banner-${params.name}.mp4`}
       >
-        <Eventbrite />
+        
       </BannerVideo>
       
       <div className="themes">

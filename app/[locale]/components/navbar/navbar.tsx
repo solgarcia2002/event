@@ -27,7 +27,7 @@ export default function App() {
   const {isOpen, onOpen, onClose} = useDisclosure();
 
   const menuItems = [
-    {link:t("schedule"), url:"/#"},
+    {link:t("schedule"), url:"/schedule"},
     {link:t("gallery"), url:"/#"},
     {link:t("speakers"), url:"/#speakers"},
     {link:t("travel"), url:"/travel-info"},

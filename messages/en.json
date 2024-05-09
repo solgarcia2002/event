@@ -183,9 +183,9 @@
       "keywords": "Miami nature, Miami shopping, Miami parks, Miami shopping centers, shops in Miami, places to visit in Miami, Miami tourism, WellBiz Bridge, networking in Miami, business wellness"
     },
     "schedule": {
-      "title": "",
-      "description": "",
-      "keywords": ""
+      "title": "WellBiz Bridge | Schedule",
+      "description": "This May 24th at the JW Marriott Hotel, Miami, business leaders and experts in organizational well-being and artificial intelligence technology will share strategies and insights. From registration to closing, experience enriching conversations, deep learning, and networking opportunities with cocktails.",
+      "keywords": "business event, organizational well-being, artificial intelligence, networking, JW Marriott Miami, Miami entrepreneurs, business technology, business strategies, professional development, networking event"
     }
   },
   "travel": {
@@ -230,5 +230,10 @@
         "description": "South Beach, in the heart of Miami Beach, is the epicenter of fashion, art, culture, and entertainment, attracting celebrities and creatives from all walks of life. Ocean Drive, iconic for its vibrant nightlife and art deco architecture, stands out with over 30 designer brands, establishing itself as the forefront of fashion trends in the region. Concurrently, Collins Avenue, known as the 'Cool Capital,' is dotted with boutiques and accessory stores that capture the essence of the latest in fashion. Miami Beach continues to seduce a young and trendy audience with stores like Vans and Free People, while boutique hotels like the renowned Hotel South Beach on Collins Avenue, reinforce its reputation as a key destination for style and sophistication enthusiasts."
       }
     }
+  },
+  "schema": {
+    "slider1": "Start of the day. Register and get ready for a day full of learning and new connections.",
+    "slider2": "Conversation with experts. Key strategies to boost your business",
+    "slider3": "Event closing with a relaxed networking session and cocktail."
   }
 }
