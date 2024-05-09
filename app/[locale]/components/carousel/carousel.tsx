@@ -12,8 +12,8 @@ type ImageCarouselType ={
 }
 
 const images:ImageCarouselType[] = [
-  {title:"15:20", img: "/wellbiz-bridge-speakers.png"},
   {title:"15:00", img:"/wellbiz-bridge-register-event.png"},
+  {title:"15:20", img: "/wellbiz-bridge-speakers.png"},
   {title:"17:30", img: "/wellbiz-bridge-end-event.png"},
 ]
 const Carousel:React.FC =()=>{
