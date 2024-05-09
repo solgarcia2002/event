@@ -2,28 +2,31 @@
 import { useState } from "react";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
+import { useTranslations } from "next-intl";
 import './carousel.css';
 
-type VideoCarouselType ={
+type ImageCarouselType ={
   title:string,
-  video:string
+  img:string
 }
 
+const images:ImageCarouselType[] = [
+  {title:"15:00", img:"/wellbiz-bridge-register-event.png"},
+  {title:"15:20", img: "/wellbiz-bridge-speakers.png"},
+  {title:"17:30", img: "/wellbiz-bridge-end-event.png"},
+]
 const Carousel:React.FC =()=>{
 
-  const videos:VideoCarouselType[] = [
-    {title:"WellBiz Bridge", video:"/video-home1.mp4"},
-    {title:"Titulo2", video: "/video-home2.mp4"},
-    {title:"Titulo3", video: "/video-home1.mp4"},
-    {title:"Titulo4", video: "/video-home2.mp4"},
-  ]
+  const t = useTranslations("schema")
+
 
   const [counter, setCounter] = useState<number>(1);
-  const [direction, setDirection] = useState<string>("");
+  const [direction, setDirection] = useState<string>("slide1");
 
 
   const handleNext = () => {
-    if(counter < videos.length) {
+    if(counter < images.length) {
       setDirection(`slide${counter+1}`);
       setCounter(prevCount => prevCount +1)
     } else {
@@ -36,8 +39,8 @@ const Carousel:React.FC =()=>{
       setDirection(`slide${counter-1}`);
       setCounter(prevCount => prevCount -1)
     } else {
-      setCounter(videos.length);
-      setDirection(`slide${videos.length}`)
+      setCounter(images.length);
+      setDirection(`slide${images.length}`)
     }
   }
 
@@ -52,12 +55,13 @@ const Carousel:React.FC =()=>{
         <FontAwesomeIcon icon={faArrowLeft} />
       </button>
       <div className={`carousel-container ${direction}`}>
-        {videos.map((video, index) => (
+        {images.map((img, index) => (
           <div key={index} className="carousel-item">
-            <h1 className="event-text-carousel">{video.title}</h1>
-            <video autoPlay loop muted playsInline key={video.video}>
-              <source src={video.video} type="video/mp4" />
-            </video>
+            <div className="event-text-carousel">
+              <h1 >{img.title}</h1>
+              <p>{t(`slider${index+1}`)}</p>
+            </div>
+            <Image src={img.img} alt={img.title} width={1200} height={627} priority />
           </div>
         ))}
       </div>
@@ -65,8 +69,8 @@ const Carousel:React.FC =()=>{
         <FontAwesomeIcon icon={faArrowRight}/>
       </button>
       <div className="map-buttons">
-        {videos.map((item, i)=>(
-          <button key={item.title} className="control-carousel" onClick={()=>handleControl(i+1)}></button>
+        {images.map((item, i)=>(
+          <button key={item.title} className={`control-carousel ${counter == i +1 && "control-carousel-active"}`} onClick={()=>handleControl(i+1)}></button>
         ))}
       </div>
     </div>

@@ -29,21 +29,29 @@
 }
 
 .event-text-carousel {
-  font-size: 6rem;
-  margin-left: 5rem;
-  width: 50vw;
+  font-size: 5rem;
+  margin-left: 4rem;
+  width: 80vw;
+  line-height: 1;
+}
+
+.event-text-carousel > p{
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .carousel-item {
-  min-width: 100%;
+  width: 100vw;
   display: flex;
-  align-items: center;
-  
+  align-items: end;
+  height: 40rem;
 }
 
-.carousel-item > video {
-  width: 40rem;
-  height: auto;
+.carousel-item > img {
+  position: absolute;
+  width: 100vw;
+  z-index: -1;
+  object-fit: cover;
 }
 
 
@@ -52,11 +60,11 @@
 }
 
 .slide2 {
-  transform: translate(-100%);
+  transform: translate(-100vw);
 }
 
 .slide3 {
-  transform: translate(-200%);
+  transform: translate(-200vw);
 }
 
 .slide4 {
@@ -89,15 +97,37 @@
   transition: opacity 0.5s ease;
 }
 
-.control-carousel:hover {
+.control-carousel:hover, .control-carousel-active {
   opacity: 1;
 }
 
 
+
+
 @media screen and (max-width:800px) {
-  .event-text-carousel {
-    position: absolute;
-    color: white;
+  .carousel-item > img {
+    margin: 14rem 0;
+  }
+
+  .carousel-item {
+    align-items: flex-start;
     
+  }
+
+  .event-text-carousel{
+    margin-left: 2rem;
+    line-height: 1.2;
+    padding-top: 4rem;
+  }
+
+  .event-text-carousel > p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .carousel-item {
+    height: 30rem;
   }
 }

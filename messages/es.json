@@ -183,9 +183,9 @@
       "keywords": "Miami naturaleza, Miami shopping, parques Miami, centros comerciales Miami, tiendas en Miami, lugares para visitar en Miami, turismo Miami, WellBiz Bridge, networking en Miami, bienestar empresarial"
     },
     "schedule": {
-      "title": "",
-      "description": "",
-      "keywords": ""
+      "title": "WellBiz Bridge | Agenda",
+      "description": "Este 24 de mayo en el Hotel JW Marriott, Miami, líderes empresariales y expertos en bienestar organizacional y tecnología de inteligencia artificial compartirán estrategias y conocimientos. Desde el registro hasta el cierre, experimenta conversaciones enriquecedoras, aprendizaje profundo y oportunidades de networking con concktail.",
+      "keywords": "evento empresarial, bienestar organizacional, inteligencia artificial, networking, JW Marriott Miami, empresarios Miami, tecnología empresarial, estrategias de negocio, desarrollo profesional, evento de networking"
     }
 
   },
@@ -230,5 +230,10 @@
         "description": "South Beach, en el corazón de Miami Beach, es el epicentro de la moda, el arte, la cultura y el entretenimiento, atrayendo a celebridades y creativos de todos los ámbitos. Ocean Drive, emblemática por su vibrante vida nocturna y arquitectura art deco, se destaca con más de 30 marcas de diseñador, estableciéndose como la vanguardia de las tendencias de moda en la región. Paralelamente, Collins Avenue, conocida como la \"Capital de lo Cool\", está salpicada de boutiques y tiendas de accesorios que capturan la esencia de lo último en moda. Miami Beach continúa seduciendo a una audiencia joven y trendy con tiendas como Vans y Free People, mientras que los hoteles boutique como el renombrado Hotel South Beach en Collins Avenue, refuerzan su reputación como un destino clave para los amantes del estilo y la sofisticación."
       }
     }
+  },
+  "schema": {
+    "slider1":"Inicio de jornada. Registrate y preparate para un día lleno de aprendizaje y nuevas conexiones.",
+    "slider2":"Conversación con expertos. Estrategias clave para impulsar tu negocio",
+    "slider3":"Cierre del evento con una sesión de networking relajado y cocktail."
   }
 }
