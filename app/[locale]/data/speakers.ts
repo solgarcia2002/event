@@ -23,14 +23,14 @@ export const speakers = [
     video:'/video-cesar.mp4',
     url:'/speakers/cesar'
   },
-  { 
+  /* { 
     name: "Susana Benavente", 
     img: "/speaker-susana-benavente.png", 
     bio: "susanaBio",
     theme: "li5",
     video: '/video-susana.mp4',
     url:'/speakers/susana'
-  },{ 
+  }, */{ 
     name: "Noelia Sánchez", 
     img: "/speaker-noelia-sanchez.png", 
     bio: "noeliaBio",

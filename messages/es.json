@@ -1,9 +1,9 @@
 {
   "home": {
     "bannerDate": "24 de mayo - 3PM a 7PM - JW Marriott Miami",
-    "banner": "landing businesses",
+    "banner": "Empower your Bussiness",
     "wellbiz": "WellBiz Bridge #Miami",
-    "slogan": "Estructura tu visión, financia tu futuro.",
+    "slogan": "Vende más, gasta menos, crece rápido.",
     "sponsorship": {
       "beneficios": {
         "b1": "Stand en el evento",
@@ -19,19 +19,17 @@
       }
     },
     "speakersBio": {
-      "angelesBio": "Aborda la innovación del modelo de negocios como clave en tiempos inciertos, destacando la importancia de superar las expectativas de los clientes con propuestas vanguardistas para mantener una ventaja competitiva.",
+      "angelesBio": "Adopta nuestro modelo de 9 puntos clave para transformar y expandir tu empresa. Define tu propuesta de valor, optimiza tus recursos y fortalece las relaciones con los clientes para asegurar un crecimiento sostenible y liderar el mercado.",
       "susanaBio": "Su lema encapsula una visión esencial: priorizar el bienestar de los empleados en el entorno laboral no solo beneficia a las personas, sino que también impulsa la productividad y rentabilidad de la empresa. ",
-      "cesarBio": "César Shlain, un experto en negocios, nos guiará a través de su charla sobre cómo estructurar un negocio de manera efectiva. Descubre estrategias clave, consejos prácticos y la importancia de una sólida base organizativa para alcanzar el éxito empresarial.",
-      "claudiaBio": "El encuentro aborda la mejora de la productividad mediante el bienestar laboral, explorando estrategias para un equilibrio vida-trabajo y gestionando el impacto del liderazgo en el equipo.",
-      "noeliaBio": "Noelia presenta una visión fascinante sobre cómo la inteligencia artificial impulsa los negocios. Su charla destaca cómo esta tecnología transforma los procesos empresariales, desde la automatización hasta la toma de decisiones estratégicas. ",
-      "sylviaBio": "",
-      "stellaBio": ""
+      "cesarBio": "César Shlain compartirá estrategias clave para optimizar tu negocio existente, reducir impuestos y asegurar financiamiento eficaz. Aprovecha esta oportunidad para reforzar tu estructura empresarial y lograr un crecimiento sostenible.",
+      "claudiaBio": "Descubre cómo los 5 tips de neuroventas pueden transformar la productividad. Aprenderemos a aplicar principios como emocionalidad y storytelling para mejorar la dinámica de equipo y el equilibrio laboral, optimizando así el rendimiento general.",
+      "noeliaBio": "Descubre cómo la inteligencia artificial optimiza procesos, reduce costos y mejora la captación de clientes. Aprende a implementar estrategias de IA para aumentar la eficiencia y la competitividad de tu empresa."
     },
     "themes": {
-      "li1": "La importancia de la visión empresarial",
-      "li2": "Transformando la visión en un plan de negocios",
-      "li3": "Desarrollando la estructura empresarial",
-      "li4": "Optimizando el uso de la Inteligencia Artificial",
+      "li1": "Acelera la Productividad con Neuroventas",
+      "li2": "Impulsa el Crecimiento con un Modelo de Negocios Efectivo",
+      "li3": "Optimizando y Financiando tu Negocio",
+      "li4": "Maximizando el Potencial Empresarial con IA",
       "li5": "Invertir en Bienestar para Impulsar la Productividad y Rentabilidad de tu Empresa"
     },
     "faqs": {

@@ -1,9 +1,9 @@
 {
   "home": {
     "bannerDate": "May 24th - 3PM to 7PM - JW Marriott Miami",
-    "banner": "landing businesses",
+    "banner": "Empower your Bussiness",
     "wellbiz": "WellBiz Bridge #Miami",
-    "slogan": "Structure your vision, finance your future.",
+    "slogan": "Sell ​​more, spend less, grow fast.",
     "sponsorship": {
       "beneficios": {
         "b1": "Booth at the event",
@@ -19,20 +19,18 @@
       }
     },
     "speakersBio": {
-      "angelesBio": "Addresses business model innovation as key in uncertain times, emphasizing the importance of exceeding customer expectations with cutting-edge proposals to maintain a competitive advantage.",
-      "susanaBio": "Susana's motto encapsulates an essential vision: prioritizing employee well-being in the workplace not only benefits individuals but also drives productivity and profitability for the company.",
-      "cesarBio": "César Shlain, a business expert, will guide us through his talk on how to effectively structure a business. Discover key strategies, practical tips, and the importance of a solid organizational foundation for achieving business success.",
-      "claudiaBio": "The event focuses on improving productivity through workplace well-being, exploring strategies for a work-life balance and managing the impact of leadership on the team.",
-      "noeliaBio": "Noelia presents a fascinating insight into how artificial intelligence drives businesses. Her talk highlights how this technology transforms business processes, from automation to strategic decision-making.",
-      "sylviaBio": "",
-      "stellaBio": ""
+      "angelesBio": "Adopt our 9 key points model to transform and expand your company. Define your value proposition, optimize resources, and strengthen customer relationships to ensure sustainable growth and market leadership.",
+      "susanaBio": "Her motto encapsulates an essential vision: prioritizing employee well-being in the workplace not only benefits individuals but also boosts productivity and profitability for the company.",
+      "cesarBio": "César Shlain will share key strategies to optimize your existing business, reduce taxes, and ensure effective financing. Seize this opportunity to reinforce your business structure and achieve sustainable growth.",
+      "claudiaBio": "Discover how the 5 neurosales tips can transform productivity. Learn to apply principles like emotional appeal and storytelling to improve team dynamics and work-life balance, thereby optimizing overall performance.",
+      "noeliaBio": "Explore how artificial intelligence optimizes processes, reduces costs, and enhances customer acquisition. Learn to implement AI strategies to increase efficiency and competitiveness in your company."
     },
     "themes": {
-      "li1": "The importance of business vision",
-      "li2": "Transforming vision into a business plan",
-      "li3": "Developing the business structure",
-      "li4": "Optimizing the use of Artificial Intelligence",
-      "li5": "Investing in Well-being to Boost Your Company's Productivity and Profitability"
+      "li1": "Accelerate Productivity with Neurosales",
+      "li2": "Drive Growth with an Effective Business Model",
+      "li3": "Optimizing and Financing Your Business",
+      "li4": "Maximizing Business Potential with AI",
+      "li5": "Investing in Well-being to Boost Productivity and Profitability in Your Company"
     },
 
     "faqs": {
@@ -174,8 +172,8 @@
     },
     "speakers": {
       "title": "WellBiz Bridge | Speaker",
-  "description": "Discover the experts and business leaders who will be present at WellBiz Bridge 2024. Meet our speakers who will share their knowledge and experiences in business wellness, business innovation, and effective networking.",
-  "keywords": "WellBiz Bridge 2024, Business Speakers Miami, Leadership and Wellness, Networking in Miami, Angeles Lucero Bringas, Empowerit, santalá, chayim group, lalloz"
+      "description": "Discover the experts and business leaders who will be present at WellBiz Bridge 2024. Meet our speakers who will share their knowledge and experiences in business wellness, business innovation, and effective networking.",
+      "keywords": "WellBiz Bridge 2024, Business Speakers Miami, Leadership and Wellness, Networking in Miami, Angeles Lucero Bringas, Empowerit, santalá, chayim group, lalloz"
     },
     "travel-info": {
       "title": "WellBiz Bridge | Travel & Info",
@@ -232,10 +230,10 @@
     }
   },
   "schema": {
-    "register":"Beginning of the day. Register and get ready for a day full of learning and new connections.",
-    "sponsor1":"Sponsor presentations",
-    "speakers":"Expert conversations. Key strategies to boost your business",
-    "sponsor2":"Sponsor presentations",
-    "cocktail":"Closing the event with a relaxed networking session and cocktail."
-    }
+    "register": "Beginning of the day. Register and get ready for a day full of learning and new connections.",
+    "sponsor1": "Sponsor presentations",
+    "speakers": "Expert conversations. Key strategies to boost your business",
+    "sponsor2": "Sponsor presentations",
+    "cocktail": "Closing the event with a relaxed networking session and cocktail."
+  }
 }
