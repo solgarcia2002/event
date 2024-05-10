@@ -27,6 +27,9 @@
 }
 
 @media screen and (max-width:700px) {
+  .card-schedule {
+    width: 90%;
+  }
   .card-schedule > img {
     width: 45%;
   }
