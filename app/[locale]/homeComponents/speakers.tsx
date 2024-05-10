@@ -1,7 +1,6 @@
 import { speakers } from "../data/speakers";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { lora } from "../fonts/lora";
 import Link from "next/link";
 import "./speakers.css";
 
