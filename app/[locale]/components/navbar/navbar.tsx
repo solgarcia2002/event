@@ -88,7 +88,7 @@ export default function App() {
           </NavbarMenuItem>
         ))}
         <NavbarItem >
-          <Link href={'#contact'} className="link-navbar">{t("register")}</Link>
+          <Link href={'/#contact'} onClick={()=>setIsMenuOpen(false)} className="link-navbar">{t("register")}</Link>
         </NavbarItem>
       </NavbarMenu>
       <ModalSponsor isOpen={isOpen} onClose={onClose} />
