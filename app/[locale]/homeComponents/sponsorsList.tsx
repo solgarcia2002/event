@@ -14,7 +14,9 @@ const SponsorsList: React.FC = () => {
     { logo: "/logo-susana.png", width: 110, height: 110 },
     { logo: "/logo-latam.png", width: 110, height: 110 },
     { logo: "/logo-camara.png", width: 110, height: 110 },
-    {logo:"/logo-fernando-socol.png", widht:400 , height:200 }
+    { logo: "/logo-fernando-socol.png", widht:400 , height:200 },
+    { logo: "/logo-ledesma.png", width: 110, height: 110 },
+    { logo: "/logo-trabi.png", width: 110, height: 110 },
   ];
   const tabStyle = {
     tabList: " gap-2 w-full relative p-2 border-b border-divider text-white",
