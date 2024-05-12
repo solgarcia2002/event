@@ -1,9 +1,9 @@
 {
   "home": {
     "bannerDate": "24 de mayo - 3PM a 7PM - JW Marriott Miami",
-    "banner": "landing businesses",
+    "banner": "Empower your Bussiness",
     "wellbiz": "WellBiz Bridge #Miami",
-    "slogan": "Estructura tu visión, financia tu futuro.",
+    "slogan": "Vende más, gasta menos, crece rápido.",
     "sponsorship": {
       "beneficios": {
         "b1": "Stand en el evento",
@@ -19,19 +19,17 @@
       }
     },
     "speakersBio": {
-      "angelesBio": "Aborda la innovación del modelo de negocios como clave en tiempos inciertos, destacando la importancia de superar las expectativas de los clientes con propuestas vanguardistas para mantener una ventaja competitiva.",
+      "angelesBio": "Adopta nuestro modelo de 9 puntos clave para transformar y expandir tu empresa. Define tu propuesta de valor, optimiza tus recursos y fortalece las relaciones con los clientes para asegurar un crecimiento sostenible y liderar el mercado.",
       "susanaBio": "Su lema encapsula una visión esencial: priorizar el bienestar de los empleados en el entorno laboral no solo beneficia a las personas, sino que también impulsa la productividad y rentabilidad de la empresa. ",
-      "cesarBio": "César Shlain, un experto en negocios, nos guiará a través de su charla sobre cómo estructurar un negocio de manera efectiva. Descubre estrategias clave, consejos prácticos y la importancia de una sólida base organizativa para alcanzar el éxito empresarial.",
-      "claudiaBio": "El encuentro aborda la mejora de la productividad mediante el bienestar laboral, explorando estrategias para un equilibrio vida-trabajo y gestionando el impacto del liderazgo en el equipo.",
-      "noeliaBio": "Noelia presenta una visión fascinante sobre cómo la inteligencia artificial impulsa los negocios. Su charla destaca cómo esta tecnología transforma los procesos empresariales, desde la automatización hasta la toma de decisiones estratégicas. ",
-      "sylviaBio": "",
-      "stellaBio": ""
+      "cesarBio": "César Shlain compartirá estrategias clave para optimizar tu negocio existente, reducir impuestos y asegurar financiamiento eficaz. Aprovecha esta oportunidad para reforzar tu estructura empresarial y lograr un crecimiento sostenible.",
+      "claudiaBio": "Descubre cómo los 5 tips de neuroventas pueden transformar la productividad. Aprenderemos a aplicar principios como emocionalidad y storytelling para mejorar la dinámica de equipo y el equilibrio laboral, optimizando así el rendimiento general.",
+      "noeliaBio": "Descubre cómo la inteligencia artificial optimiza procesos, reduce costos y mejora la captación de clientes. Aprende a implementar estrategias de IA para aumentar la eficiencia y la competitividad de tu empresa."
     },
     "themes": {
-      "li1": "La importancia de la visión empresarial",
-      "li2": "Transformando la visión en un plan de negocios",
-      "li3": "Desarrollando la estructura empresarial",
-      "li4": "Optimizando el uso de la Inteligencia Artificial",
+      "li1": "Acelera la Productividad con Neuroventas",
+      "li2": "Impulsa el Crecimiento con un Modelo de Negocios Efectivo",
+      "li3": "Optimizando y Financiando tu Negocio",
+      "li4": "Maximizando el Potencial Empresarial con IA",
       "li5": "Invertir en Bienestar para Impulsar la Productividad y Rentabilidad de tu Empresa"
     },
     "faqs": {
@@ -183,9 +181,9 @@
       "keywords": "Miami naturaleza, Miami shopping, parques Miami, centros comerciales Miami, tiendas en Miami, lugares para visitar en Miami, turismo Miami, WellBiz Bridge, networking en Miami, bienestar empresarial"
     },
     "schedule": {
-      "title": "",
-      "description": "",
-      "keywords": ""
+      "title": "WellBiz Bridge | Agenda",
+      "description": "Este 24 de mayo en el Hotel JW Marriott, Miami, líderes empresariales y expertos en bienestar organizacional y tecnología de inteligencia artificial compartirán estrategias y conocimientos. Desde el registro hasta el cierre, experimenta conversaciones enriquecedoras, aprendizaje profundo y oportunidades de networking con concktail.",
+      "keywords": "evento empresarial, bienestar organizacional, inteligencia artificial, networking, JW Marriott Miami, empresarios Miami, tecnología empresarial, estrategias de negocio, desarrollo profesional, evento de networking"
     }
 
   },
@@ -230,5 +228,12 @@
         "description": "South Beach, en el corazón de Miami Beach, es el epicentro de la moda, el arte, la cultura y el entretenimiento, atrayendo a celebridades y creativos de todos los ámbitos. Ocean Drive, emblemática por su vibrante vida nocturna y arquitectura art deco, se destaca con más de 30 marcas de diseñador, estableciéndose como la vanguardia de las tendencias de moda en la región. Paralelamente, Collins Avenue, conocida como la \"Capital de lo Cool\", está salpicada de boutiques y tiendas de accesorios que capturan la esencia de lo último en moda. Miami Beach continúa seduciendo a una audiencia joven y trendy con tiendas como Vans y Free People, mientras que los hoteles boutique como el renombrado Hotel South Beach en Collins Avenue, refuerzan su reputación como un destino clave para los amantes del estilo y la sofisticación."
       }
     }
+  },
+  "schema": {
+    "register":"Inicio de jornada. Registrate y preparate para un día lleno de aprendizaje y nuevas conexiones.",
+    "sponsor1":"Presentación de sponsors",
+    "speakers":"Conversación con expertos. Estrategias clave para impulsar tu negocio",
+    "sponsor2":"Presentación de sponsors",
+    "cocktail":"Cierre del evento con una sesión de networking relajado y cocktail."
   }
 }

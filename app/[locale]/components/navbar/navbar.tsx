@@ -27,7 +27,7 @@ export default function App() {
   const {isOpen, onOpen, onClose} = useDisclosure();
 
   const menuItems = [
-    {link:t("schedule"), url:"/#"},
+    {link:t("schedule"), url:"/schedule"},
     {link:t("gallery"), url:"/#"},
     {link:t("speakers"), url:"/#speakers"},
     {link:t("travel"), url:"/travel-info"},
@@ -88,7 +88,7 @@ export default function App() {
           </NavbarMenuItem>
         ))}
         <NavbarItem >
-          <Link href={'#contact'} className="link-navbar">{t("register")}</Link>
+          <Link href={'/#contact'} onClick={()=>setIsMenuOpen(false)} className="link-navbar">{t("register")}</Link>
         </NavbarItem>
       </NavbarMenu>
       <ModalSponsor isOpen={isOpen} onClose={onClose} />

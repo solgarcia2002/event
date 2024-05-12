@@ -1,7 +1,27 @@
+import { getTranslations } from "next-intl/server";
+import SponsorsList from "../homeComponents/sponsorsList";
+import { schedule } from "../data/schedule";
+import Card from "../components/card/card";
+import './schedule.css'
+
+export async function generateMetadata() {
+  const t = await getTranslations("metadata.speakers");
+  return {
+    title: t("title"),
+    description: t("description"),
+    keywords: t("keywords").split(",")
+  };
+}
+
 const SchedulePage: React.FC = () =>{
   return(
     <>
-      <h1>Schedule Page</h1>
+      <div className="cont-cards">
+        {schedule.map((item)=>(
+          <Card card={item.card} id={item.id} image={item.image} time={item.time} key={item.id} speakers={item.speakers} />
+        ))}
+      </div>
+      <SponsorsList />
     </>
   )
 }
