@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { Tabs, Tab, Card, CardBody } from "@nextui-org/react";
+import { Tabs, Tab } from "@nextui-org/react";
 import SponsorDetail from "./sponsorDetail";
 import "./sponsorsList.css";
 
@@ -17,6 +17,8 @@ const SponsorsList: React.FC = () => {
     { logo: "/logo-fernando-socol.png", widht:400 , height:200 },
     { logo: "/logo-ledesma.png", width: 110, height: 110 },
     { logo: "/logo-trabi.png", width: 110, height: 110 },
+    { logo: "/chile-us.jpeg", width: 110, height: 110 },
+    { logo: "/febicham.jpeg", width: 110, height: 110 },
   ];
   const tabStyle = {
     tabList: " gap-2 w-full relative p-2 border-b border-divider text-white",

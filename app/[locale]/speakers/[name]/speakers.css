@@ -47,6 +47,13 @@
   margin: 1rem 0;
 }
 
+.list-items-speaker {
+  list-style: inside;
+}
+
+.p2-speakers {
+  margin-top: 2rem
+}
 
 .bio {
   display: flex;
@@ -64,7 +71,10 @@
   gap: 2rem;
 }
 .cont-text-bio {
-  width: 50%;
+  width: 60%;
+  background-color: rgb(244, 244, 244, .2);
+  border-radius: 15px;
+  padding: 4rem 3rem;
 }
 
 .cont-text-bio > h4 {
@@ -84,6 +94,7 @@
   }
   .bio {
     flex-direction: column-reverse;
+    padding: 4rem 0;
   }
 
   .cont-text-bio{
@@ -91,6 +102,22 @@
   }
 
   .cont-text-bio > h4 {
+    font-size: 2rem;
+  }
+
+  .cont-icons {
+    margin: 0 3rem;
+  }
+
+  .themes > div {
+    width: 100%;
+  }
+
+  .bio-video {
+    width: 100%;
+  }
+
+  .time-event >h2 {
     font-size: 2rem;
   }
 }

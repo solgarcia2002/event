@@ -11,7 +11,7 @@ const Themes:React.FC = () =>{
     
     <div className='themes-list'>
       <ul>
-        {[1,2,3,4,5].map((item)=>(
+        {[1,2,3,4,5,6].map((item)=>(
           <li key={item}>- {t(`li${item}`)}</li>
         ))}
       </ul>
