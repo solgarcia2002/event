@@ -31,11 +31,13 @@
 .cont-logos-video {
   display: flex;
   align-items: center;
+  
 }
 
 .logo-video {
-  height: 5rem;
+  height: 3rem;
   width: auto;
+  margin: 1rem;
 }
 
 .title-mobile, .slogan-mobile {

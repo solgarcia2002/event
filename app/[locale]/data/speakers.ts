@@ -41,6 +41,21 @@ export const speakers = [
   
 ];
 
+export const infoThemesSpeakers = {
+  "angeles":[
+    "li1", "li2", "li3", "li4", "li5", "li6", "li7", "li8", "li9"
+  ],
+  "noelia":[
+    "li1", "li2", "li3"
+  ],
+  "claudia":[
+    "li1", "li2", "li3", "li4", "li5"
+  ],
+  "cesar":[
+    "li1", "li2", "li3"
+  ]
+}
+
 
 export const socialMediaSpeakers = 
   {"angeles":{

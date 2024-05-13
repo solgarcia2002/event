@@ -37,17 +37,26 @@ const BannerVideo = ({
         <br />
         {children}
         <div className="cont-logos-video">
-          <Image
-            src="/logo-blanco.png"
-            alt="wellbiz-bridge"
-            width={200}
-            height={200}
-          />
+          
           <Image
             src="/logo-aacc.png"
             alt="argentine american chamber of commerce of florida"
             width={266}
             height={105}
+            className="logo-video"
+          />
+          <Image
+            src="/chile-us.png"
+            alt="Chile-US Chamber of Commerce"
+            width={800}
+            height={200}
+            className="logo-video"
+          />
+          <Image
+            src="/febicham.png"
+            alt="Federation Binational Chambers of Commerce"
+            width={2500}
+            height={663}
             className="logo-video"
           />
         </div>
