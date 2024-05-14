@@ -26,10 +26,10 @@ export async function generateMetadata() {
 }
 
 type SpeakersType = {
-  name: "angeles" | "claudia" | "cesar"  | "noelia";
+  name: "angeles" | "claudia" | "cesar"  | "noelia" | "fernando";
 };
 
-const validNames: SpeakersType["name"][] = ["angeles", "claudia", "cesar", "noelia"];
+const validNames: SpeakersType["name"][] = ["angeles", "claudia", "cesar", "noelia", "fernando"];
 export default function SpeakersPage({ params }: { params: { name: SpeakersType["name"] } }) {
   const b = useTranslations('speakers')
   const t = useTranslations(`speakers.${params.name}`);
