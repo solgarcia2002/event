@@ -30,7 +30,8 @@
       "li2": "Drive Growth with an Effective Business Model",
       "li3": "Optimizing and Financing Your Business",
       "li4": "Maximizing Business Potential with AI",
-      "li5": "Investing in Well-being to Boost Productivity and Profitability in Your Company"
+      "li5": "Immigrations and visas",
+      "li6": "Brands and Franchises"
     },
 
     "faqs": {
@@ -114,43 +115,75 @@
       "title": "Specialist in transformation and sustainability of family businesses.",
       "themeTitle": "Themes",
       "theme": "How to innovate your business model",
-      "p1": "In changing times, disruptive responses.",
-      "p2": "In an uncertain, volatile, and fast-paced environment, it is imperative to focus on innovation as the main competitive advantage. Going beyond the needs of our clients, positioning ourselves with an innovative proposal at the forefront of the times.",
+      "p1": "A visionary in business strategy",
+      "list": {
+        "li1": "Articulate a Superior Value Proposition",
+        "li2": "Optimize Strategic Resources",
+        "li3": "Strengthen Customer Relationships",
+        "li4": "Establish a Culture of Innovation",
+        "li5": "Develop Market Penetration Strategies",
+        "li6": "Leverage Technology as a Differentiator",
+        "li7": "Manage High-Quality Talent",
+        "li8": "Implement Sustainable Practices",
+        "li9": "Establish Effective Measurement Systems"
+      },
+      "p2": "This conference is essential for business leaders, entrepreneurs, and managers seeking a radical transformation of their business approaches to secure a leadership position in the market. Ángeles Lucero Bringas will share her extensive experience and knowledge in creating successful business models, providing essential tools to anticipate and shape the future of your industry.",
       "bioTitle": "Biography",
-      "bio": "I am María de los Ángeles Lucero Bringas, a specialist in the transformation and sustainability of family businesses. Born in Córdoba, my heritage taught me the value of work, study, and self-improvement from an early age. With a career ranging from accounting to management consulting, my passion for innovating and strengthening family businesses led me to study in Barcelona and finally establish myself in Miami. Inspired by my family and roots, my mission is to empower family businesses to thrive through sustainability, innovation, and conscious leadership, transforming not only businesses but also positively contributing to our society and environment."
+      "bio1": "I am María de los Ángeles Lucero Bringas, an expert in economic transformation and sustainability of family businesses. Originally from Córdoba and with studies in Barcelona, I have dedicated my career to management consulting, specializing in strengthening family businesses in Miami. My focus is on innovating and leading with awareness so that these companies not only thrive but also have a positive impact on society and the environment.",
+      "bio2": "My mission is to empower family businesses to achieve excellence through sustainable practices and innovative leadership. Inspired by my roots and the rich cultural heritage of my family, I seek to transform the family business sector, ensuring that these entities not only survive but also stand out in a competitive global market. With a deep knowledge in accounting and management consulting, my vision focuses on sustainability and innovation as pillars of a positive and lasting change."
     },
     "cesar": {
       "name": "César Shlain",
       "slogan": "Imagine it, we make it possible.",
       "title": "Independent Accounting Professional.",
       "themeTitle": "Themes",
-      "theme": "Strategies for enhancing development and expansion in new markets.",
-      "p1": "Accompanying our clients throughout the process.",
-      "p2": "Year after year, we work for the development of the private business sector, supporting small to large investors and betting on forming alliances as a key resource to build the world we all desire. Our main goal is to empower our clients in their process of development and expansion into new markets.",
+      "theme": "Optimizing and Financing Your Business.",
+      "p1": "César will share his extensive experience on how to effectively structure your company to foster growth and secure strategic financing.",
+      "list": {
+        "li1": "Tax Reduction.",
+        "li2": "Securing Financing",
+        "li3": "Strategies for Sustainable Growth"
+      },
+      "p2": "Year after year, we work for the development of the private business sector, supporting investors from small to large, betting on the formation of alliances as a key resource to build the world we all want. Our main objective is to enhance our clients in their process of development and expansion into new markets.",
       "bioTitle": "Biography",
-      "bio": "Through our interdisciplinary team, we identify cutting-edge growth opportunities according to the current environment's needs. Accompanying our clients throughout the process, from planning and financing to landing, implementation, management, and follow-up. Always supported by our principles of ethics and professionalism."
+      "bio1": "With a notable track record in business optimization and financial advice, César is a recognized leader in the field of business economics and strategic planning. His practical approach adapts the best industrial practices to help companies overcome economic challenges and scale efficiently. His ability to integrate economic theories with effective corporate strategies allows organizations not only to face current challenges but also to anticipate future market opportunities.",
+      "bio2": "Thanks to his deep knowledge and experience, César has transformed the way companies manage their resources and processes, achieving sustainable and profitable growth. Through his leadership, companies have significantly improved their operational structure and capacity for innovation, ensuring a competitive edge in their respective industries. César is undoubtedly a key figure for any company looking to adapt and thrive in the changing global economic environment."
     },
     "claudia": {
       "name": "Claudia Lalloz",
       "slogan": "Grow with us",
       "title": "Coach specialized in Emotional Intelligence in Organizations.",
       "themeTitle": "Themes",
-      "theme": "Emotional Skills and Corporate Emotional Well-being",
-      "p1": "Balancing Productivity and Well-being at Work: Strategies for Conscious Leadership.",
-      "p2": "This talk will address the close relationship between productivity and well-being in the workplace, highlighting how leadership style can influence team stress and demotivation. The objective is to identify and address work situations that cause discomfort, impacting the business, and develop strategies to achieve an effective balance between personal and work life. Topics such as developing the leader's personal power, identifying stress triggers, and developing emotional skills for effective and conscious leadership will be explored.",
+      "theme": "Boost Productivity with Neurosales",
+      "p1": "Principles of emotionality and storytelling to improve team dynamics.",
+      "list": {
+        "li1": "Application of Neuroscientific Techniques.",
+        "li2": "Development of Empathy and Emotional Connection.",
+        "li3": "Optimization of Sales Messages.",
+        "li4": "Strategic Handling of Objections.",
+        "li5": "High-Performance Culture in the Sales Team."
+      },
+      "p2": "This conference is crucial for any business leader who seeks not only to improve their sales figures but also to develop a resilient and highly effective sales team. Take this unique opportunity to learn from one of the most renowned experts in the field of neurosales.",
       "bioTitle": "Biography",
-      "bio": "Claudia Lalloz is an executive, entrepreneur, and Organizational Master Coach with a prominent career in communication processes during business crises. With a double Master's in MCC from ICF and Master Practitioner from EMCC, she is recognized as the fifth Master Coach of EMCC in Spain and has been an international conference speaker in Latin America and Europe. Her training in Pragmatic Linguistics and over 20,000 hours of Coaching support her ability to enhance team communication skills with precision. Claudia is a leader in Coach Training internationally with branches in Buenos Aires, Miami, and Madrid, and has served as president of the International Coaching Federation in Argentina. She is also the author of books such as 'The Being and Doing of the Coach' and 'The Alchemy of Questions', and hosts a radio program in Spain, Radio Global Coaching and NLP."
+      "bio1": "Claudia Lalloz is an executive, entrepreneur, and Master Organizational Coach with a notable track record in communication processes during business crises. With a double Master's in MCC from ICF and Master Practitioner from EMCC, she is recognized as the fifth Master Coach by EMCC in Spain and has been an international speaker in Latin America and Europe. Her training in Pragmatic Linguistics and over 20,000 hours of Coaching support her ability to enhance the communication skills of teams with precision. Claudia is a leader in Coach Training internationally with locations in Buenos Aires, Miami, and Madrid, and has been the president of the International Coaching Federation in Argentina. She is also the author of books like 'The Being and Doing of Coaching' and 'The Alchemy of Questions,' in addition to hosting a radio program in Spain, Global Coaching and NLP Radio.",
+      "bio2": "Listening to Claudia Lalloz at conferences offers business leaders and managers an exceptional opportunity to improve the efficiency and effectiveness of their companies. Her focus on strategic communication and crisis management provides practical tools to address operational challenges and improve the working environment, which can in turn lead to increased productivity and profitability. Claudia's experience in developing communication skills translates into more effective leadership and the creation of more cohesive and resilient teams. Attending her conferences or workshops not only inspires but also equips organizations with advanced strategies to navigate today's complex business world."
     },
     "noelia": {
       "name": "Noelia Sánchez",
       "slogan": "Will You Be a Leader or a Follower?",
       "title": "Specialist in Artificial Intelligence.",
       "themeTitle": "Themes",
-      "theme": "Revolutionizing Digital Interaction and Social Engagement",
-      "p1": "Combines Artificial Intelligence, strategic Branding, and community management to empower your business",
-      "p2": "Noelia will discuss integrating artificial intelligence into work to offer solutions that go beyond automation, positively impacting society and the well-being of businesses.",
+      "theme": "Towards sustained and efficient growth.",
+      "p1": "How artificial intelligence technology not only optimizes processes and reduces costs, but is also crucial for increasing sales and improving customer acquisition and retention.",
+      "list": {
+        "li1": "Process Automation.",
+        "li2": "Customer Acquisition and Retention.",
+        "li3": "Reduction of Operational Costs."
+      },
+      "p2": "This event is a must-attend opportunity for those who wish to lead in their industry through the adoption and utilization of artificial intelligence, ensuring not just the survival but the flourishing of their business in the digital age.",
       "bioTitle": "Biography",
-      "bio": "Graduate in Social Work and CEO Founder of Empowerit.io, combines artificial intelligence with branding and community management strategies to revolutionize digital interaction and social engagement. With a solid background in social work and a passion for technology, she leads her company to facilitate innovative solutions that improve brand interaction and reach through automation and advanced analysis."
+      "bio1": "With a background in Social Work and a PhD in Gender Studies, Sociology, and Anthropology, Noelia has led the way toward digital innovation, applying her academic knowledge to technological solutions that address complex problems and improve business profitability. As CEO and co-founder of Empowerit, Noelia has implemented AI strategies that have revolutionized both operations and customer experience across various industries. Her interdisciplinary approach has allowed the company not only to adapt to technological changes but also to lead in the creation of products that are socially responsible and economically viable.",
+      "bio2": "Listening to Noelia during this talk will provide a unique insight into how the integration of artificial intelligence can lead to significant improvements in efficiency and profitability. Through her experiences and case studies, participants will learn practical methods to apply AI in a way that reinforces commitment to equity and inclusion while driving economic growth. This approach not only enhances the company's perception among its customers and stakeholders but also sets a model for other businesses looking to thrive in an increasingly digital and socially aware business environment."
     },
     "susana": {
       "name": "Susana Benavente",

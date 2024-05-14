@@ -30,7 +30,8 @@
       "li2": "Impulsa el Crecimiento con un Modelo de Negocios Efectivo",
       "li3": "Optimizando y Financiando tu Negocio",
       "li4": "Maximizando el Potencial Empresarial con IA",
-      "li5": "Invertir en Bienestar para Impulsar la Productividad y Rentabilidad de tu Empresa"
+      "li5": "Inmigraciones y visas",
+      "li6":"Marcas y Franquicias"
     },
     "faqs": {
       "question": {
@@ -112,44 +113,76 @@
       "slogan":"¿Seguirás el camino trazado o serás artífice de tu propio destino?",
       "title": "Especialista en transformación y sostenibilidad de empresas familiares.",
       "themeTitle": "Temas",
-      "theme": "Cómo innovar tu modelo de negocio",
-      "p1": "En épocas cambiantes, respuestas disruptivas.",
-      "p2": "En un entorno incierto, volátil y vertiginoso es imperioso, pararse en la innovación como principal ventaja competitiva. Ir más allá de las necesidades de nuestros clientes, situándonos en una propuesta innovadora a la vanguardia de los tiempos que corren.",
+      "theme": "Modelo de Negocio de 9 Puntos Clave",
+      "p1": "Una visionaria en la estrategia empresarial",
+      "list":{
+        "li1":"Articular una Propuesta de Valor Superior",
+        "li2":"Optimizar los Recursos Estratégicos",
+        "li3":"Fortalecer Relaciones con Clientes",
+        "li4":"Instaurar una Cultura de Innovación",
+        "li5":"Desarrollar Estrategias de Penetración de Mercado",
+        "li6":"Leverar la Tecnología como un Diferenciador",
+        "li7":"Gestionar el Talento de Alta Calidad",
+        "li8":"Implementar Prácticas Sostenibles",
+        "li9":"Establecer Sistemas de Medición Efectivos"
+      },
+      "p2": "Esta conferencia es indispensable para líderes empresariales, emprendedores y gerentes que buscan una transformación radical de sus enfoques de negocio para asegurar una posición de liderazgo en el mercado. Ángeles Lucero Bringas compartirá su extensa experiencia y conocimiento en la creación de modelos de negocios exitosos, proporcionando herramientas esenciales para anticipar y moldear el futuro de tu industria.",
       "bioTitle": "Biografia",
-      "bio": "Soy María de los Ángeles Lucero Bringas, especialista en la transformación y sostenibilidad de empresas familiares. Nacida en Córdoba, mi herencia me enseñó el valor del trabajo, estudio y superación desde temprana edad. Con una carrera que abarca desde la contaduría hasta la consultoría de gestión, mi pasión por innovar y fortalecer las empresas familiares me llevó a estudiar en Barcelona y, finalmente, a establecerme en Miami. Inspirada por mi familia y mis raíces, mi misión es empoderar a las empresas familiares para que prosperen a través de la sostenibilidad, la innovación, y un liderazgo consciente, transformando no solo negocios sino también contribuyendo positivamente a nuestra sociedad y medio ambiente."
+      "bio1": "Soy María de los Ángeles Lucero Bringas, experta en la transformación económica y sostenibilidad de empresas familiares. Originaria de Córdoba y con estudios en Barcelona, he dedicado mi carrera a la consultoría de gestión, especializándome en el fortalecimiento de negocios familiares en Miami. Mi enfoque está en innovar y liderar con conciencia para que estas empresas no solo prosperen, sino que también generen un impacto positivo en la sociedad y el medio ambiente.",
+      "bio2":"Mi misión es empoderar a las empresas familiares para que alcancen la excelencia a través de prácticas sostenibles y liderazgo innovador. Inspirada por mis raíces y la rica herencia cultural de mi familia, busco transformar el sector empresarial familiar, asegurando que estas entidades no solo sobrevivan sino que también se destaquen en un mercado global competitivo. Con un profundo conocimiento en contaduría y consultoría de gestión, mi visión se centra en la sostenibilidad y la innovación como pilares de un cambio positivo y duradero."
     },
     "cesar": {
       "name": "César Shlain",
       "slogan":"Imagínalo, lo hacemos posible.",
       "title": "Profesional Contable Independiente.",
       "themeTitle": "Temas",
-      "theme": "Estrategias de potenciación en el proceso de desarrollo y expansión en nuevos mercados.",
-      "p1": "Acompañando a nuestros clientes en todo el proceso.",
+      "theme": "Optimizando y Financiando tu Negocio.",
+      "p1": "César compartirá su vasta experiencia en cómo estructurar de manera efectiva su empresa para fomentar el crecimiento y asegurar financiamiento estratégico.",
+      "list":{
+        "li1":"Reducción de Impuestos.",
+        "li2":"Aseguramiento de Financiamiento",
+        "li3":"Estrategias para el Crecimiento Sostenible"
+      },
       "p2": "Año tras año trabajamos por el desarrollo del sector empresarial privado, acompañando desde pequeños a grandes inversores apostando por la formación de alianzas como recurso clave para construir el mundo que todos queremos. Nuestro principal objetivo es potenciar a nuestros clientes en su proceso de desarrollo y expansión en nuevos mercados.",
       "bioTitle": "Biografia",
-      "bio": "A través de nuestro equipo interdisciplinario identificamos oportunidades de crecimiento vanguardistas acorde a las necesidades del entorno actual. Acompañando a nuestros clientes en todo el proceso, desde su planificación y financiamiento, desembarco, implementación, administración y seguimiento. Siempre apoyados en nuestros principios de ética y profesionalidad."
+      "bio1": "Con una destacada trayectoria en optimización de negocios y asesoramiento financiero, César es un líder reconocido en el campo de la economía empresarial y la planificación estratégica. Su enfoque práctico adapta las mejores prácticas industriales para ayudar a las empresas a superar desafíos económicos y escalar de manera eficiente. Su habilidad para integrar teorías económicas con estrategias corporativas efectivas permite a las organizaciones no solo enfrentar los retos actuales sino también anticiparse a futuras oportunidades de mercado.",
+      "bio2":"Gracias a su profundo conocimiento y experiencia, César ha logrado transformar la manera en que las empresas gestionan sus recursos y procesos, logrando un crecimiento sostenible y rentable. A través de su liderazgo, las compañías han mejorado significativamente su estructura operativa y capacidad de innovación, asegurando una ventaja competitiva en sus respectivas industrias. César es, sin duda, una figura clave para cualquier empresa que busque adaptarse y prosperar en el cambiante entorno económico global."
     },
     "claudia": {
       "name": "Claudia Lalloz",
       "slogan":"Grow with us",
       "title": "Coach especializada en Inteligencia Emocional en las Organizaciones.",
       "themeTitle": "Temas",
-      "theme": "Habilidades Emocionales y Bienestar Emocional Empresarial",
-      "p1": "Equilibrando la Productividad y el Bienestar Laboral: Estrategias para un Liderazgo Consciente.",
-      "p2": "Esta charla abordará la estrecha relación entre la productividad y el bienestar en el entorno laboral, destacando cómo el estilo de liderazgo puede influir en el estrés y la desmotivación de los equipos. El objetivo es identificar y abordar situaciones laborales que generan malestar, impactando en el negocio, y desarrollar estrategias para lograr un equilibrio efectivo entre la vida personal y laboral. Se explorarán temas como el desarrollo del poder personal del líder, la identificación de desencadenantes de estrés, y el desarrollo de habilidades emocionales para un liderazgo efectivo y consciente.",
+      "theme": "Acelera la Productividad con Neuroventas",
+      "p1": "Principios de emocionalidad y storytelling para mejorar la dinámica de equipo.",
+      "list":{
+        "li1":"Aplicación de Técnicas Neurocientíficas.",
+        "li2":"Desarrollo de Empatía y Conexión Emocional.",
+        "li3":"Optimización de Mensajes de Venta.",
+        "li4":"Manejo Estratégico de Objeciones.",
+        "li5":"Cultura de Alto Rendimiento en el Equipo de Ventas."
+      },
+      "p2": "Esta conferencia es crucial para cualquier líder empresarial que busque no solo mejorar sus cifras de ventas, sino también desarrollar un equipo de ventas resiliente y altamente efectivo. Aprovecha esta oportunidad única para aprender de una de las expertas más renombradas en el campo de las neuroventas.",
       "bioTitle": "Biografia",
-      "bio": "Claudia Lalloz es una ejecutiva, empresaria y Máster Coach Organizacional con una destacada trayectoria en procesos de comunicación durante crisis empresariales. Con una doble Maestría en MCC de ICF y Máster Practitioner de la EMCC, es reconocida como la quinta Máster Coach de la EMCC en España y ha sido conferencista internacional en Latinoamérica y Europa. Su formación en Lingüística Pragmática y más de 20,000 horas de Coaching respaldan su habilidad para potenciar las habilidades comunicacionales de los equipos con precisión. Claudia es líder en Formación de Coaches a nivel internacional con sedes en Buenos Aires, Miami y Madrid, y ha sido presidenta de la International Coaching Federation en Argentina. También es autora de libros como 'El Ser y el Hacer del Coach' y 'La alquimia de las Preguntas', además de conducir un programa de radio en España, Radio Global Coaching y PNL."
+      "bio1": "Claudia Lalloz es una ejecutiva, empresaria y Máster Coach Organizacional con una destacada trayectoria en procesos de comunicación durante crisis empresariales. Con una doble Maestría en MCC de ICF y Máster Practitioner de la EMCC, es reconocida como la quinta Máster Coach de la EMCC en España y ha sido conferencista internacional en Latinoamérica y Europa. Su formación en Lingüística Pragmática y más de 20,000 horas de Coaching respaldan su habilidad para potenciar las habilidades comunicacionales de los equipos con precisión. Claudia es líder en Formación de Coaches a nivel internacional con sedes en Buenos Aires, Miami y Madrid, y ha sido presidenta de la International Coaching Federation en Argentina. También es autora de libros como 'El Ser y el Hacer del Coach' y 'La alquimia de las Preguntas', además de conducir un programa de radio en España, Radio Global Coaching y PNL.",
+      "bio2":"Escuchar a Claudia Lalloz en conferencias ofrece a los líderes empresariales y gerentes una oportunidad excepcional para mejorar la eficiencia y efectividad de sus empresas. Su enfoque en la comunicación estratégica y la gestión de crisis proporciona herramientas prácticas para enfrentar desafíos operativos y mejorar el ambiente laboral, lo que a su vez puede conducir a una mayor productividad y rentabilidad. La experiencia de Claudia en la formación de habilidades comunicativas se traduce en un liderazgo más efectivo y en la creación de equipos más cohesivos y resilientes. Asistir a sus conferencias o workshops no solo inspira, sino que también equipa a las organizaciones con estrategias avanzadas para navegar en el complejo mundo empresarial de hoy."
     },
     "noelia": {
       "name": "Noelia Sánchez",
       "slogan":"¿SERÁS UN LÍDER O UN SEGUIDOR?",
       "title": "Especialista en Inteligencia Artificial.",
       "themeTitle": "Temas",
-      "theme": "Revolucionando la Interacción Digital y el Compromiso Social",
-      "p1": "Combina Inteligencia Artificial, branding estratégico y gestión comunitaria para potenciar tu empresa",
-      "p2": "Noelia comentará como integrar la inteligencia artificial en el trabajo para ofrecer soluciones que van más allá de la automatización, impactando positivamente la sociedad y el bienestar de las empresas.",
+      "theme": "Hacia un crecimiento sostenido y eficiente.",
+      "p1": "Cómo la tecnología de inteligencia artificial no solo optimiza los procesos y reduce costos, sino que también es crucial para incrementar las ventas y mejorar la adquisición y retención de clientes.",
+      "list":{
+        "li1":"Automatización de Procesos.",
+        "li2":"Captación y Retención de Clientes.",
+        "li3":"Reducción de Costos Operacionales."
+      },
+      "p2": "Este evento es una oportunidad imperdible para aquellos que desean liderar en su industria mediante la adopción y aprovechamiento de la inteligencia artificial, asegurando no solo la supervivencia sino el florecimiento de su negocio en la era digital.",
       "bioTitle": "Biografia",
-      "bio": "Licenciada en Trabajo Social y CEO fundadora de Empowerit.io, combina la inteligencia artificial con estrategias de branding y gestión comunitaria para revolucionar la interacción digital y el compromiso social. Con una sólida trayectoria en trabajo social y una pasión por la tecnología, lidera su empresa para facilitar soluciones innovadoras que mejoran la interacción y el alcance de las marcas a través de la automatización y el análisis avanzado."
+      "bio1": "Formada en Trabajo Social y doctorada en Estudios de Género, Sociología y Antropología, Noelia ha liderado el camino hacia la innovación digital, aplicando su conocimiento académico a soluciones tecnológicas que abordan problemas complejos y mejoran la rentabilidad empresarial. Como CEO y cofundadora de Empowerit, Noelia ha implementado estrategias de IA que han revolucionado tanto las operaciones como la experiencia del cliente en diversas industrias. Su enfoque interdisciplinario ha permitido a la empresa no solo adaptarse a los cambios tecnológicos sino también liderar en la creación de productos que son socialmente responsables y económicamente viables.",
+      "bio2":"Escuchar a Noelia durante esta charla proporcionará una visión única sobre cómo la integración de la inteligencia artificial puede conducir a mejoras significativas en eficiencia y rentabilidad. A través de sus experiencias y estudios de caso, los participantes aprenderán métodos prácticos para aplicar la IA de manera que refuerce el compromiso con la equidad y la inclusión, al tiempo que impulsa el crecimiento económico. Este enfoque no solo enriquece la percepción de la empresa ante sus clientes y stakeholders, sino que también establece un modelo a seguir para otras empresas que buscan prosperar en un entorno empresarial cada vez más digital y consciente socialmente."
     },
     "susana": {
       "name": "Susana Benavente",

@@ -1,6 +1,5 @@
 import { useTranslations } from "next-intl";
 import BannerVideo from "../../components/banner-home/banner-home";
-import Eventbrite from "../../components/eventBrite/eventBrite";
 import { lora } from "../../fonts/lora";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -10,7 +9,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { notFound } from "next/navigation";
-import { socialMediaSpeakers } from "../../data/speakers";
+import { infoThemesSpeakers, socialMediaSpeakers } from "../../data/speakers";
 import Link from "next/link";
 import BannerSection from "../bannerSection";
 import SponsorsList from "../../homeComponents/sponsorsList";
@@ -27,10 +26,10 @@ export async function generateMetadata() {
 }
 
 type SpeakersType = {
-  name: "angeles" | "claudia" | "cesar" | "susana" | "noelia";
+  name: "angeles" | "claudia" | "cesar"  | "noelia";
 };
 
-const validNames: SpeakersType["name"][] = ["angeles", "claudia", "cesar", "susana", "noelia"];
+const validNames: SpeakersType["name"][] = ["angeles", "claudia", "cesar", "noelia"];
 export default function SpeakersPage({ params }: { params: { name: SpeakersType["name"] } }) {
   const b = useTranslations('speakers')
   const t = useTranslations(`speakers.${params.name}`);
@@ -39,8 +38,9 @@ export default function SpeakersPage({ params }: { params: { name: SpeakersType[
     return null;
   } 
   const socialM = socialMediaSpeakers[params.name]
-  
- 
+  const info = infoThemesSpeakers[params.name]
+
+
   return (
     <div className="cont-speakers-page">
       <BannerVideo
@@ -57,7 +57,15 @@ export default function SpeakersPage({ params }: { params: { name: SpeakersType[
         <div>
           <h3>{t("theme")}</h3>
           <p className="themes-subtitle">{t("p1")}</p>
-          <p className={lora.className}>{t("p2")}</p>
+          <ul>
+
+          {info.map((li)=>(
+            <li className="list-items-speaker" key={li}>
+              {t(`list.${li}`)}
+            </li>
+          ))}
+          </ul>
+          <p className="p2-speakers">{t("p2")}</p>
         </div>
         <video autoPlay loop muted playsInline className="bio-video">
           <source src={`/video-${params.name}.mp4`} type="video/mp4" />
@@ -76,7 +84,9 @@ export default function SpeakersPage({ params }: { params: { name: SpeakersType[
         </div>
         <div className="cont-text-bio">
           <h4>{t("bioTitle")}</h4>
-          <p className={lora.className}>{t("bio")}</p>
+          <p className={lora.className}>{t("bio1")}</p>
+          <br/>
+          <p className={lora.className}>{t("bio2")}</p>
         </div>
       </div>
       <SponsorsList />
