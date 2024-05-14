@@ -15,8 +15,6 @@ const Speakers: React.FC = () => {
           <div key={i} className="card" >
               <div className={`cont-text-card ${item.bio}`}>
                 <p className="card-name">{item.name}</p>
-                <br />
-                
                 <p className={`card-bio `}><strong>{t(`themes.${item.theme}`)} <br /></strong>{t(`speakersBio.${item.bio}`)}</p>
                 <Link className="link" href={item.url} >Ver mas</Link>
               </div>

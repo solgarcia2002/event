@@ -23,7 +23,8 @@
       "susanaBio": "Su lema encapsula una visión esencial: priorizar el bienestar de los empleados en el entorno laboral no solo beneficia a las personas, sino que también impulsa la productividad y rentabilidad de la empresa. ",
       "cesarBio": "César Shlain compartirá estrategias clave para optimizar tu negocio existente, reducir impuestos y asegurar financiamiento eficaz. Aprovecha esta oportunidad para reforzar tu estructura empresarial y lograr un crecimiento sostenible.",
       "claudiaBio": "Descubre cómo los 5 tips de neuroventas pueden transformar la productividad. Aprenderemos a aplicar principios como emocionalidad y storytelling para mejorar la dinámica de equipo y el equilibrio laboral, optimizando así el rendimiento general.",
-      "noeliaBio": "Descubre cómo la inteligencia artificial optimiza procesos, reduce costos y mejora la captación de clientes. Aprende a implementar estrategias de IA para aumentar la eficiencia y la competitividad de tu empresa."
+      "noeliaBio": "Descubre cómo la inteligencia artificial optimiza procesos, reduce costos y mejora la captación de clientes. Aprende a implementar estrategias de IA para aumentar la eficiencia y la competitividad de tu empresa.",
+      "fernandoBio":"Explora cómo las leyes de inmigración y negocios en Estados Unidos pueden impulsar tus proyectos y expansión comercial. Aprenderás las estrategias clave para establecer tu empresa en el mercado norteamericano, optimizando procesos legales y aprovechando oportunidades de inversión."
     },
     "themes": {
       "li1": "Acelera la Productividad con Neuroventas",
@@ -194,6 +195,23 @@
       "p2": "Únete a Susana Benavente en una experiencia única donde exploraremos la maravillosa conexión entre individuos y cómo esta puede transformar los ambientes laborales en lugares positivos y saludables para todos. Durante la charla, los participantes adquirirán conocimientos, herramientas y una nueva perspectiva sobre el bienestar en el trabajo. Abordaremos el eje fundamental de la salud y el bienestar individual, y cómo estos aspectos influyen en el rendimiento y la cultura de las organizaciones. Después de años de estudio en este fenómeno del bienestar organizacional, estamos emocionados de compartir nuestras investigaciones y descubrimientos contigo.",
       "bioTitle": "Biografia",
       "bio": "Trabajo en medios de comunicación desde hace 24 años específicamente orientado al género femenino y desde ese lugar acompaño procesos de crecimiento y desarrollo personal. Soy muy curiosa, lectora empedernida y aprendiz constante. Me identifico con el arte, el espacio, la creatividad, la flexibilidad y el color. Amo la naturaleza de la que aprendo cada día. Madre de tres princesas, que me enseñan cada día el arte de ser mamá. En mi Consultora lidero proyectos personales y comerciales tanto en Argentina como en Miami."
+    },
+    "fernando": {
+      "name": "Fernando Socol",
+      "slogan":"Immigration & Business Law",
+      "title": "ABOGADO ESPECIALIZADO EN LEYES DE INMIGRACIÓN Y NEGOCIOS EN ESTADOS UNIDOS.",
+      "themeTitle": "Temas",
+      "theme": "Estrategias Legales para la Expansión de Negocios en Estados Unidos",
+      "p1": "Conquista el Mercado Norteamericano con Fernando Socol.",
+      "list":{
+        "li1":"Visas de Negocios e Inversionistas.",
+        "li2":"Creación y Gestión de Empresas.",
+        "li3":"Protección Legal en Inversiones."
+      },
+      "p2": "Aprende sobre las últimas regulaciones y cómo aprovecharlas a favor de tu crecimiento empresarial en Estados Unidos. Esta presentación te ofrecerá conocimientos prácticos y estrategias efectivas para lograr una transición exitosa y segura al entorno comercial norteamericano.",
+      "bioTitle": "Biografia",
+      "bio1": "GPT Fernando Socol es un destacado abogado especializado en leyes de inmigración y negocios, reconocido por su profundo conocimiento y experiencia en el asesoramiento a empresas y empresarios que buscan establecer y expandir sus operaciones en los Estados Unidos. Con una carrera que abarca más de dos décadas, Fernando ha sido fundamental en la facilitación de procesos legales para numerosas empresas de América Latina, ayudándolas a navegar por el complejo sistema legal estadounidense. Su práctica legal se centra en visas de negocio e inversionistas, asesoría en la constitución y gestión de empresas, y estrategias de protección de inversiones.",
+      "bio2":"Económicamente, Fernando ha contribuido significativamente al éxito de sus clientes al proporcionar asesoría estratégica que permite a las empresas maximizar sus oportunidades en el mercado norteamericano. Bajo su dirección, muchas empresas han logrado una integración efectiva y rentable en diversos sectores económicos de EE. UU. Su enfoque no solo abarca la parte legal, sino también la adaptación a las dinámicas económicas y comerciales de Estados Unidos, asegurando que sus clientes no solo se establezcan, sino que prosperen. Su visión estratégica y su compromiso con la excelencia han hecho de Fernando Socol un aliado invaluable para empresarios que aspiran a posicionar sus empresas en el corazón económico de América del Norte."
     }
 
   },
