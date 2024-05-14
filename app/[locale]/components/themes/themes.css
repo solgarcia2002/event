@@ -1,0 +1,72 @@
+.cont-themes-section {
+  display: flex;
+  padding: 0 15% 4rem 15%;
+  
+}
+.cont-speakers-themes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  gap: 3rem;
+}
+.speaker-theme {
+  display: flex;
+  flex-direction: column;
+  max-width: 10rem;
+}
+
+.speaker-theme > p {
+  font-size: 1.5rem;
+}
+
+.speaker-img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.themes-panel {
+  background: rgb(255,0,112);
+  background: linear-gradient(155deg, rgba(255,0,112,1) 0%, rgba(0,74,173,1) 100%);
+  padding: 3rem;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.themes-panel > ul > li{
+  font-size: 2rem;
+}
+
+@media screen and (max-width:800px) {
+  .cont-themes-section {
+    flex-direction: column;
+  }
+
+  .cont-speakers-themes {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .themes-panel {
+    width: 100%;
+  }
+
+  .speaker-theme {
+    max-width: 5rem;
+  }
+
+  .speaker-img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .speaker-theme > p {
+    font-size: 1rem;
+  }
+
+  .themes-panel > ul > li{
+    font-size: 1.5rem;
+  }
+}
