@@ -38,6 +38,14 @@ export const speakers = [
     video: '/video-noelia.mp4',
     url:'/speakers/noelia',
   },
+  { 
+    name: "Fernando Socol", 
+    img: "/speaker-fernando-socol.png", 
+    bio: "fernandoBio",
+    theme: "li5",
+    video: '/video-fernando.mp4',
+    url:'/speakers/fernando',
+  },
   
 ];
 
@@ -52,6 +60,9 @@ export const infoThemesSpeakers = {
     "li1", "li2", "li3", "li4", "li5"
   ],
   "cesar":[
+    "li1", "li2", "li3"
+  ],
+  "fernando":[
     "li1", "li2", "li3"
   ]
 }
@@ -87,5 +98,11 @@ export const socialMediaSpeakers =
     instagram:"https://www.instagram.com/susana.benavente/",
     linkedin:"https://www.linkedin.com/in/susana-benavente-0379a448/",
     website:"https://www.susanabenaventecoaching.com/"
+  },
+  "fernando": {
+    facebook:"https://www.facebook.com/Fernando-Socol-PA-496918637338562/",
+    instagram:"https://www.instagram.com/fernandosocolpa/",
+    linkedin:"https://www.linkedin.com/in/fernando-socol-4139838/",
+    website:"https://socollaw.com/"
   }
 }
