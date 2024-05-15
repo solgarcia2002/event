@@ -3,6 +3,7 @@ import SponsorsList from "../homeComponents/sponsorsList";
 import { schedule } from "../data/schedule";
 import Card from "../components/card/card";
 import './schedule.css'
+import { Themes } from "../components/themes/themes";
 
 export async function generateMetadata() {
   const t = await getTranslations("metadata.speakers");
@@ -21,6 +22,7 @@ const SchedulePage: React.FC = () =>{
           <Card card={item.card} id={item.id} image={item.image} time={item.time} key={item.id} speakers={item.speakers} />
         ))}
       </div>
+      <Themes />
       <SponsorsList />
     </>
   )
