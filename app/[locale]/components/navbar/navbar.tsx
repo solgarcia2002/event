@@ -13,18 +13,16 @@ import {
 import Link from "next/link";
 import ChangeLanguageButton from "../translationMenu/translationMenu";
 import Image from "next/image";
-import Button from "../button/button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useTranslations } from "next-intl";
-import ModalSponsor from "../modal/modal";
-import { useDisclosure } from "@nextui-org/modal";
 import './navbar.css';
+import Button from "../button/button";
 
 export default function App() {
   const t = useTranslations("navbar");
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-  const {isOpen, onOpen, onClose} = useDisclosure();
+  
 
   const menuItems = [
     {link:t("schedule"), url:"/schedule"},
@@ -72,7 +70,11 @@ export default function App() {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button title="Sé un sponsor!" onClick={onOpen} />
+          
+        <Link href={'/#contact'}>
+        <Button title={t("register")} />
+        </Link>
+
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu className="navbar-mobile bg-black-transparent">
@@ -91,7 +93,7 @@ export default function App() {
           <Link href={'/#contact'} onClick={()=>setIsMenuOpen(false)} className="link-navbar">{t("register")}</Link>
         </NavbarItem>
       </NavbarMenu>
-      <ModalSponsor isOpen={isOpen} onClose={onClose} />
+      
     </Navbar>
   );
 }

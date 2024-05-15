@@ -7,6 +7,7 @@ import SponsorsList from "./homeComponents/sponsorsList";
 import Link from "next/link";
 import Themes from "./homeComponents/themes";
 import { getTranslations } from "next-intl/server";
+import { BeSponsorButton } from "./components/beSponsorButton/beSponsorButton";
 
 export async function generateMetadata() {
   const t = await getTranslations("metadata.home");
@@ -28,9 +29,7 @@ export default function Home() {
         subtitle="banner"
         paragraph="bannerDate"
       >
-        <Link href={'/#contact'}>
-        <Button title="Free Registration!" />
-        </Link>
+        <BeSponsorButton/>
       </BannerVideo>
       <Themes />
       <SponsorsList />
