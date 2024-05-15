@@ -18,6 +18,7 @@
         "b10": "Posibilidad de Sorteos Institucionales"
       }
     },
+    "sponsorButton":"Sé un sponsor",
     "speakersBio": {
       "angelesBio": "Adopta nuestro modelo de 9 puntos clave para transformar y expandir tu empresa. Define tu propuesta de valor, optimiza tus recursos y fortalece las relaciones con los clientes para asegurar un crecimiento sostenible y liderar el mercado.",
       "susanaBio": "Su lema encapsula una visión esencial: priorizar el bienestar de los empleados en el entorno laboral no solo beneficia a las personas, sino que también impulsa la productividad y rentabilidad de la empresa. ",
@@ -78,8 +79,8 @@
     "speakers": "Speakers",
     "tickets": "Obtené tu ticket",
     "travel": "Travel & Info",
-    "register": "Regístrate Gratis!",
-    "button": "Regístrate Gratis!"
+    "register": "Regístrate!",
+    "button": "Regístrate!"
   },
   "form": {
     "name": "Nombre",

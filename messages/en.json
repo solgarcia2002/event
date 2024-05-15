@@ -18,6 +18,7 @@
         "b10": "Opportunity for institutional raffles"
       }
     },
+    "sponsorButton":"Be a sponsor",
     "speakersBio": {
       "angelesBio": "Adopt our 9 key points model to transform and expand your company. Define your value proposition, optimize resources, and strengthen customer relationships to ensure sustainable growth and market leadership.",
       "susanaBio": "Her motto encapsulates an essential vision: prioritizing employee well-being in the workplace not only benefits individuals but also boosts productivity and profitability for the company.",
@@ -78,8 +79,8 @@
     "speakers": "Speakers",
     "tickets": "Get your ticket",
     "travel": "Travel & Info",
-    "register": "Free registration!",
-    "button": "Free registration!"
+    "register": "Sign up!",
+    "button": "Sign up!"
   },
   "form": {
     "name": "Name",
