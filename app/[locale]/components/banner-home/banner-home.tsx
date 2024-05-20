@@ -69,15 +69,30 @@ const BannerVideo = ({
           <br />
           {children}
           <p className={`slogan ${lora.className}`}>{t("slogan")}</p>
-        </div>
-
-        <div className="cont-logos-video">
           <Image
             src="/logo-blanco.png"
             alt="wellbiz-bridge"
             width={200}
             height={200}
             className="logos-home"
+          />
+        </div>
+
+        <div className="cont-logos-video">
+          
+          <Image
+            src="/chile-us.png"
+            alt="Chile-US Chamber of Commerce"
+            width={800}
+            height={200}
+            className="logos-home chamber"
+          />
+          <Image
+            src="/febicham.png"
+            alt="Federation Binational Chambers of Commerce"
+            width={2500}
+            height={663}
+            className="logos-home chamber"
           />
           <Image
             src="/logo-aacc.png"

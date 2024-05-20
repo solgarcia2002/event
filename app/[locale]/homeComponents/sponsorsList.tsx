@@ -20,6 +20,7 @@ const SponsorsList: React.FC = () => {
     { logo: "/chile-us.png", width: 110, height: 110, alt: 'chile-us' },
     { logo: "/febicham.png", width: 110, height: 110, alt: 'febicham' },
     { logo: "/logo-nat.png", width: 110, height: 110, alt: 'nat' },
+    { logo: "/semanario-argentino.jpeg", width: 110, height: 110, alt: 'Semanario argentino' },
   ];
   const tabStyle = {
     tabList: " gap-2 w-full relative p-2 border-b border-divider text-white",
