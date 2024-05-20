@@ -31,7 +31,7 @@
 .cont-logos-video {
   display: flex;
   align-items: center;
-  
+  flex-direction: column;
 }
 
 .logo-video {
@@ -44,6 +44,7 @@
   display: none;
   width: 100%;
   padding: 3rem 15%;
+  
 }
 
 @media screen and (max-width:1200px) {
@@ -91,6 +92,7 @@
 
   .title-mobile, .slogan-mobile  {
     display: flex;
+    align-items: center;
   }
   .banner-text {
     width: 90%;
@@ -117,5 +119,9 @@
   .logos-home {
     width: 5rem;
     height: auto;
+  }
+
+  .chamber {
+    margin: 1rem 0
   }
 }
