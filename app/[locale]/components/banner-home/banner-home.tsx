@@ -37,7 +37,7 @@ const BannerVideo = ({
         <br />
         {children}
         <div className="cont-logos-video">
-          
+
           <Image
             src="/logo-aacc.png"
             alt="argentine american chamber of commerce of florida"
@@ -69,11 +69,10 @@ const BannerVideo = ({
           <br />
           {children}
           <p className={`slogan ${lora.className}`}>{t("slogan")}</p>
-
         </div>
 
         <div className="cont-logos-video">
-        <Image
+          <Image
             src="/logo-blanco.png"
             alt="wellbiz-bridge"
             width={200}
@@ -87,6 +86,7 @@ const BannerVideo = ({
             height={105}
             className="logo-video logos-home"
           />
+          <Image src='/susana-presentadora.png' alt="susana-benavente" width={300} height={300} />
         </div>
       </div>
     </div>
