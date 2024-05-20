@@ -120,4 +120,8 @@
     width: 5rem;
     height: auto;
   }
+
+  .chamber {
+    margin: 1rem 0
+  }
 }
