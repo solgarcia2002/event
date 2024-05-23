@@ -20,7 +20,7 @@ const SponsorsList: React.FC = () => {
     { logo: "/chile-us.png", width: 110, height: 110, alt: 'chile-us' },
     { logo: "/febicham.png", width: 110, height: 110, alt: 'febicham' },
     { logo: "/logo-nat.png", width: 110, height: 110, alt: 'nat' },
-    { logo: "/semanario-argentino.jpeg", width: 110, height: 110, alt: 'Semanario argentino' },
+    { logo: "/semanario-argentino.png", width: 110, height: 110, alt: 'Semanario argentino' },
     { logo: "/logo-hotel-dos-reyes.png", width: 110, height: 110, alt: 'Hotel Dos Reyes' },
     { logo: "/logo-grg-group.png", width: 110, height: 110, alt: 'GRG Group' },
   ];
