@@ -287,5 +287,9 @@
     "speakers":"Conversación con expertos. Estrategias clave para impulsar tu negocio",
     "sponsor2":"Presentación de sponsors",
     "cocktail":"Cierre del evento con una sesión de networking relajado y cocktail."
+  },
+  "footer":{
+    "copyright":"Todos los derechos reservados. ",
+    "empowerit":"Marca, diseño y desarrollo "
   }
 }
