@@ -269,5 +269,9 @@
     "speakers": "Expert conversations. Key strategies to boost your business",
     "sponsor2": "Sponsor presentations",
     "cocktail": "Closing the event with a relaxed networking session and cocktail."
+  },
+  "footer":{
+    "copyright":"All rights reserved. ",
+    "empowerit":"Brand, design and development "
   }
 }
