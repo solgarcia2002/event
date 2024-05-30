@@ -1,13 +1,12 @@
 "use client"
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useRouter } from "next/navigation";
 import { faFacebook, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import './footer.css';
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import Copyright from "../copyright/copyright";
+import './footer.css';
 const Footer:React.FC = () => {
 
-  const router = useRouter();
 
   const links = [
     {title:'Privacy Policy', url:'#'},
@@ -25,10 +24,7 @@ const Footer:React.FC = () => {
 
   return(
     <footer>
-      <div>
-        <p >Copyright © 2024</p>
-        
-      </div>
+      <Copyright />
       <div className="links-social-media">
         {linksSocialMedia.map((item, i) =>(
           <Link className="link-socialM" aria-label={item.title} href={item.url} target="_blank" key={i} >
